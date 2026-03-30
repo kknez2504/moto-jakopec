@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import MotorcycleCard from "@/components/MotorcycleCard";
 import FilterBar from "@/components/FilterBar";
@@ -9,7 +9,7 @@ import modelsData from "@/data/models.json";
 
 const models = modelsData as unknown as Motorcycle[];
 
-export default function MotocikliPage() {
+function MotocikliContent() {
   const searchParams = useSearchParams();
   const initialCategory = (searchParams.get("category") as Category) ?? "Sve";
 
@@ -78,5 +78,13 @@ export default function MotocikliPage() {
         </div>
       )}
     </div>
+  );
+}
+
+export default function MotocikliPage() {
+  return (
+    <Suspense fallback={<div className="max-w-7xl mx-auto px-4 py-12 text-gray-400">Učitavanje...</div>}>
+      <MotocikliContent />
+    </Suspense>
   );
 }
