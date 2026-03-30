@@ -197,6 +197,12 @@ MODELS = [
 ]
 
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR   = os.path.join(SCRIPT_DIR, "..")
+JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
+IMG_DIR    = os.path.join(ROOT_DIR, "public", "images")
+
+
 def fetch_page(path):
     url = BASE_EU + path
     try:
@@ -204,33 +210,59 @@ def fetch_page(path):
         with urllib.request.urlopen(req, timeout=12) as resp:
             return resp.read().decode("utf-8", errors="ignore")
     except Exception as e:
-        print(f"    GRESKA: {e}")
+        print(f"    GRESKA fetch: {e}")
         return None
 
 
-def extract_image(html):
+def extract_all_images(html):
+    """Vraca listu unikatnih remote URL-ova (1280px, bez duplikata jcr/_jcr)."""
     if not html:
-        return None
+        return []
     imgs = re.findall(r'/content/dam/products/pim/studio/[^\s"\'<>]+\.(?:jpg|jpeg|png)', html)
-    unique = list(dict.fromkeys(imgs))
-    for img in unique:
-        if "1280.1280" in img:
-            return BASE_EU + img
-    for img in unique:
-        if "thumbnail" not in img and "320" not in img:
-            return BASE_EU + img
-    if unique:
-        return BASE_EU + unique[0]
-    return None
+    imgs_1280 = [i for i in imgs if "1280.1280" in i]
+    seen_bases = set()
+    unique = []
+    for img in imgs_1280:
+        m = re.search(r'(/content/dam/products/pim/studio/.*?\.(?:jpg|jpeg|png))', img)
+        if m:
+            base = m.group(1)
+            if base not in seen_bases:
+                seen_bases.add(base)
+                unique.append(BASE_EU + base + "/jcr:content/renditions/cq5dam.web.1280.1280.png")
+    # Fallback ako nema 1280
+    if not unique:
+        all_imgs = re.findall(r'/content/dam/products/pim/studio/[^\s"\'<>]+\.(?:jpg|jpeg|png)', html)
+        seen = set()
+        for img in all_imgs:
+            m = re.search(r'(/content/dam/products/pim/studio/.*?\.(?:jpg|jpeg|png))', img)
+            if m and m.group(1) not in seen:
+                seen.add(m.group(1))
+                unique.append(BASE_EU + m.group(1))
+    return unique
+
+
+def download_image(url, dest_path):
+    if os.path.exists(dest_path):
+        return True
+    try:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = r.read()
+        with open(dest_path, "wb") as f:
+            f.write(data)
+        return True
+    except Exception as e:
+        print(f"    GRESKA download: {e}")
+        return False
 
 
 def extract_specs(html):
     if not html:
         return {}
-    headers = re.findall(r'class="prodspecs__header[^"]*"[^>]*>\s*(.*?)\s*</th>', html, re.DOTALL)
-    values  = re.findall(r'class="prodspecs__data[^"]*"[^>]*>\s*(.*?)\s*</td>', html, re.DOTALL)
+    headers_raw = re.findall(r'class="prodspecs__header[^"]*"[^>]*>\s*(.*?)\s*</th>', html, re.DOTALL)
+    values_raw  = re.findall(r'class="prodspecs__data[^"]*"[^>]*>\s*(.*?)\s*</td>', html, re.DOTALL)
     specs = {}
-    for h, v in zip(headers, values):
+    for h, v in zip(headers_raw, values_raw):
         key = re.sub(r'<[^>]+>', '', h).strip()
         val = re.sub(r'<[^>]+>', '', v).strip()
         val = re.sub(r'\s+', ' ', val)
@@ -239,60 +271,78 @@ def extract_specs(html):
     return specs
 
 
+def slug(name):
+    n = name.replace("Kawasaki ", "")
+    n = re.sub(r'[^\w\s-]', '', n)
+    n = re.sub(r'\s+', '-', n.strip())
+    return n.lower()
+
+
 def main():
+    os.makedirs(IMG_DIR, exist_ok=True)
     print(f"Povlacim podatke za {len(MODELS)} modela...\n")
 
     results = []
     cache = {}
+    total_imgs = 0
 
     for row in MODELS:
         (mid, name, category, license_cat, is_new, price, description, path) = row
-        print(f"[{mid:02d}/{len(MODELS)}] Kawasaki {name}")
+        full_name = f"Kawasaki {name}"
+        print(f"[{mid:02d}/{len(MODELS)}] {full_name}")
 
         if path in cache:
             html = cache[path]
-            print(f"    (cache)")
         else:
             html = fetch_page(path)
             cache[path] = html
             time.sleep(0.4)
 
-        image_url = extract_image(html)
+        # Specs
         specs = extract_specs(html)
 
-        if image_url:
-            print(f"    slika: OK")
-        else:
-            print(f"    slika: nije nadjena")
+        # Slike — preuzmi lokalno
+        remote_urls = extract_all_images(html)
+        folder = f"{mid:02d}-{slug(full_name)}"
+        model_dir = os.path.join(IMG_DIR, folder)
+        os.makedirs(model_dir, exist_ok=True)
 
-        print(f"    specs: {len(specs)} stavki")
+        local_paths = []
+        for i, url in enumerate(remote_urls, 1):
+            filename = f"img_{i:02d}.png"
+            dest = os.path.join(model_dir, filename)
+            if download_image(url, dest):
+                local_paths.append(f"/images/{folder}/{filename}")
+                total_imgs += 1
+                time.sleep(0.15)
+
+        print(f"    slike: {len(local_paths)} | specs: {len(specs)}")
 
         results.append({
             "id": mid,
-            "name": f"Kawasaki {name}",
+            "name": full_name,
             "brand": "Kawasaki",
             "category": category,
             "license_category": license_cat,
             "is_new": is_new,
             "description": description,
             "price": price,
-            "images": [image_url] if image_url else [],
+            "images": local_paths,
             "specs": specs,
         })
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    out_path = os.path.join(script_dir, "..", "src", "data", "models.json")
-    with open(out_path, "w", encoding="utf-8") as f:
+    with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
     found_img   = sum(1 for m in results if m["images"])
     found_specs = sum(1 for m in results if m["specs"])
     print(f"\nGotovo!")
-    print(f"  Modela: {len(results)}")
-    print(f"  Slike:  {found_img}/{len(results)}")
-    print(f"  Specs:  {found_specs}/{len(results)}")
+    print(f"  Modela:       {len(results)}")
+    print(f"  S slikama:    {found_img}/{len(results)}")
+    print(f"  Sa specs:     {found_specs}/{len(results)}")
+    print(f"  Ukupno slika: {total_imgs}")
     print(f"\nSljedeci korak:")
-    print(f"  git add . && git commit -m 'Add 54 models with images and specs' && git push")
+    print(f"  git add . && git commit -m 'Add all models with local images and specs' && git push")
 
 
 if __name__ == "__main__":

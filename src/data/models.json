@@ -9,7 +9,7 @@
     "description": "Najmoćniji serijski motocikl na svijetu. Supercharged motor od 310 KS, karbon karoserija i aerodinamički paketi za stazu.",
     "price": "59.438 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/nin/Resource_299074_24MY_Ninja_H2R_GY3_STU.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/01-ninja-h2r/img_01.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four with Supercharger",
@@ -72,7 +72,20 @@
     "description": "Homologirani superbike za stazu i cestu. Razvijen direktno iz WorldSBK iskustva s Ohlins ovjesom i Brembo kocnicama.",
     "price": "30.609 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_325568_26ZX1003C_40TGN2DRF3CG_A_v2.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/02-ninja-zx-10rr/img_01.png",
+      "/images/02-ninja-zx-10rr/img_02.png",
+      "/images/02-ninja-zx-10rr/img_03.png",
+      "/images/02-ninja-zx-10rr/img_04.png",
+      "/images/02-ninja-zx-10rr/img_05.png",
+      "/images/02-ninja-zx-10rr/img_06.png",
+      "/images/02-ninja-zx-10rr/img_07.png",
+      "/images/02-ninja-zx-10rr/img_08.png",
+      "/images/02-ninja-zx-10rr/img_09.png",
+      "/images/02-ninja-zx-10rr/img_10.png",
+      "/images/02-ninja-zx-10rr/img_11.png",
+      "/images/02-ninja-zx-10rr/img_12.png",
+      "/images/02-ninja-zx-10rr/img_13.png",
+      "/images/02-ninja-zx-10rr/img_14.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -126,7 +139,23 @@
     "description": "Legendarni supersport s 200 KS. Bogata elektronika, IMU platforma i WorldSBK DNA u svakom detalju.",
     "price": "20.510 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_324964_26ZX1003A_40TGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/03-ninja-zx-10r/img_01.png",
+      "/images/03-ninja-zx-10r/img_02.png",
+      "/images/03-ninja-zx-10r/img_03.png",
+      "/images/03-ninja-zx-10r/img_04.png",
+      "/images/03-ninja-zx-10r/img_05.png",
+      "/images/03-ninja-zx-10r/img_06.png",
+      "/images/03-ninja-zx-10r/img_07.png",
+      "/images/03-ninja-zx-10r/img_08.png",
+      "/images/03-ninja-zx-10r/img_09.png",
+      "/images/03-ninja-zx-10r/img_10.png",
+      "/images/03-ninja-zx-10r/img_11.png",
+      "/images/03-ninja-zx-10r/img_12.png",
+      "/images/03-ninja-zx-10r/img_13.png",
+      "/images/03-ninja-zx-10r/img_14.png",
+      "/images/03-ninja-zx-10r/img_15.png",
+      "/images/03-ninja-zx-10r/img_16.png",
+      "/images/03-ninja-zx-10r/img_17.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -193,7 +222,10 @@
     "description": "Ikonični 636cc supersport — agilan, zabavan i snažan. Savršen balans između staze i ceste.",
     "price": "13.689 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320148_26ZX636J_40TGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/04-ninja-zx-6r/img_01.png",
+      "/images/04-ninja-zx-6r/img_02.png",
+      "/images/04-ninja-zx-6r/img_03.png",
+      "/images/04-ninja-zx-6r/img_04.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -259,7 +291,9 @@
     "description": "4-cilindrični 400cc motor u A2 paketu. Maksimalan sport osjećaj uz ograničenje snage za A2 kategoriju.",
     "price": "10.234 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320398_26ZX400S_141GN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/05-ninja-zx-4rr/img_01.png",
+      "/images/05-ninja-zx-4rr/img_02.png",
+      "/images/05-ninja-zx-4rr/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -324,7 +358,9 @@
     "description": "Pristupačniji ulaz u 4-cilindrični sport segment. Pravi Ninja karakter u A2 paketu.",
     "price": "9.462 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320402_26ZX400P_141BK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/06-ninja-zx-4r/img_01.png",
+      "/images/06-ninja-zx-4r/img_02.png",
+      "/images/06-ninja-zx-4r/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -389,7 +425,18 @@
     "description": "Supercharged sport-tourer s 200 KS. Elektronski ovjes, adaptivni farovi i touring oprema na najvišoj razini.",
     "price": "30.386 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320163_26ZX1002R_40TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/07-ninja-h2sx-se/img_01.png",
+      "/images/07-ninja-h2sx-se/img_02.png",
+      "/images/07-ninja-h2sx-se/img_03.png",
+      "/images/07-ninja-h2sx-se/img_04.png",
+      "/images/07-ninja-h2sx-se/img_05.png",
+      "/images/07-ninja-h2sx-se/img_06.png",
+      "/images/07-ninja-h2sx-se/img_07.png",
+      "/images/07-ninja-h2sx-se/img_08.png",
+      "/images/07-ninja-h2sx-se/img_09.png",
+      "/images/07-ninja-h2sx-se/img_10.png",
+      "/images/07-ninja-h2sx-se/img_11.png",
+      "/images/07-ninja-h2sx-se/img_12.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four with Supercharger",
@@ -454,7 +501,16 @@
     "description": "Supercharged touring s kompresiranim motorom i izvanrednim performansama za dugopružne ture.",
     "price": "27.511 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320158_26ZX1002P_40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/08-ninja-h2sx/img_01.png",
+      "/images/08-ninja-h2sx/img_02.png",
+      "/images/08-ninja-h2sx/img_03.png",
+      "/images/08-ninja-h2sx/img_04.png",
+      "/images/08-ninja-h2sx/img_05.png",
+      "/images/08-ninja-h2sx/img_06.png",
+      "/images/08-ninja-h2sx/img_07.png",
+      "/images/08-ninja-h2sx/img_08.png",
+      "/images/08-ninja-h2sx/img_09.png",
+      "/images/08-ninja-h2sx/img_10.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four with Supercharger",
@@ -519,7 +575,10 @@
     "description": "Sport-tourer sljedeće generacije. Elektronski ovjes, navigacija i sve što trebate za veliku turu.",
     "price": "16.409 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/zx/Resource_315246_25_ZX1100HJ_240828.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/09-ninja-1100sx-se/img_01.png",
+      "/images/09-ninja-1100sx-se/img_02.png",
+      "/images/09-ninja-1100sx-se/img_03.png",
+      "/images/09-ninja-1100sx-se/img_04.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -585,7 +644,16 @@
     "description": "Moćan 1100cc sport-tourer s bogatom elektronikom i sportskim karakterom na dugim rutama.",
     "price": "14.750 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_321234_26ZX1100H_40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/10-ninja-1100sx/img_01.png",
+      "/images/10-ninja-1100sx/img_02.png",
+      "/images/10-ninja-1100sx/img_03.png",
+      "/images/10-ninja-1100sx/img_04.png",
+      "/images/10-ninja-1100sx/img_05.png",
+      "/images/10-ninja-1100sx/img_06.png",
+      "/images/10-ninja-1100sx/img_07.png",
+      "/images/10-ninja-1100sx/img_08.png",
+      "/images/10-ninja-1100sx/img_09.png",
+      "/images/10-ninja-1100sx/img_10.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -650,7 +718,9 @@
     "description": "Najpopularniji Kawasaki za svaki dan. Uravnotežen, zabavan i praktičan za početnike i iskusne vozače.",
     "price": "8.634 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/s/Resource_320273_26EX650P_S_44TGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/11-ninja-650-se/img_01.png",
+      "/images/11-ninja-650-se/img_02.png",
+      "/images/11-ninja-650-se/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -716,7 +786,9 @@
     "description": "Klasična Ninja formula — dostupna cijena, jak karakter i svakodnevna upotrebljivost.",
     "price": "8.449 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/s/Resource_320273_26EX650P_S_44TGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/12-ninja-650/img_01.png",
+      "/images/12-ninja-650/img_02.png",
+      "/images/12-ninja-650/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -782,7 +854,12 @@
     "description": "Novi 500cc parallel-twin u modernom Ninja ruhu. Idealan za A2 kategoriju uz pravi sport izgled.",
     "price": "7.378 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322737_26EX500J_44TGN3DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/13-ninja-500-se/img_01.png",
+      "/images/13-ninja-500-se/img_02.png",
+      "/images/13-ninja-500-se/img_03.png",
+      "/images/13-ninja-500-se/img_04.png",
+      "/images/13-ninja-500-se/img_05.png",
+      "/images/13-ninja-500-se/img_06.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -846,7 +923,9 @@
     "description": "Pristupačni ulaz u Ninja seriju za A2 vozače. Moderan dizajn i pouzdan motor.",
     "price": "6.857 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322500_26EX500G_242BK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/14-ninja-500/img_01.png",
+      "/images/14-ninja-500/img_02.png",
+      "/images/14-ninja-500/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -910,7 +989,14 @@
     "description": "Pravi Ninja karakter u 125cc paketu za A1 kategoriju.",
     "price": "5.665 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322818_26BX125C_47TGN1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/15-ninja-125-se/img_01.png",
+      "/images/15-ninja-125-se/img_02.png",
+      "/images/15-ninja-125-se/img_03.png",
+      "/images/15-ninja-125-se/img_04.png",
+      "/images/15-ninja-125-se/img_05.png",
+      "/images/15-ninja-125-se/img_06.png",
+      "/images/15-ninja-125-se/img_07.png",
+      "/images/15-ninja-125-se/img_08.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, single-cylinder",
@@ -969,7 +1055,14 @@
     "description": "125cc Ninja za početnike — pravi dizajn velikog brata uz pristupačnu kategoriju.",
     "price": "5.549 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322818_26BX125C_47TGN1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/16-ninja-125/img_01.png",
+      "/images/16-ninja-125/img_02.png",
+      "/images/16-ninja-125/img_03.png",
+      "/images/16-ninja-125/img_04.png",
+      "/images/16-ninja-125/img_05.png",
+      "/images/16-ninja-125/img_06.png",
+      "/images/16-ninja-125/img_07.png",
+      "/images/16-ninja-125/img_08.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, single-cylinder",
@@ -1028,7 +1121,7 @@
     "description": "Supercharged naked — 200 KS bez karoserije. Najsnažniji naked Kawasaki s elektronskim ovjesom.",
     "price": "21.940 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/r/Resource_320876_26ZR1000L_R_40TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/17-z-h2-se/img_01.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four with Supercharger",
@@ -1092,7 +1185,9 @@
     "description": "Supercharged naked s kompresiranim motorom. Brutalna snaga u street paketu.",
     "price": "19.391 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/p/Resource_320867_26ZR1000K_P_40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/18-z-h2/img_01.png",
+      "/images/18-z-h2/img_02.png",
+      "/images/18-z-h2/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four with Supercharger",
@@ -1155,7 +1250,20 @@
     "description": "Novi flagship naked s 1100cc motorom. Agresivan dizajn i bogata elektronika nove generacije.",
     "price": "13.533 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_323185_26ZR1100H_40TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/19-z-1100-se/img_01.png",
+      "/images/19-z-1100-se/img_02.png",
+      "/images/19-z-1100-se/img_03.png",
+      "/images/19-z-1100-se/img_04.png",
+      "/images/19-z-1100-se/img_05.png",
+      "/images/19-z-1100-se/img_06.png",
+      "/images/19-z-1100-se/img_07.png",
+      "/images/19-z-1100-se/img_08.png",
+      "/images/19-z-1100-se/img_09.png",
+      "/images/19-z-1100-se/img_10.png",
+      "/images/19-z-1100-se/img_11.png",
+      "/images/19-z-1100-se/img_12.png",
+      "/images/19-z-1100-se/img_13.png",
+      "/images/19-z-1100-se/img_14.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -1221,7 +1329,22 @@
     "description": "Mocan 1100cc naked street fighter. Nasljednik Z1000 s novim motorom i modernom elektronikom.",
     "price": "11.863 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_323134_26ZR1100G_40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/20-z-1100/img_01.png",
+      "/images/20-z-1100/img_02.png",
+      "/images/20-z-1100/img_03.png",
+      "/images/20-z-1100/img_04.png",
+      "/images/20-z-1100/img_05.png",
+      "/images/20-z-1100/img_06.png",
+      "/images/20-z-1100/img_07.png",
+      "/images/20-z-1100/img_08.png",
+      "/images/20-z-1100/img_09.png",
+      "/images/20-z-1100/img_10.png",
+      "/images/20-z-1100/img_11.png",
+      "/images/20-z-1100/img_12.png",
+      "/images/20-z-1100/img_13.png",
+      "/images/20-z-1100/img_14.png",
+      "/images/20-z-1100/img_15.png",
+      "/images/20-z-1100/img_16.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -1287,7 +1410,8 @@
     "description": "Premium naked s elektronskim ovjesom i punom elektronikom. Z900 na najvišoj razini opreme.",
     "price": "12.532 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320211_26ZR900T_40TGY2DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/21-z-900-se/img_01.png",
+      "/images/21-z-900-se/img_02.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -1353,7 +1477,8 @@
     "description": "Ikonični naked street fighter. Agresivan dizajn, 948cc motor i bogata elektronika.",
     "price": "10.451 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320196_26ZR900S_40TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/22-z-900/img_01.png",
+      "/images/22-z-900/img_02.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -1419,7 +1544,25 @@
     "description": "Novi Z650S s Sport paketom. Sportskiji položaj i osvježen dizajn za urbanu vožnju.",
     "price": "7.910 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_324316_26ER650W_44TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/23-z-650-s/img_01.png",
+      "/images/23-z-650-s/img_02.png",
+      "/images/23-z-650-s/img_03.png",
+      "/images/23-z-650-s/img_04.png",
+      "/images/23-z-650-s/img_05.png",
+      "/images/23-z-650-s/img_06.png",
+      "/images/23-z-650-s/img_07.png",
+      "/images/23-z-650-s/img_08.png",
+      "/images/23-z-650-s/img_09.png",
+      "/images/23-z-650-s/img_10.png",
+      "/images/23-z-650-s/img_11.png",
+      "/images/23-z-650-s/img_12.png",
+      "/images/23-z-650-s/img_13.png",
+      "/images/23-z-650-s/img_14.png",
+      "/images/23-z-650-s/img_15.png",
+      "/images/23-z-650-s/img_16.png",
+      "/images/23-z-650-s/img_17.png",
+      "/images/23-z-650-s/img_18.png",
+      "/images/23-z-650-s/img_19.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -1481,7 +1624,9 @@
     "description": "Lagan, agilni i pristupačni naked. Savršen za grad i vikend izlete.",
     "price": "7.812 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/s/Resource_320250_26ER650N_S_44TWT1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/24-z-650/img_01.png",
+      "/images/24-z-650/img_02.png",
+      "/images/24-z-650/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -1547,7 +1692,9 @@
     "description": "Kompaktni Z naked za A1 kategoriju. Pravi Z karakter u urbanom 125cc paketu.",
     "price": "5.187 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322814_26BR125M_47TGY1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/25-z-125/img_01.png",
+      "/images/25-z-125/img_02.png",
+      "/images/25-z-125/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, single-cylinder",
@@ -1606,7 +1753,24 @@
     "description": "Premium retro s elektronskim ovjesom i zlatnim Ohlins amortizerom. Najluksuzniji retro Kawasaki.",
     "price": "14.055 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/a/Resource_324753_26ZR902B_A40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/26-z-900rs-se/img_01.png",
+      "/images/26-z-900rs-se/img_02.png",
+      "/images/26-z-900rs-se/img_03.png",
+      "/images/26-z-900rs-se/img_04.png",
+      "/images/26-z-900rs-se/img_05.png",
+      "/images/26-z-900rs-se/img_06.png",
+      "/images/26-z-900rs-se/img_07.png",
+      "/images/26-z-900rs-se/img_08.png",
+      "/images/26-z-900rs-se/img_09.png",
+      "/images/26-z-900rs-se/img_10.png",
+      "/images/26-z-900rs-se/img_11.png",
+      "/images/26-z-900rs-se/img_12.png",
+      "/images/26-z-900rs-se/img_13.png",
+      "/images/26-z-900rs-se/img_14.png",
+      "/images/26-z-900rs-se/img_15.png",
+      "/images/26-z-900rs-se/img_16.png",
+      "/images/26-z-900rs-se/img_17.png",
+      "/images/26-z-900rs-se/img_18.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -1670,7 +1834,15 @@
     "description": "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih uz modernu tehnologiju i pouzdanost.",
     "price": "8.441 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320232_26ER650R_44TBU1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/27-z-650rs-se/img_01.png",
+      "/images/27-z-650rs-se/img_02.png",
+      "/images/27-z-650rs-se/img_03.png",
+      "/images/27-z-650rs-se/img_04.png",
+      "/images/27-z-650rs-se/img_05.png",
+      "/images/27-z-650rs-se/img_06.png",
+      "/images/27-z-650rs-se/img_07.png",
+      "/images/27-z-650rs-se/img_08.png",
+      "/images/27-z-650rs-se/img_09.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -1736,7 +1908,9 @@
     "description": "Prava retro ikona s paralel-twin motorom i vremenski provjerenim dizajnom. Za ljubitelje klasike.",
     "price": "9.868 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/e/Resource_312864_25EJ800D_E_40RGD1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/28-w-800/img_01.png",
+      "/images/28-w-800/img_02.png",
+      "/images/28-w-800/img_03.png"
     ],
     "specs": {
       "Engine type": "Air-cooled, 4-stroke, V-twin",
@@ -1799,7 +1973,15 @@
     "description": "Oživljeni Meguro brend u modernom paketu. Elegantni klasik s Kawasaki pouzdanošću.",
     "price": "5.795 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/a/Resource_315865_25BJ230B_A141GY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/29-meguro-s1/img_01.png",
+      "/images/29-meguro-s1/img_02.png",
+      "/images/29-meguro-s1/img_03.png",
+      "/images/29-meguro-s1/img_04.png",
+      "/images/29-meguro-s1/img_05.png",
+      "/images/29-meguro-s1/img_06.png",
+      "/images/29-meguro-s1/img_07.png",
+      "/images/29-meguro-s1/img_08.png",
+      "/images/29-meguro-s1/img_09.png"
     ],
     "specs": {
       "Engine type": "Air-cooled, 4-stroke, single-cylinder",
@@ -1863,7 +2045,9 @@
     "description": "Moderan retro u pristupačnom 230cc paketu. Savršen za A2 vozace koji vole klasičan stil.",
     "price": "5.168 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320381_26BJ230A_141GN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/30-w-230/img_01.png",
+      "/images/30-w-230/img_02.png",
+      "/images/30-w-230/img_03.png"
     ],
     "specs": {
       "Engine type": "Air-cooled, 4-stroke, single-cylinder",
@@ -1927,7 +2111,10 @@
     "description": "Premium cruiser s ergonomski prilagodljivom pozicijom vožnje. Stil, udobnost i karakter.",
     "price": "8.916 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/m/Resource_320137_26EN650D_M_44TGY1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/31-vulcan-s-se/img_01.png",
+      "/images/31-vulcan-s-se/img_02.png",
+      "/images/31-vulcan-s-se/img_03.png",
+      "/images/31-vulcan-s-se/img_04.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -1993,7 +2180,10 @@
     "description": "Moderni cruiser s adjustable ergonomijom. Za sve koji žele slobodu ceste uz komfor.",
     "price": "8.593 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/m/Resource_320137_26EN650D_M_44TGY1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/32-vulcan-s/img_01.png",
+      "/images/32-vulcan-s/img_02.png",
+      "/images/32-vulcan-s/img_03.png",
+      "/images/32-vulcan-s/img_04.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -2059,7 +2249,9 @@
     "description": "Novi Eliminator u A2 paketu s SE opremom. Low-seat cruiser za svaki dan.",
     "price": "7.184 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320187_26EL450B_44TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/33-eliminator-500-se/img_01.png",
+      "/images/33-eliminator-500-se/img_02.png",
+      "/images/33-eliminator-500-se/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -2123,7 +2315,9 @@
     "description": "Moderni low-seat cruiser za A2 kategoriju. Pristupačan ulaz u cruiser segment.",
     "price": "6.785 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320178_26EL450A_44TRD1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/34-eliminator-500/img_01.png",
+      "/images/34-eliminator-500/img_02.png",
+      "/images/34-eliminator-500/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -2187,7 +2381,19 @@
     "description": "Ultimativni adventure-tourer s elektronskim ovjesom i kompletnom touring opremom.",
     "price": "16.827 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/ver/Resource_323107_26MY_Versys_1100_SE_BU1_TDF.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/35-versys-1100-se/img_01.png",
+      "/images/35-versys-1100-se/img_02.png",
+      "/images/35-versys-1100-se/img_03.png",
+      "/images/35-versys-1100-se/img_04.png",
+      "/images/35-versys-1100-se/img_05.png",
+      "/images/35-versys-1100-se/img_06.png",
+      "/images/35-versys-1100-se/img_07.png",
+      "/images/35-versys-1100-se/img_08.png",
+      "/images/35-versys-1100-se/img_09.png",
+      "/images/35-versys-1100-se/img_10.png",
+      "/images/35-versys-1100-se/img_11.png",
+      "/images/35-versys-1100-se/img_12.png",
+      "/images/35-versys-1100-se/img_13.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -2253,7 +2459,19 @@
     "description": "Mocan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom.",
     "price": "15.263 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/ver/Resource_323109_26MY_Versys_1100_S_BU1_TDF.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/36-versys-1100-s/img_01.png",
+      "/images/36-versys-1100-s/img_02.png",
+      "/images/36-versys-1100-s/img_03.png",
+      "/images/36-versys-1100-s/img_04.png",
+      "/images/36-versys-1100-s/img_05.png",
+      "/images/36-versys-1100-s/img_06.png",
+      "/images/36-versys-1100-s/img_07.png",
+      "/images/36-versys-1100-s/img_08.png",
+      "/images/36-versys-1100-s/img_09.png",
+      "/images/36-versys-1100-s/img_10.png",
+      "/images/36-versys-1100-s/img_11.png",
+      "/images/36-versys-1100-s/img_12.png",
+      "/images/36-versys-1100-s/img_13.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -2319,7 +2537,16 @@
     "description": "Klasični Versys recept uz 1100cc snagu. Svestran, udoban i pouzdan za duge ture.",
     "price": "13.556 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/ver/Resource_323108_26MY_Versys_1100_GY1_TDF.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/37-versys-1100/img_01.png",
+      "/images/37-versys-1100/img_02.png",
+      "/images/37-versys-1100/img_03.png",
+      "/images/37-versys-1100/img_04.png",
+      "/images/37-versys-1100/img_05.png",
+      "/images/37-versys-1100/img_06.png",
+      "/images/37-versys-1100/img_07.png",
+      "/images/37-versys-1100/img_08.png",
+      "/images/37-versys-1100/img_09.png",
+      "/images/37-versys-1100/img_10.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, in-line four",
@@ -2385,7 +2612,12 @@
     "description": "Najpristupačniji adventure-tourer. Udoban, svestran i ekonomičan za svakodnevnu vožnju.",
     "price": "8.937 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/j/Resource_320369_26KLE650H_J_44TBU1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/38-versys-650/img_01.png",
+      "/images/38-versys-650/img_02.png",
+      "/images/38-versys-650/img_03.png",
+      "/images/38-versys-650/img_04.png",
+      "/images/38-versys-650/img_05.png",
+      "/images/38-versys-650/img_06.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -2451,7 +2683,28 @@
     "description": "Novi KLE500 SE — pravi mali adventure u A2 paketu s bogatom opremom.",
     "price": "7.442 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_324442_26KLE500D_44TWT2DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/39-kle-500-se/img_01.png",
+      "/images/39-kle-500-se/img_02.png",
+      "/images/39-kle-500-se/img_03.png",
+      "/images/39-kle-500-se/img_04.png",
+      "/images/39-kle-500-se/img_05.png",
+      "/images/39-kle-500-se/img_06.png",
+      "/images/39-kle-500-se/img_07.png",
+      "/images/39-kle-500-se/img_08.png",
+      "/images/39-kle-500-se/img_09.png",
+      "/images/39-kle-500-se/img_10.png",
+      "/images/39-kle-500-se/img_11.png",
+      "/images/39-kle-500-se/img_12.png",
+      "/images/39-kle-500-se/img_13.png",
+      "/images/39-kle-500-se/img_14.png",
+      "/images/39-kle-500-se/img_15.png",
+      "/images/39-kle-500-se/img_16.png",
+      "/images/39-kle-500-se/img_17.png",
+      "/images/39-kle-500-se/img_18.png",
+      "/images/39-kle-500-se/img_19.png",
+      "/images/39-kle-500-se/img_20.png",
+      "/images/39-kle-500-se/img_21.png",
+      "/images/39-kle-500-se/img_22.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -2515,7 +2768,24 @@
     "description": "Ulazni adventure motocikl za A2 kategoriju. Robusni dizajn i pouzdan motor.",
     "price": "6.664 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_327953_26KLE500C_44TGY1DRF3CG_A_v2.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/40-kle-500/img_01.png",
+      "/images/40-kle-500/img_02.png",
+      "/images/40-kle-500/img_03.png",
+      "/images/40-kle-500/img_04.png",
+      "/images/40-kle-500/img_05.png",
+      "/images/40-kle-500/img_06.png",
+      "/images/40-kle-500/img_07.png",
+      "/images/40-kle-500/img_08.png",
+      "/images/40-kle-500/img_09.png",
+      "/images/40-kle-500/img_10.png",
+      "/images/40-kle-500/img_11.png",
+      "/images/40-kle-500/img_12.png",
+      "/images/40-kle-500/img_13.png",
+      "/images/40-kle-500/img_14.png",
+      "/images/40-kle-500/img_15.png",
+      "/images/40-kle-500/img_16.png",
+      "/images/40-kle-500/img_17.png",
+      "/images/40-kle-500/img_18.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, parallel twin",
@@ -2579,7 +2849,13 @@
     "description": "Vrhunski motocross natjecatelj. Razvijen za pobjedu na stazi s najnaprednijom tehnologijom.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320467_26KX450M_201GN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/41-kx-450/img_01.png",
+      "/images/41-kx-450/img_02.png",
+      "/images/41-kx-450/img_03.png",
+      "/images/41-kx-450/img_04.png",
+      "/images/41-kx-450/img_05.png",
+      "/images/41-kx-450/img_06.png",
+      "/images/41-kx-450/img_07.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, single-cylinder",
@@ -2636,7 +2912,14 @@
     "description": "Cross-country enduro verzija KX450 za dugotrajne off-road utrke i avanturu.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320471_26KX450N_201GN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/42-kx-450x/img_01.png",
+      "/images/42-kx-450x/img_02.png",
+      "/images/42-kx-450x/img_03.png",
+      "/images/42-kx-450x/img_04.png",
+      "/images/42-kx-450x/img_05.png",
+      "/images/42-kx-450x/img_06.png",
+      "/images/42-kx-450x/img_07.png",
+      "/images/42-kx-450x/img_08.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, single-cylinder",
@@ -2693,7 +2976,9 @@
     "description": "Profesionalni 250cc motocross. Lagan, brz i agresivan — za ozbiljne natjecatelje.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320462_26KX252E_201GN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/43-kx-250/img_01.png",
+      "/images/43-kx-250/img_02.png",
+      "/images/43-kx-250/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, single-cylinder",
@@ -2750,7 +3035,10 @@
     "description": "Cross-country enduro na bazi KX250. Za dugotrajne off-road avanture i natjecanja.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320464_26KX252F_201GN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/44-kx-250x/img_01.png",
+      "/images/44-kx-250x/img_02.png",
+      "/images/44-kx-250x/img_03.png",
+      "/images/44-kx-250x/img_04.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, single-cylinder",
@@ -2807,7 +3095,20 @@
     "description": "Novi 2-taktni motocross za mlake natjecatelje. Lagani i precizni — savršen za razvoj vještina.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_326633_26KX112B_201AGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/45-kx-112/img_01.png",
+      "/images/45-kx-112/img_02.png",
+      "/images/45-kx-112/img_03.png",
+      "/images/45-kx-112/img_04.png",
+      "/images/45-kx-112/img_05.png",
+      "/images/45-kx-112/img_06.png",
+      "/images/45-kx-112/img_07.png",
+      "/images/45-kx-112/img_08.png",
+      "/images/45-kx-112/img_09.png",
+      "/images/45-kx-112/img_10.png",
+      "/images/45-kx-112/img_11.png",
+      "/images/45-kx-112/img_12.png",
+      "/images/45-kx-112/img_13.png",
+      "/images/45-kx-112/img_14.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 2-stroke single-cylinder with KIPS",
@@ -2867,7 +3168,22 @@
     "description": "2-taktni junior motocross za mlade natjecatelje. Proven dizajn i pouzdanost za stazu.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_326677_26KX85E_201AGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/46-kx-85/img_01.png",
+      "/images/46-kx-85/img_02.png",
+      "/images/46-kx-85/img_03.png",
+      "/images/46-kx-85/img_04.png",
+      "/images/46-kx-85/img_05.png",
+      "/images/46-kx-85/img_06.png",
+      "/images/46-kx-85/img_07.png",
+      "/images/46-kx-85/img_08.png",
+      "/images/46-kx-85/img_09.png",
+      "/images/46-kx-85/img_10.png",
+      "/images/46-kx-85/img_11.png",
+      "/images/46-kx-85/img_12.png",
+      "/images/46-kx-85/img_13.png",
+      "/images/46-kx-85/img_14.png",
+      "/images/46-kx-85/img_15.png",
+      "/images/46-kx-85/img_16.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 2-stroke single-cylinder with KIPS",
@@ -2927,7 +3243,7 @@
     "description": "Motocross za najmlađe natjecatelje. Idealan ulaz u motocross sport za djecu.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320428_26KX65C_201GN1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/47-kx-65/img_01.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 2-stroke, single-cylinder",
@@ -2985,7 +3301,9 @@
     "description": "Enduro/cross-country 450cc. Svestrani off-road natjecatelj za teški teren.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/klx/Resource_298299_24MY_KLX450R_GN1_STU.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/48-klx-450r/img_01.png",
+      "/images/48-klx-450r/img_02.png",
+      "/images/48-klx-450r/img_03.png"
     ],
     "specs": {
       "Engine type": "Liquid-cooled, 4-stroke, single-cylinder",
@@ -3042,7 +3360,9 @@
     "description": "Enduro za cestu i blato. Pouzdan i lagan — savršen za A2 off-road entuzijaste.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320455_26KLX232P_271GN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/49-klx-230r-s/img_01.png",
+      "/images/49-klx-230r-s/img_02.png",
+      "/images/49-klx-230r-s/img_03.png"
     ],
     "specs": {
       "Engine type": "Air-cooled, 4-stroke, single-cylinder",
@@ -3102,7 +3422,8 @@
     "description": "Junior off-road motocikl s 140cc motorom. Odlican za mlade vozace koji uče off-road.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320453_26KLX140C_271GN1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/50-klx-140r-f/img_01.png",
+      "/images/50-klx-140r-f/img_02.png"
     ],
     "specs": {
       "Engine type": "Air-cooled, 4-stroke, single-cylinder",
@@ -3160,7 +3481,8 @@
     "description": "Kompaktni off-road za mlade i odrasle vozace. Pouzdan, lak za upravljanje i zabavan.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320436_26KLX140A_271GN1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/51-klx-140r/img_01.png",
+      "/images/51-klx-140r/img_02.png"
     ],
     "specs": {
       "Engine type": "Air-cooled, 4-stroke, single-cylinder",
@@ -3218,7 +3540,7 @@
     "description": "Mini off-road za najmlađe. Automatski mjenjač i niska sjedala — idealan pocetni motocikl.",
     "price": "Cijena na upit",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320434_26KLX110C_271GN1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/52-klx-110r/img_01.png"
     ],
     "specs": {
       "Engine type": "Air-cooled, 4-stroke, single-cylinder",
@@ -3274,7 +3596,10 @@
     "description": "Električni Ninja za urbanu vožnju. Nulta emisija uz prepoznatljiv Ninja dizajn i A2 pristupačnost.",
     "price": "9.095 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/nin/Resource_298748_24MY_Ninja_e-1_SL1_STU.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/53-ninja-e-1/img_01.png",
+      "/images/53-ninja-e-1/img_02.png",
+      "/images/53-ninja-e-1/img_03.png",
+      "/images/53-ninja-e-1/img_04.png"
     ],
     "specs": {
       "Battery type": "Lithium-ion battery pack (x2)",
@@ -3324,7 +3649,10 @@
     "description": "Električni Z naked za grad. Tiha i cista vožnja s prepoznatljivim Z karakterom.",
     "price": "8.492 €",
     "images": [
-      "https://www.kawasaki.eu/content/dam/products/pim/studio/z/Resource_298786_24MY_Z_e-1_SL1_STU.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+      "/images/54-z-e-1/img_01.png",
+      "/images/54-z-e-1/img_02.png",
+      "/images/54-z-e-1/img_03.png",
+      "/images/54-z-e-1/img_04.png"
     ],
     "specs": {
       "Battery type": "Lithium-ion battery pack (x2)",
