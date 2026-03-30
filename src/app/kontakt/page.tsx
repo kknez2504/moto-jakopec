@@ -48,7 +48,7 @@ const INFO = [
       </svg>
     ),
     label: "Radno vrijeme",
-    value: "Pon–Pet: 8–17h  |  Sub: 8–13h",
+    value: "Pon. i sri. 10:00–18:00  |  Uto., čet. i pet. 8:00–16:00",
     href: null,
   },
 ];

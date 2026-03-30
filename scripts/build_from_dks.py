@@ -104,11 +104,11 @@ MODELS_DATA = {
     "atvBF_450-25":     ("Quad",      "",   False, "Cijena na upit", "Brute Force 450 4x4 — provjereni četverocikl za teren, posao i avanturu."),
     "atvkfx90":         ("Quad",      "",   False, "Cijena na upit", "KFX 90 — sportski ATV za mlade vozače. Automatski mjenjač i zabavni sportski karakter."),
     # ── SIDE-BY-SIDE / MULE ───────────────────────────────────────────────────
-    "mule-pro-DXT":     ("Side-by-Side","",  False, "Cijena na upit", "Mule PRO-DXT — šestosjedni višenamjenski SxS za najtežu primjenu na farmi i gradilištu."),
-    "mule-pro-DX":      ("Side-by-Side","",  False, "Cijena na upit", "Mule PRO-DX — robusni radni SxS vozač za najzahtjevnije terenske zadatke."),
-    "mule-pro-FX":      ("Side-by-Side","",  False, "Cijena na upit", "Mule PRO-FX — čvrstoća i pouzdanost Kawasaki za najteže radne uvjete."),
-    "mule-pro-MX":      ("Side-by-Side","",  False, "Cijena na upit", "Mule PRO-MX — kompaktni i moćni radni SxS. Idealan za farme i terenska radilišta."),
-    "mule610_i":        ("Side-by-Side","",  False, "Cijena na upit", "Mule SX 4x4 FI — mali ali moćan. Najpristupačniji Kawasaki SxS za manje radne površine."),
+    "mule-pro-DXT":     ("Mule","",  False, "Cijena na upit", "Mule PRO-DXT — šestosjedni višenamjenski SxS za najtežu primjenu na farmi i gradilištu."),
+    "mule-pro-DX":      ("Mule","",  False, "Cijena na upit", "Mule PRO-DX — robusni radni SxS vozač za najzahtjevnije terenske zadatke."),
+    "mule-pro-FX":      ("Mule","",  False, "Cijena na upit", "Mule PRO-FX — čvrstoća i pouzdanost Kawasaki za najteže radne uvjete."),
+    "mule-pro-MX":      ("Mule","",  False, "Cijena na upit", "Mule PRO-MX — kompaktni i moćni radni SxS. Idealan za farme i terenska radilišta."),
+    "mule610_i":        ("Mule","",  False, "Cijena na upit", "Mule SX 4x4 FI — mali ali moćan. Najpristupačniji Kawasaki SxS za manje radne površine."),
     # ── JET SKI ───────────────────────────────────────────────────────────────
     "Ultra 310LX-22":        ("Jet Ski","",  False, "Cijena na upit", "Jet Ski Ultra 310LX — luksuzni 3-sjedni vodeni skuter s 310 KS supercharged motorom za vrhunsko iskustvo."),
     "Ultra 310LX-S-22":      ("Jet Ski","",  False, "Cijena na upit", "Jet Ski Ultra 310LX-S — sport-luksuzna verzija Ultra serije s dodatnim performansama."),
