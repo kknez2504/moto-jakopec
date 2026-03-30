@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import type { Motorcycle } from "@/types/motorcycle";
 import modelsData from "@/data/models.json";
 
-const models = modelsData as Motorcycle[];
+const models = modelsData as unknown as Motorcycle[];
 
 interface Props {
   params: Promise<{ id: string }>;
