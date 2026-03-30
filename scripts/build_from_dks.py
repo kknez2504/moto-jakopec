@@ -15,8 +15,9 @@ ROOT_DIR   = os.path.join(SCRIPT_DIR, "..")
 JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
 IMG_DIR    = os.path.join(ROOT_DIR, "public", "images")
 
-# Sve kategorije: (dks_path, base_dir)
+# Kategorije: (dks_path, base_dir)
 CATEGORY_PAGES = [
+    # Motocikli
     ("html_motorji/Super_sport.html",      "html_motorji"),
     ("html_motorji/Sport_Naked.html",      "html_motorji"),
     ("html_motorji/Modern_Classic.html",   "html_motorji"),
@@ -24,13 +25,19 @@ CATEGORY_PAGES = [
     ("html_motorji/Adventure_Tourer.html", "html_motorji"),
     ("html_motorji/Enduro.html",           "html_motorji"),
     ("html_motorji/Moto_Cross.html",       "html_motorji"),
+    # Quad / ATV
+    ("html_motorji/atv.html",              "html_motorji"),
+    # Side-by-Side / Mule
+    ("html_motorji/mule.html",             "html_motorji"),
+    # Jet Ski
+    ("html_skuterji/Skuterji.html",        "html_skuterji"),
 ]
 
 # spec_url_basename -> (category, license, is_new, price, description)
-# Koristimo spec URL kao stabilan kljuc za svaki model
 MODELS_DATA = {
-    "H2R":              ("Sport",     "",   False, "59.438 €",       "Najmoćniji serijski motocikl na svijetu. Supercharged motor od 310 KS, karbon karoserija i aerodinamički paketi za stazu."),
-    "ZX-10RR_26":       ("Sport",     "",   False, "30.609 €",       "Homologirani superbike za stazu i cestu. WorldSBK iskustvo, Ohlins ovjes i Brembo kocnice."),
+    # ── SUPERSPORT ────────────────────────────────────────────────────────────
+    "H2R":              ("Sport",     "",   False, "59.438 €",       "Najsnažniji serijski motocikl na svijetu. Supercharged motor od 310 KS, karbon karoserija i aerodinamički dodaci za stazu."),
+    "ZX-10RR_26":       ("Sport",     "",   False, "30.609 €",       "Homologirani superbike za stazu i cestu. WorldSBK iskustvo, Ohlins ovjes i Brembo kočnice."),
     "ZX-10R_26":        ("Sport",     "",   False, "20.510 €",       "Legendarni supersport s 200 KS. Bogata elektronika, IMU platforma i WorldSBK DNA."),
     "ZX-6R_24":         ("Sport",     "",   False, "13.689 €",       "Ikonični 636cc supersport — agilan i snažan. Savršen balans između staze i ceste."),
     "ZX-4RR_24":        ("Sport",     "A2", True,  "10.234 €",       "4-cilindrični 400cc motor u A2 paketu. Maksimalan sport osjećaj uz A2 ograničenje snage."),
@@ -45,6 +52,7 @@ MODELS_DATA = {
     "Ninja500_24":      ("Sport",     "A2", True,  "6.857 €",        "Pristupačni ulaz u Ninja seriju za A2 vozače. Moderan dizajn i pouzdan motor."),
     "Ninja125":         ("Sport",     "A1", False, "5.549 €",        "125cc Ninja za početnike — pravi dizajn velikog brata uz pristupačnu kategoriju."),
     "Ninja_e-1":        ("Electric",  "A2", False, "9.095 €",        "Električni Ninja za urbanu vožnju. Nulta emisija uz prepoznatljiv Ninja dizajn."),
+    # ── NAKED ─────────────────────────────────────────────────────────────────
     "ZH2_SE":           ("Naked",     "",   False, "21.940 €",       "Supercharged naked — 200 KS bez karoserije. Najsnažniji naked Kawasaki s elektronskim ovjesom."),
     "ZH2":              ("Naked",     "",   False, "19.391 €",       "Supercharged naked s kompresiranim motorom. Brutalna snaga u street paketu."),
     "Z1100SE_26":       ("Naked",     "",   True,  "13.533 €",       "Novi flagship naked s 1100cc motorom. Agresivan dizajn i bogata elektronika nove generacije."),
@@ -54,41 +62,71 @@ MODELS_DATA = {
     "Z650S_26":         ("Naked",     "",   True,  "7.910 €",        "Novi Z650S s Sport paketom. Sportskiji položaj i osvježen dizajn za urbanu vožnju."),
     "Z650_20":          ("Naked",     "",   False, "7.812 €",        "Lagan, agilni i pristupačni naked. Savršen za grad i vikend izlete."),
     "Z500SE_24":        ("Naked",     "A2", True,  "7.184 €",        "Novi Z500SE za A2 kategoriju. Naked karakter uz pristupačno ograničenje snage."),
-    "Z500_24":          ("Naked",     "A2", True,  "6.785 €",        "Naked motocikl za A2 kategoriju. Odlican za grad i svakodnevnu vožnju."),
+    "Z500_24":          ("Naked",     "A2", True,  "6.785 €",        "Naked motocikl za A2 kategoriju. Odličan za grad i svakodnevnu vožnju."),
     "Z125":             ("Naked",     "A1", False, "5.187 €",        "Kompaktni Z naked za A1 kategoriju. Pravi Z karakter u urbanom 125cc paketu."),
-    "Z_e-1":            ("Electric",  "A2", False, "8.492 €",        "Električni Z naked za grad. Tiha i cista vožnja s prepoznatljivim Z karakterom."),
+    "Z_e-1":            ("Electric",  "A2", False, "8.492 €",        "Električni Z naked za grad. Tiha i čista vožnja s prepoznatljivim Z karakterom."),
     "Z7hybrid_24":      ("Electric",  "",   False, "Cijena na upit", "Hibridni Z naked — kombinacija benzinskog i električnog motora za urbanu vožnju."),
-    "Z900RS":           ("Classic",   "",   False, "14.055 €",       "Premium retro s elektronskim ovjesom i zlatnim Ohlins amortizerom."),
+    # ── CLASSIC ───────────────────────────────────────────────────────────────
+    "Z900RS":           ("Classic",   "",   False, "14.055 €",       "Premium retro s elektronskim ovjesom i zlatnim Ohlins amortizerom. Spoj tradicije i moderne tehnologije."),
     "Z650RS_22":        ("Classic",   "",   False, "8.441 €",        "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih uz modernu tehnologiju."),
     "W800_20":          ("Classic",   "",   False, "9.868 €",        "Prava retro ikona s paralel-twin motorom. Za ljubitelje klasike."),
     "Meguro_25":        ("Classic",   "A2", True,  "5.795 €",        "Oživljeni Meguro brend u modernom paketu. Elegantni klasik s Kawasaki pouzdanošću."),
-    "W230_25":          ("Classic",   "A2", True,  "5.168 €",        "Moderan retro u pristupačnom 230cc paketu. Savršen za A2 vozace koji vole klasičan stil."),
+    "W230_25":          ("Classic",   "A2", True,  "5.168 €",        "Moderan retro u pristupačnom 230cc paketu. Savršen za A2 vozače koji vole klasičan stil."),
+    # ── CRUISER ───────────────────────────────────────────────────────────────
     "VulcanS_17":       ("Cruiser",   "",   False, "8.916 €",        "Moderni cruiser s ergonomski prilagodljivom pozicijom vožnje. Stil, udobnost i karakter."),
     "Eliminator_500_SE_24": ("Cruiser","A2", True, "7.184 €",        "Novi Eliminator u A2 paketu s SE opremom. Low-seat cruiser za svaki dan."),
     "Eliminator_500_24":("Cruiser",   "A2", True,  "6.785 €",        "Moderni low-seat cruiser za A2 kategoriju."),
+    # ── ADVENTURE ─────────────────────────────────────────────────────────────
     "Versys_1100SE_25": ("Adventure", "",   False, "16.827 €",       "Ultimativni adventure-tourer s elektronskim ovjesom i kompletnom touring opremom."),
     "Versys_1100S_25":  ("Adventure", "",   False, "15.263 €",       "Moćan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom."),
     "Versys_1100_25":   ("Adventure", "",   False, "13.556 €",       "Klasični Versys recept uz 1100cc snagu. Svestran, udoban i pouzdan za duge ture."),
     "Versys_650_22":    ("Adventure", "",   True,  "8.937 €",        "Najpristupačniji adventure-tourer. Udoban, svestran i ekonomičan za svakodnevnu vožnju."),
     "KLE500SE_26":      ("Adventure", "A2", True,  "7.442 €",        "Novi KLE500 SE — pravi mali adventure u A2 paketu s bogatom opremom."),
     "KLE500_26":        ("Adventure", "A2", True,  "6.664 €",        "Ulazni adventure motocikl za A2 kategoriju. Robusni dizajn i pouzdan motor."),
-    "KX450X_24":        ("Offroad",   "",   False, "Cijena na upit", "Cross-country enduro verzija KX450 za dugotrajne off-road utrke i avanturu."),
-    "KX250X_25":        ("Offroad",   "",   False, "Cijena na upit", "Cross-country enduro na bazi KX250 za dugotrajne off-road avanture."),
-    "KLX230RS_25":      ("Offroad",   "A2", False, "Cijena na upit", "Enduro za cestu i blato. Pouzdan i lagan — savršen za A2 off-road entuzijaste."),
-    "KLX140R":          ("Offroad",   "",   False, "Cijena na upit", "Off-road za mlade i odrasle vozace. Pouzdan, lak za upravljanje i zabavan."),
+    # ── OFFROAD / ENDURO / MOTO CROSS ─────────────────────────────────────────
+    "KX450X_24":        ("Offroad",   "",   False, "Cijena na upit", "Enduro za cross-country utrke. Dugotrajna off-road snaga i preciznost."),
+    "KX250X_25":        ("Offroad",   "",   False, "Cijena na upit", "Cross-country enduro 250cc za dugotrajne off-road avanture."),
+    "KLX230RS_25":      ("Offroad",   "A2", False, "Cijena na upit", "Dual-sport enduro za cestu i blato. Pouzdan i lagan za A2 off-road entuzijaste."),
+    "KLX140R":          ("Offroad",   "",   False, "Cijena na upit", "Off-road za mlade i odrasle vozače. Pouzdan, lak za upravljanje i zabavan."),
     "KLX110":           ("Offroad",   "",   False, "Cijena na upit", "Mini off-road za najmlađe. Automatski mjenjač i niska sjedala."),
     "KX450_24":         ("Offroad",   "",   False, "Cijena na upit", "Vrhunski motocross natjecatelj. Razvijen za pobjedu na stazi."),
     "KX250_25":         ("Offroad",   "",   False, "Cijena na upit", "Profesionalni 250cc motocross. Lagan, brz i agresivan."),
-    "KX112_26":         ("Offroad",   "",   False, "Cijena na upit", "2-taktni motocross za mlake natjecatelje. Lagani i precizni."),
+    "KX112_26":         ("Offroad",   "",   False, "Cijena na upit", "2-taktni motocross za mlađe natjecatelje. Lagan i precizan."),
     "KX85_26":          ("Offroad",   "",   False, "Cijena na upit", "2-taktni junior motocross za mlade natjecatelje."),
-    "KX85L_26":         ("Offroad",   "",   False, "Cijena na upit", "2-taktni junior motocross Large verzija — za više vozace."),
+    "KX85L_26":         ("Offroad",   "",   False, "Cijena na upit", "2-taktni junior motocross Large verzija — za više vozače."),
     "KX65":             ("Offroad",   "",   False, "Cijena na upit", "Motocross za najmlađe natjecatelje. Idealan ulaz u motocross sport."),
     "KLX450R_24":       ("Offroad",   "",   False, "Cijena na upit", "Enduro/cross-country 450cc. Svestrani off-road natjecatelj za teški teren."),
     "Elektrode_20":     ("Electric",  "",   False, "Cijena na upit", "Električni motocross za djecu. Tiha i ekološki prihvatljiva zabava na terenu."),
+    # ── QUAD / ATV ────────────────────────────────────────────────────────────
+    "atvBF_750SE":      ("Quad",      "",   False, "Cijena na upit", "Brute Force 750 SE 4x4 — najsnažniji Kawasaki ATV s EPS elektronskim upravljanjem i V-twin motorom."),
+    "atvBF_750":        ("Quad",      "",   False, "Cijena na upit", "Brute Force 750 4x4 — moćni V-twin 749cc ATV za svaki teren bez kompromisa."),
+    "atvBF_450eps-26":  ("Quad",      "",   False, "Cijena na upit", "Brute Force 450 EPS 4x4 — snažni ATV s elektronskim upravljanjem za zahtjevne terene."),
+    "atvBF_450-25":     ("Quad",      "",   False, "Cijena na upit", "Brute Force 450 4x4 — provjereni četverocikl za teren, posao i avanturu."),
+    "atvkfx90":         ("Quad",      "",   False, "Cijena na upit", "KFX 90 — sportski ATV za mlade vozače. Automatski mjenjač i zabavni sportski karakter."),
+    # ── SIDE-BY-SIDE / MULE ───────────────────────────────────────────────────
+    "mule-pro-DXT":     ("Side-by-Side","",  False, "Cijena na upit", "Mule PRO-DXT — šestosjedni višenamjenski SxS za najtežu primjenu na farmi i gradilištu."),
+    "mule-pro-DX":      ("Side-by-Side","",  False, "Cijena na upit", "Mule PRO-DX — robusni radni SxS vozač za najzahtjevnije terenske zadatke."),
+    "mule-pro-FX":      ("Side-by-Side","",  False, "Cijena na upit", "Mule PRO-FX — čvrstoća i pouzdanost Kawasaki za najteže radne uvjete."),
+    "mule-pro-MX":      ("Side-by-Side","",  False, "Cijena na upit", "Mule PRO-MX — kompaktni i moćni radni SxS. Idealan za farme i terenska radilišta."),
+    "mule610_i":        ("Side-by-Side","",  False, "Cijena na upit", "Mule SX 4x4 FI — mali ali moćan. Najpristupačniji Kawasaki SxS za manje radne površine."),
+    # ── JET SKI ───────────────────────────────────────────────────────────────
+    "Ultra 310LX-22":        ("Jet Ski","",  False, "Cijena na upit", "Jet Ski Ultra 310LX — luksuzni 3-sjedni vodeni skuter s 310 KS supercharged motorom za vrhunsko iskustvo."),
+    "Ultra 310LX-S-22":      ("Jet Ski","",  False, "Cijena na upit", "Jet Ski Ultra 310LX-S — sport-luksuzna verzija Ultra serije s dodatnim performansama."),
+    "Ultra 310X-22":         ("Jet Ski","",  False, "Cijena na upit", "Jet Ski Ultra 310X — sportski jednosjed s 310 KS za maksimalnu adrenalińsku zabavu."),
+    "Ultra 160LX-24":        ("Jet Ski","",  False, "Cijena na upit", "Jet Ski Ultra 160LX — luksuzni 3-sjedni vodeni skuter za dugačke vodene ture."),
+    "Ultra 160LX-S-24":      ("Jet Ski","",  False, "Cijena na upit", "Jet Ski Ultra 160LX-S — kombinacija sporta i luksuza u vodenom skuteru."),
+    "Ultra 160LX-S-Angler-25":("Jet Ski","", False, "Cijena na upit", "Jet Ski Ultra 160LX-S Angler — posebna outdoor verzija s opremom za ribolov i avanturu."),
+    "STX160LX_26MY":         ("Jet Ski","",  False, "Cijena na upit", "Jet Ski STX 160LX — sportski vodeni skuter s 160 KS za uzbudljivo klizanje valovima."),
+    "STX160R_26MY":          ("Jet Ski","",  False, "Cijena na upit", "Jet Ski STX 160R — vrhunski sport jednosjed s 160 KS za trkačke entuzijaste."),
+    "STX160X_26MY":          ("Jet Ski","",  False, "Cijena na upit", "Jet Ski STX 160X — moćni sport jednosjed za adrenalin na vodi."),
+    "STX160LX":              ("Jet Ski","",  False, "Cijena na upit", "Jet Ski STX 160LX — sportski luksuzni vodeni skuter."),
+    "STX160X":               ("Jet Ski","",  False, "Cijena na upit", "Jet Ski STX 160X — sportski jednosjed za maksimalne performanse na vodi."),
+    "ST160X":                ("Jet Ski","",  False, "Cijena na upit", "Jet Ski ST 160X — ulazni sport jednosjed za adrenalinsko klizanje."),
+    "ST160":                 ("Jet Ski","",  False, "Cijena na upit", "Jet Ski ST 160 — pristupačni ulaz u Kawasaki vodeni sport."),
 }
 
-# Izvuci ime modela iz spec URL-a za prikaz
 SPEC_DISPLAY_NAMES = {
+    # Motocikli
     "H2R":              "Ninja H2R",
     "ZX-10RR_26":       "Ninja ZX-10RR",
     "ZX-10R_26":        "Ninja ZX-10R",
@@ -145,7 +183,134 @@ SPEC_DISPLAY_NAMES = {
     "KX65":             "KX 65",
     "KLX450R_24":       "KLX 450R",
     "Elektrode_20":     "Elektrode 20",
+    # Quad / ATV
+    "atvBF_750SE":      "Brute Force 750 SE",
+    "atvBF_750":        "Brute Force 750",
+    "atvBF_450eps-26":  "Brute Force 450 EPS",
+    "atvBF_450-25":     "Brute Force 450",
+    "atvkfx90":         "KFX 90",
+    # Side-by-Side / Mule
+    "mule-pro-DXT":     "Mule PRO-DXT",
+    "mule-pro-DX":      "Mule PRO-DX",
+    "mule-pro-FX":      "Mule PRO-FX",
+    "mule-pro-MX":      "Mule PRO-MX",
+    "mule610_i":        "Mule SX 4x4 FI",
+    # Jet Ski
+    "Ultra 310LX-22":        "Jet Ski Ultra 310LX",
+    "Ultra 310LX-S-22":      "Jet Ski Ultra 310LX-S",
+    "Ultra 310X-22":         "Jet Ski Ultra 310X",
+    "Ultra 160LX-24":        "Jet Ski Ultra 160LX",
+    "Ultra 160LX-S-24":      "Jet Ski Ultra 160LX-S",
+    "Ultra 160LX-S-Angler-25":"Jet Ski Ultra 160LX-S Angler",
+    "STX160LX_26MY":         "Jet Ski STX 160LX",
+    "STX160R_26MY":          "Jet Ski STX 160R",
+    "STX160X_26MY":          "Jet Ski STX 160X",
+    "STX160LX":              "Jet Ski STX 160LX",
+    "STX160X":               "Jet Ski STX 160X",
+    "ST160X":                "Jet Ski ST 160X",
+    "ST160":                 "Jet Ski ST 160",
 }
+
+# Prijevod slovenačkih naziva specifikacija na hrvatski
+SL_HR = {
+    "Motor":                      "Motor",
+    "Tip motorja":                "Tip motora",
+    "Prostornina":                "Radni obujam",
+    "Prostornina motorja":        "Radni obujam",
+    "Skupna prostornina":         "Ukupni obujam",
+    "Premer × hod":               "Promjer × hod",
+    "Premer/Hod":                 "Promjer/Hod",
+    "Premer x hod":               "Promjer × hod",
+    "Kompresijsko razmerje":      "Kompresijski omjer",
+    "Sistem za gorivo":           "Sustav goriva",
+    "Vžig":                       "Paljenje",
+    "Zaganjalnik":                "Starter",
+    "Hlajenje":                   "Hlađenje",
+    "Hladjenje":                  "Hlađenje",
+    "Mazanje":                    "Podmazivanje",
+    "Največja moč":               "Maksimalna snaga",
+    "Največji navor":             "Maksimalni okretni moment",
+    "Moč":                        "Snaga",
+    "Navor":                      "Okretni moment",
+    "Sklopka":                    "Kvačilo",
+    "Menjalnik":                  "Mjenjač",
+    "Tip menjalnika":             "Tip mjenjača",
+    "Prenos pogona":              "Prijenos pogona",
+    "Prenos":                     "Prijenos",
+    "Primarni prenos":            "Primarni prijenos",
+    "Sekundarni prenos":          "Sekundarni prijenos",
+    "Okvir":                      "Okvir",
+    "Prednje vzmetenje":          "Prednji ovjes",
+    "Zadnje vzmetenje":           "Stražnji ovjes",
+    "Vzmetenje":                  "Ovjes",
+    "Prednja zavora":             "Prednja kočnica",
+    "Zadnja zavora":              "Stražnja kočnica",
+    "Zavorni sistem":             "Kočioni sustav",
+    "Zavore":                     "Kočnice",
+    "Pnevmatike":                 "Gume",
+    "Prednja pnevmatika":         "Prednja guma",
+    "Zadnja pnevmatika":          "Stražnja guma",
+    "Dolžina":                    "Duljina",
+    "Širina":                     "Širina",
+    "Višina":                     "Visina",
+    "Medosna razdalja":           "Međuosna udaljenost",
+    "Višina sedeža":              "Visina sjedala",
+    "Sedežna višina":             "Visina sjedala",
+    "Masa":                       "Masa",
+    "Skupna masa":                "Ukupna masa",
+    "Polnilna masa":              "Masa s gorivom",
+    "Mase":                       "Mase",
+    "Teža":                       "Težina",
+    "Kapaciteta rezervoarja":     "Kapacitet rezervoara",
+    "Kapaciteta goriva":          "Kapacitet goriva",
+    "Kapaciteta olja":            "Kapacitet ulja",
+    "Kapaciteta":                 "Kapacitet",
+    "Svetlobna telesa":           "Rasvjeta",
+    "Svetloba":                   "Rasvjeta",
+    "Smerniki":                   "Pokazivači smjera",
+    "Napetost":                   "Napon",
+    "Baterija":                   "Baterija",
+    "Električni sistem":          "Električni sustav",
+    "Instrumenti":                "Instrumenti",
+    "Pogon":                      "Pogon",
+    "Gorivo":                     "Gorivo",
+    "Tip goriva":                 "Vrsta goriva",
+    "CO2 emisije":                "CO2 emisije",
+    "Emisije":                    "Emisije",
+    "Število valjev":             "Broj cilindara",
+    "Valji":                      "Cilindri",
+    "Prestavna razmerja":         "Prijenosni omjeri",
+    "Hod vzmetenja":              "Hod ovjesa",
+    "Premer diska":               "Promjer diska",
+    "Tlak olja":                  "Tlak ulja",
+    "Barva":                      "Boja",
+    "Oprema":                     "Oprema",
+    "Dimenzije":                  "Dimenzije",
+    "Tehnicni podatki":           "Tehničke specifikacije",
+    "Tip":                        "Tip",
+    "Moč motorja":                "Snaga motora",
+    "Elektricni motor":           "Električni motor",
+    "Električni motor":           "Električni motor",
+    "Kapaciteta baterije":        "Kapacitet baterije",
+    "Čas polnjenja":              "Vrijeme punjenja",
+    "Doseg":                      "Domet",
+    "Način vožnje":               "Način vožnje",
+    "Rekuperacija":               "Rekuperacija energije",
+}
+
+
+def translate_spec(key):
+    """Prevedi slovenacki naziv spec-a na hrvatski."""
+    # Tocno podudaranje
+    if key in SL_HR:
+        return SL_HR[key]
+    # Djelomicno podudaranje (case-insensitive)
+    key_lower = key.lower()
+    for sl, hr in SL_HR.items():
+        if sl.lower() == key_lower:
+            return hr
+    # Vrati original ako nema prijevoda
+    return key
 
 
 def fetch(url):
@@ -177,11 +342,12 @@ def parse_groups(cat_html, base_dir):
 
 
 def extract_images(html, page_url):
-    """Izvuce URL-ove slika s model stranice — samo HD, bez thumbnailova i ikona."""
+    """Izvuce URL-ove slika s model stranice."""
     imgs = re.findall(r'<img[^>]+src=["\']([^"\']+\.(?:jpg|jpeg|png))["\']', html, re.IGNORECASE)
     result = []
     for img in imgs:
-        skip_patterns = ['new%20green', 'new green', 'logo', 'favicon', 'banner', '_m.jpg', '_m.png', 'K-CARE', 'SLO-flag']
+        skip_patterns = ['new%20green', 'new green', 'logo', 'favicon', 'banner',
+                         '_m.jpg', '_m.png', 'K-CARE', 'SLO-flag', 'ani_ski']
         if any(p.lower() in img.lower() for p in skip_patterns):
             continue
         if re.match(r'^\d+\.\.(png|jpg)$', img, re.IGNORECASE):
@@ -191,16 +357,42 @@ def extract_images(html, page_url):
     return list(dict.fromkeys(result))
 
 
+def img_sort_key(url):
+    """
+    Sortiraj slike: studio/cijelo vozilo prvo, detalji zadnji.
+    Podrzava dva sustava imenovanja na dks.si:
+      - Motocikli: bez 'FT' u imenu = glavna slika; s 'FT' = detalj
+      - ATV/Jet Ski: _STU_ = studio; _DET_ = detalj; _ACT_/_STY_ = srednje
+    """
+    fname = os.path.basename(urllib.parse.unquote(url)).lower()
+    # ATV / Jet Ski / SxS konvencija
+    if '_stu_' in fname:  return "0_" + fname   # Studio snimak - cijelo vozilo
+    if '_sty_' in fname:  return "2_" + fname   # Styling
+    if '_act_' in fname:  return "3_" + fname   # Action
+    if '_det_' in fname:  return "8_" + fname   # Detalj - na kraj
+    # Motocikl konvencija: FT = feature/detail snimak
+    if ' ft' in fname or '_ft' in fname: return "7_" + fname
+    # Zadrzavamo redoslijed stranice za ostale (najcesce glavna slika)
+    return "1_" + fname
+
+
 def extract_specs(html):
     specs = {}
     rows = re.findall(r'<tr[^>]*>(.*?)</tr>', html, re.DOTALL)
     for row in rows:
         cells = re.findall(r'<td[^>]*>(.*?)</td>', row, re.DOTALL)
-        cleaned = [re.sub(r'<[^>]+>', '', c).replace("&nbsp;", " ").replace("&#966;", "φ")
-                   .replace("&sup3;", "³").replace("&sup2;", "²").strip() for c in cells]
+        cleaned = [re.sub(r'<[^>]+>', '', c)
+                   .replace("&nbsp;", " ").replace("&#966;", "φ")
+                   .replace("&sup3;", "³").replace("&sup2;", "²")
+                   .replace("&#268;", "Č").replace("&#269;", "č")
+                   .replace("&#352;", "Š").replace("&#353;", "š")
+                   .replace("&#381;", "Ž").replace("&#382;", "ž")
+                   .strip()
+                   for c in cells]
         cleaned = [re.sub(r'\s+', ' ', c) for c in cleaned]
-        if len(cleaned) >= 2 and cleaned[0] and cleaned[1] and len(cleaned[0]) < 60:
-            specs[cleaned[0]] = cleaned[1]
+        if len(cleaned) >= 2 and cleaned[0] and cleaned[1] and len(cleaned[0]) < 80:
+            hr_key = translate_spec(cleaned[0])
+            specs[hr_key] = cleaned[1]
     return specs
 
 
@@ -232,24 +424,26 @@ def main():
     for (cat_path, base_dir) in CATEGORY_PAGES:
         cat_html = fetch(f"{BASE}/{cat_path}")
         if not cat_html:
+            print(f"  GRESKA: {cat_path}")
             continue
         groups = parse_groups(cat_html, base_dir)
+        print(f"  {cat_path}: {len(groups)} modela")
         for (pages, spec_url) in groups:
             if spec_url not in all_groups:
                 all_groups[spec_url] = pages
             else:
-                # Dodaj nove stranice (nove boje)
                 for p in pages:
                     if p not in all_groups[spec_url]:
                         all_groups[spec_url].append(p)
 
-    print(f"  Pronasao {len(all_groups)} modela\n")
+    print(f"\n  Ukupno modela: {len(all_groups)}\n")
 
     results = []
     mid = 1
 
     for spec_url, model_pages in all_groups.items():
-        spec_key = os.path.basename(spec_url).replace('.html', '')
+        # URL-decode spec_key (potrebno za Jet Ski koji ima %20 u URL-u)
+        spec_key = urllib.parse.unquote(os.path.basename(spec_url)).replace('.html', '')
 
         data = MODELS_DATA.get(spec_key)
         display_name = SPEC_DISPLAY_NAMES.get(spec_key)
@@ -273,23 +467,22 @@ def main():
                         all_images.append(img)
             time.sleep(0.2)
 
-        # Sortiraj: _A studio slike prve
-        def img_sort(u):
-            fname = os.path.basename(u).lower()
-            if re.search(r'_a[._]', fname): return "0_" + fname
-            if re.search(r'_b[._]', fname): return "1_" + fname
-            return "9_" + fname
-        all_images.sort(key=img_sort)
+        # Sortiraj: studio/glavne slike prve, detalji zadnji
+        all_images.sort(key=img_sort_key)
 
         # Preuzmi lokalno
         folder = f"{mid:02d}-{slug(display_name)}"
         model_dir = os.path.join(IMG_DIR, folder)
         os.makedirs(model_dir, exist_ok=True)
 
+        # Obrisi stare slike (cisto preuzimanje)
+        for old_file in os.listdir(model_dir):
+            os.remove(os.path.join(model_dir, old_file))
+
         local_paths = []
         for i, img_url in enumerate(all_images, 1):
             ext = os.path.splitext(img_url.split("?")[0])[1].lower() or ".jpg"
-            if ext not in ['.jpg', '.jpeg', '.png', '.gif']:
+            if ext not in ['.jpg', '.jpeg', '.png']:
                 ext = '.jpg'
             fname = f"img_{i:02d}{ext}"
             dest = os.path.join(model_dir, fname)
@@ -330,7 +523,8 @@ def main():
     print(f"  S slikama:    {found_img}/{len(results)}")
     print(f"  Sa specs:     {found_specs}/{len(results)}")
     print(f"  Ukupno slika: {total_imgs}")
-    print(f"\n  git add . && git commit -m 'Rebuild from dks.si - all images and specs' && git push")
+    print(f"\nSljedeci korak:")
+    print(f"  git add . && git commit -m 'Rebuild: quad, jet ski, prijevodi' && git push")
 
 
 if __name__ == "__main__":

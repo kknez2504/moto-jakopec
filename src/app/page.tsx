@@ -8,12 +8,17 @@ const models = modelsData as unknown as Motorcycle[];
 const FEATURED_COUNT = 6;
 
 const CATEGORIES_INFO = [
-  { name: "Sport",     icon: "🏁", desc: "Supersport & track motocikli" },
-  { name: "Naked",     icon: "⚡", desc: "Street naked & roadster" },
-  { name: "Adventure", icon: "🌍", desc: "On/off road avanturisti" },
-  { name: "Touring",   icon: "🛣️", desc: "Dugopružni touring modeli" },
-  { name: "Classic",   icon: "🏛️", desc: "Modern classic stil" },
-  { name: "Cruiser",   icon: "🤙", desc: "Urban cruiser modeli" },
+  { name: "Sport",        icon: "🏁", desc: "Supersport & track motocikli" },
+  { name: "Naked",        icon: "⚡", desc: "Street naked & roadster" },
+  { name: "Adventure",    icon: "🌍", desc: "On/off road avanturisti" },
+  { name: "Touring",      icon: "🛣️", desc: "Dugopružni touring modeli" },
+  { name: "Classic",      icon: "🏛️", desc: "Modern classic stil" },
+  { name: "Cruiser",      icon: "🤙", desc: "Urban cruiser modeli" },
+  { name: "Offroad",      icon: "🏔️", desc: "Motocross & enduro" },
+  { name: "Quad",         icon: "🚜", desc: "ATV / četverocikli" },
+  { name: "Side-by-Side", icon: "🛻", desc: "Mule radna vozila" },
+  { name: "Jet Ski",      icon: "🚤", desc: "Kawasaki vodeni skuteri" },
+  { name: "Electric",     icon: "🔋", desc: "Električni & hibridni" },
 ];
 
 export default function HomePage() {
@@ -112,7 +117,7 @@ export default function HomePage() {
           <h2 className="section-title mb-2">Kategorije</h2>
           <p className="section-subtitle mb-10">Pronađi motocikl koji odgovara tvom stilu</p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
             {CATEGORIES_INFO.map((cat) => (
               <Link
                 key={cat.name}

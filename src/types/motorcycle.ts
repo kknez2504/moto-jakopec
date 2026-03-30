@@ -3,7 +3,7 @@ export interface Motorcycle {
   name: string;
   brand: string;
   category: string;
-  purpose: string;
+  purpose?: string;
   license_category?: string;
   is_new?: boolean;
   description: string;
@@ -24,7 +24,10 @@ export type Category =
   | "Classic"
   | "Cruiser"
   | "Offroad"
-  | "Electric";
+  | "Electric"
+  | "Quad"
+  | "Side-by-Side"
+  | "Jet Ski";
 
 export const CATEGORIES: Category[] = [
   "Sve",
@@ -36,4 +39,7 @@ export const CATEGORIES: Category[] = [
   "Cruiser",
   "Offroad",
   "Electric",
+  "Quad",
+  "Side-by-Side",
+  "Jet Ski",
 ];
