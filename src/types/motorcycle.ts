@@ -23,7 +23,8 @@ export type Category =
   | "Touring"
   | "Classic"
   | "Cruiser"
-  | "Offroad";
+  | "Offroad"
+  | "Electric";
 
 export const CATEGORIES: Category[] = [
   "Sve",
@@ -34,4 +35,5 @@ export const CATEGORIES: Category[] = [
   "Classic",
   "Cruiser",
   "Offroad",
+  "Electric",
 ];
