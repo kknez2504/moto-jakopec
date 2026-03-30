@@ -1,0 +1,217 @@
+[
+  {
+    "id": 1,
+    "name": "Kawasaki Ninja ZX-10R",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "",
+    "is_new": false,
+    "description": "Legendarni supersport motocikl s 200 KS, razvijen na temelju iskustva iz Superbike natjecanja. Elektronski paket svjetske klase.",
+    "price": "22.990 €",
+    "price_2025": "22.990 €",
+    "price_2026": "22.990 €",
+    "images": [],
+    "specs": {
+      "Motor": "4-cilindrični, 998 cc",
+      "Snaga": "203 KS @ 13.200 o/min",
+      "Moment": "114.9 Nm @ 11.400 o/min",
+      "Mjenjač": "6-stupanjski",
+      "Težina": "207 kg",
+      "Kočnice (pred.)": "Brembo Monobloc M50",
+      "Elektronika": "KTRC, KIBS, KQS, Launch Control"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Kawasaki Z900",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "",
+    "is_new": true,
+    "description": "Ikonični naked street fighter. Agresivan dizajn, snažan 948cc motor i bogata elektronika čine Z900 jednim od najpopularnijih naked motocikala.",
+    "price": "10.490 €",
+    "price_2025": "10.290 €",
+    "price_2026": "10.490 €",
+    "images": [],
+    "specs": {
+      "Motor": "4-cilindrični, 948 cc",
+      "Snaga": "125 KS @ 9.500 o/min",
+      "Moment": "98.6 Nm @ 7.700 o/min",
+      "Mjenjač": "6-stupanjski + quickshifter",
+      "Težina": "193 kg",
+      "Elektronika": "KTRC, KIBS, Power Mode"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Kawasaki Versys 1000 SE",
+    "brand": "Kawasaki",
+    "category": "Touring",
+    "purpose": "Touring",
+    "license_category": "",
+    "is_new": false,
+    "description": "Ultimativni touring motocikl za dugopružne avanture. Elektronski ovjes Showa SKYHOOK, bogata oprema i komfor na visokoj razini.",
+    "price": "18.490 €",
+    "price_2025": "18.490 €",
+    "price_2026": "18.490 €",
+    "images": [],
+    "specs": {
+      "Motor": "4-cilindrični, 1.043 cc",
+      "Snaga": "120 KS @ 9.000 o/min",
+      "Moment": "102 Nm @ 7.500 o/min",
+      "Ovjes": "Showa SKYHOOK elektronski",
+      "Težina": "255 kg",
+      "Rezervoar": "21 L"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Kawasaki Z650RS",
+    "brand": "Kawasaki",
+    "category": "Classic",
+    "purpose": "Classic",
+    "license_category": "",
+    "is_new": false,
+    "description": "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih, uz modernru tehnologiju i pouzdanost. Savršen za svakodnevnu vožnju u gradu i izletima.",
+    "price": "8.190 €",
+    "price_2025": "7.990 €",
+    "price_2026": "8.190 €",
+    "images": [],
+    "specs": {
+      "Motor": "2-cilindrični, 649 cc",
+      "Snaga": "67 KS @ 8.000 o/min",
+      "Moment": "64 Nm @ 6.700 o/min",
+      "Težina": "187 kg",
+      "Rezervoar": "15 L"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Kawasaki KLX 300",
+    "brand": "Kawasaki",
+    "category": "Offroad",
+    "purpose": "Offroad",
+    "license_category": "A2",
+    "is_new": false,
+    "description": "Pouzdani enduro motocikl za lagani offroad i svakodnevnu vožnju. Odličan za početnike i iskusne vozače koji žele versatilnost.",
+    "price": "5.690 €",
+    "price_2025": "5.490 €",
+    "price_2026": "5.690 €",
+    "images": [],
+    "specs": {
+      "Motor": "1-cilindrični, 292 cc",
+      "Snaga": "26 KS",
+      "Mjenjač": "6-stupanjski",
+      "Težina": "137 kg",
+      "Rezervoar": "7.7 L"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Kawasaki Ninja 400",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "A2",
+    "is_new": false,
+    "description": "Savršen sport motocikl za A2 kategoriju. Lagani i agilni, s izgledom koji nadahnjuje Ninja ZX-10R. Idealan za početnike koji žele pravi sport osjećaj.",
+    "price": "6.490 €",
+    "price_2025": "6.290 €",
+    "price_2026": "6.490 €",
+    "images": [],
+    "specs": {
+      "Motor": "2-cilindrični, 399 cc",
+      "Snaga": "45 KS @ 10.000 o/min",
+      "Moment": "38 Nm @ 8.000 o/min",
+      "Težina": "167 kg",
+      "Rezervoar": "14 L"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kawasaki Z400",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "A2",
+    "is_new": false,
+    "description": "Naked verzija Ninja 400 — lakši pristup, isti motor i performanse. Odličan za svakodnevno korištenje i početnici u A2 kategoriji.",
+    "price": "6.190 €",
+    "price_2025": "5.990 €",
+    "price_2026": "6.190 €",
+    "images": [],
+    "specs": {
+      "Motor": "2-cilindrični, 399 cc",
+      "Snaga": "45 KS @ 10.000 o/min",
+      "Moment": "38 Nm @ 8.000 o/min",
+      "Težina": "164 kg",
+      "Rezervoar": "14 L"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Kawasaki Versys 650",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "purpose": "Adventure",
+    "license_category": "",
+    "is_new": true,
+    "description": "Pristupačni adventure-touring motocikl. Udoban, svestran i ekonomičan — idealan za svakodnevnu vožnju i vikend izlete.",
+    "price": "9.490 €",
+    "price_2025": "9.190 €",
+    "price_2026": "9.490 €",
+    "images": [],
+    "specs": {
+      "Motor": "2-cilindrični, 649 cc",
+      "Snaga": "69 KS @ 8.500 o/min",
+      "Moment": "64 Nm @ 7.000 o/min",
+      "Težina": "216 kg",
+      "Rezervoar": "21 L"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Kawasaki Vulcan S",
+    "brand": "Kawasaki",
+    "category": "Cruiser",
+    "purpose": "Cruiser",
+    "license_category": "",
+    "is_new": false,
+    "description": "Moderni cruiser s ergonomski prilagodljivim pozicijom vožnje. Styler s dušom — za one koji žele slobodu ceste uz komfor.",
+    "price": "8.990 €",
+    "price_2025": "8.790 €",
+    "price_2026": "8.990 €",
+    "images": [],
+    "specs": {
+      "Motor": "2-cilindrični, 649 cc",
+      "Snaga": "61 KS @ 7.500 o/min",
+      "Moment": "63 Nm @ 6.600 o/min",
+      "Težina": "226 kg",
+      "Rezervoar": "14 L"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Kawasaki Ninja H2 SX SE",
+    "brand": "Kawasaki",
+    "category": "Touring",
+    "purpose": "Touring",
+    "license_category": "",
+    "is_new": true,
+    "description": "Supercharged touring — jedinstven motocikl s kompresiranim motorom i 200+ KS za touring. Tehnološki vrhunac Kawasaki ponude.",
+    "price": "32.490 €",
+    "price_2025": "31.990 €",
+    "price_2026": "32.490 €",
+    "images": [],
+    "specs": {
+      "Motor": "4-cilindrični supercharged, 998 cc",
+      "Snaga": "200 KS @ 11.000 o/min",
+      "Moment": "137 Nm @ 8.500 o/min",
+      "Elektronika": "KTRC, KIBS, KCMF, IMU",
+      "Ovjes": "Showa elektronski",
+      "Težina": "260 kg"
+    }
+  }
+]
