@@ -238,6 +238,13 @@ def extract_all_images(html):
             if m and m.group(1) not in seen:
                 seen.add(m.group(1))
                 unique.append(BASE_EU + m.group(1))
+
+    # Sortiraj: _A.jpg (glavni snimak) dolazi prvi, zatim B, C...
+    def sort_key(url):
+        m = re.search(r'_([A-Z])\.(?:jpg|jpeg|png)', url, re.IGNORECASE)
+        return m.group(1).upper() if m else "Z"
+
+    unique.sort(key=sort_key)
     return unique
 
 
