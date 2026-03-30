@@ -16,7 +16,8 @@ export default function FilterBar({ active, search, onCategory, onSearch, total 
       {/* Search */}
       <div className="relative">
         <svg
-          className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500"
+          className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4"
+          style={{ color: "var(--muted)" }}
           fill="none" viewBox="0 0 24 24" stroke="currentColor"
         >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -27,12 +28,18 @@ export default function FilterBar({ active, search, onCategory, onSearch, total 
           placeholder="Pretraži modele..."
           value={search}
           onChange={(e) => onSearch(e.target.value)}
-          className="w-full bg-[#161616] border border-[#2a2a2a] rounded-lg pl-10 pr-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition-colors text-sm"
+          className="w-full rounded-lg pl-10 pr-4 py-3 text-sm focus:outline-none transition-colors"
+          style={{
+            background: "var(--surface)",
+            border: "1px solid var(--line)",
+            color: "var(--text)",
+          }}
         />
         {search && (
           <button
             onClick={() => onSearch("")}
-            className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-white"
+            className="absolute right-3 top-1/2 -translate-y-1/2 transition-colors"
+            style={{ color: "var(--muted)" }}
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -47,11 +54,12 @@ export default function FilterBar({ active, search, onCategory, onSearch, total 
           <button
             key={cat}
             onClick={() => onCategory(cat)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+            className="px-4 py-2 rounded-full text-sm font-medium transition-all duration-200"
+            style={
               active === cat
-                ? "bg-orange-500 text-white shadow-lg shadow-orange-500/25"
-                : "bg-[#161616] border border-[#2a2a2a] text-gray-400 hover:border-orange-500/50 hover:text-white"
-            }`}
+                ? { background: "var(--green)", color: "white", boxShadow: "0 4px 12px rgba(55,182,58,.3)" }
+                : { background: "var(--surface)", border: "1px solid var(--line)", color: "var(--muted)" }
+            }
           >
             {cat}
           </button>
@@ -59,9 +67,9 @@ export default function FilterBar({ active, search, onCategory, onSearch, total 
       </div>
 
       {/* Result count */}
-      <p className="text-gray-500 text-sm">
+      <p className="text-sm" style={{ color: "var(--muted)" }}>
         Pronađeno{" "}
-        <span className="text-orange-500 font-semibold">{total}</span>{" "}
+        <span className="font-semibold" style={{ color: "var(--green-dk)" }}>{total}</span>{" "}
         {total === 1 ? "model" : "modela"}
       </p>
     </div>

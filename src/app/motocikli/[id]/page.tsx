@@ -37,12 +37,12 @@ export default async function BikeDetailPage({ params }: Props) {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8">
-        <Link href="/" className="hover:text-orange-500 transition-colors">Početna</Link>
+      <nav className="flex items-center gap-2 text-sm mb-8" style={{ color: "var(--muted)" }}>
+        <Link href="/" className="transition-colors hover:underline" style={{ color: "var(--muted)" }}>Početna</Link>
         <span>/</span>
-        <Link href="/motocikli" className="hover:text-orange-500 transition-colors">Motocikli</Link>
+        <Link href="/motocikli" className="transition-colors hover:underline" style={{ color: "var(--muted)" }}>Motocikli</Link>
         <span>/</span>
-        <span className="text-white">{bike.name}</span>
+        <span style={{ color: "var(--text)" }}>{bike.name}</span>
       </nav>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -57,29 +57,29 @@ export default async function BikeDetailPage({ params }: Props) {
           {/* Badges */}
           <div className="flex flex-wrap gap-2 mb-4">
             {bike.is_new && (
-              <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+              <span className="text-white text-xs font-bold px-3 py-1 rounded-full" style={{ background: "var(--green)" }}>
                 NOVO {new Date().getFullYear()}
               </span>
             )}
-            <span className="bg-[#161616] border border-[#2a2a2a] text-gray-300 text-xs font-medium px-3 py-1 rounded-full">
+            <span className="text-xs font-medium px-3 py-1 rounded-full border" style={{ background: "rgba(55,182,58,.08)", color: "var(--green-dk)", borderColor: "rgba(55,182,58,.25)" }}>
               {bike.category}
             </span>
             {bike.license_category && (
-              <span className="bg-[#161616] border border-[#2a2a2a] text-gray-300 text-xs font-medium px-3 py-1 rounded-full">
+              <span className="text-xs font-medium px-3 py-1 rounded-full border" style={{ background: "var(--bg2)", color: "var(--muted)", borderColor: "var(--line)" }}>
                 Kategorija {bike.license_category}
               </span>
             )}
           </div>
 
-          <h1 className="text-3xl md:text-4xl font-black text-white mb-3">{bike.name}</h1>
-          <p className="text-gray-400 leading-relaxed mb-6">{bike.description}</p>
+          <h1 className="text-3xl md:text-4xl font-black mb-3" style={{ color: "var(--text)" }}>{bike.name}</h1>
+          <p className="leading-relaxed mb-6" style={{ color: "var(--muted)" }}>{bike.description}</p>
 
           {/* Price */}
           <div className="card p-5 mb-6">
-            <div className="text-gray-500 text-sm mb-1">Maloprodajna cijena</div>
-            <div className="text-4xl font-black text-orange-500 mb-1">{bike.price}</div>
+            <div className="text-sm mb-1" style={{ color: "var(--muted)" }}>Maloprodajna cijena</div>
+            <div className="text-4xl font-black mb-1" style={{ color: "var(--green-dk)" }}>{bike.price}</div>
             {bike.price_2025 && bike.price_2025 !== bike.price && (
-              <div className="text-xs text-gray-600">2025: {bike.price_2025}</div>
+              <div className="text-xs" style={{ color: "var(--muted)" }}>2025: {bike.price_2025}</div>
             )}
           </div>
 
@@ -92,7 +92,7 @@ export default async function BikeDetailPage({ params }: Props) {
               </svg>
               Pošalji upit
             </Link>
-            <a href="tel:+38549123456" className="btn-outline flex-1 justify-center">
+            <a href="tel:0013371059" className="btn-outline flex-1 justify-center">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -104,14 +104,14 @@ export default async function BikeDetailPage({ params }: Props) {
           {/* Specs */}
           {hasSpecs && (
             <div>
-              <h2 className="text-white font-bold text-lg mb-3">Tehničke specifikacije</h2>
+              <h2 className="font-bold text-lg mb-3" style={{ color: "var(--text)" }}>Tehničke specifikacije</h2>
               <div className="card overflow-hidden">
                 <table className="w-full text-sm">
                   <tbody>
                     {Object.entries(bike.specs).map(([key, value], i) => (
-                      <tr key={key} className={i % 2 === 0 ? "bg-[#161616]" : "bg-[#1a1a1a]"}>
-                        <td className="px-4 py-2.5 text-gray-500 font-medium w-1/2">{key}</td>
-                        <td className="px-4 py-2.5 text-white">{value}</td>
+                      <tr key={key} style={{ background: i % 2 === 0 ? "var(--bg)" : "var(--surface)" }}>
+                        <td className="px-4 py-2.5 font-medium w-1/2" style={{ color: "var(--muted)" }}>{key}</td>
+                        <td className="px-4 py-2.5" style={{ color: "var(--text)" }}>{value}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -123,10 +123,11 @@ export default async function BikeDetailPage({ params }: Props) {
       </div>
 
       {/* Back link */}
-      <div className="mt-12 pt-8 border-t border-[#2a2a2a]">
+      <div className="mt-12 pt-8 border-t" style={{ borderColor: "var(--line)" }}>
         <Link
           href="/motocikli"
-          className="text-gray-400 hover:text-orange-500 transition-colors flex items-center gap-2 text-sm"
+          className="flex items-center gap-2 text-sm transition-colors"
+          style={{ color: "var(--muted)" }}
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />

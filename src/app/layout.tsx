@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     template: "%s | Moto Jakopec",
   },
   description:
-    "Ovlašteni Kawasaki zastupnik. Prodaja motocikala, rezervnih dijelova i opreme. Posjetite nas u Krapini.",
-  keywords: ["kawasaki", "motocikli", "moto jakopec", "krapina", "prodaja motocikala"],
+    "Ovlašteni Kawasaki zastupnik. Prodaja motocikala, rezervnih dijelova i opreme. Posjetite nas u Samoboru.",
+  keywords: ["kawasaki", "motocikli", "moto jakopec", "samobor", "prodaja motocikala"],
   openGraph: {
     type: "website",
     locale: "hr_HR",
@@ -31,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="hr" className={inter.variable}>
-      <body className="min-h-screen flex flex-col bg-[#0f0f0f]">
+      <body className="min-h-screen flex flex-col" style={{background:"var(--bg)"}}>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

@@ -10,14 +10,21 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          orange: "#f97316",
-          dark:   "#0f0f0f",
-          card:   "#161616",
-          border: "#2a2a2a",
+          green:  "#37b63a",
+          dark:   "#218e28",
+          bg:     "#edf3ed",
+          bg2:    "#dfe8de",
+          text:   "#111611",
+          muted:  "#5b655d",
+          surface:"#ffffff",
         },
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+      },
+      borderRadius: {
+        "2xl": "26px",
+        "3xl": "32px",
       },
     },
   },

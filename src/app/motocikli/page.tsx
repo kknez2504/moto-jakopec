@@ -64,14 +64,15 @@ function MotocikliContent() {
         </div>
       ) : (
         <div className="text-center py-24">
-          <svg className="w-16 h-16 text-gray-700 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="w-16 h-16 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{color:"var(--muted)"}}>
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1}
               d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
-          <p className="text-gray-500 text-lg">Nema rezultata za &quot;{search}&quot;</p>
+          <p className="text-lg" style={{color:"var(--muted)"}}>Nema rezultata za &quot;{search}&quot;</p>
           <button
             onClick={() => { setSearch(""); setCategory("Sve"); }}
-            className="mt-4 text-orange-500 hover:text-orange-400 text-sm"
+            className="mt-4 text-sm hover:underline"
+            style={{color:"var(--green-dk)"}}
           >
             Resetiraj filtre
           </button>
@@ -83,7 +84,7 @@ function MotocikliContent() {
 
 export default function MotocikliPage() {
   return (
-    <Suspense fallback={<div className="max-w-7xl mx-auto px-4 py-12 text-gray-400">Učitavanje...</div>}>
+    <Suspense fallback={<div className="max-w-7xl mx-auto px-4 py-12" style={{color:"var(--muted)"}}>Učitavanje...</div>}>
       <MotocikliContent />
     </Suspense>
   );

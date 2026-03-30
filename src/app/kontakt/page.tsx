@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description: "Kontaktirajte Moto Jakopec — telefon, email ili posjetite nas u Krapini.",
+  description: "Kontaktirajte Moto Jakopec — telefon, email ili posjetite nas u Samoboru.",
 };
 
 const INFO = [
@@ -15,7 +15,7 @@ const INFO = [
       </svg>
     ),
     label: "Adresa",
-    value: "Vaša ulica bb, 49000 Krapina",
+    value: "Eugena Kvaternika 4, 10430 Samobor (Mala Rakovica)",
     href: null,
   },
   {
@@ -25,9 +25,9 @@ const INFO = [
           d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
       </svg>
     ),
-    label: "Telefon",
-    value: "+385 49 123 456",
-    href: "tel:+38549123456",
+    label: "Tel/Fax",
+    value: "01/3371-059",
+    href: "tel:0013371059",
   },
   {
     icon: (
@@ -37,8 +37,8 @@ const INFO = [
       </svg>
     ),
     label: "Email",
-    value: "info@moto-jakopec.com",
-    href: "mailto:info@moto-jakopec.com",
+    value: "moto.jakopec@gmail.com",
+    href: "mailto:moto.jakopec@gmail.com",
   },
   {
     icon: (
@@ -69,85 +69,125 @@ export default function KontaktPage() {
         <div className="space-y-5">
           {INFO.map((item) => (
             <div key={item.label} className="card p-5 flex items-start gap-4">
-              <div className="text-orange-500 shrink-0 mt-0.5">{item.icon}</div>
+              <div className="shrink-0 mt-0.5" style={{ color: "var(--green)" }}>{item.icon}</div>
               <div>
-                <div className="text-gray-500 text-xs font-medium uppercase tracking-wide mb-1">
+                <div className="text-xs font-medium uppercase tracking-wide mb-1" style={{ color: "var(--muted)" }}>
                   {item.label}
                 </div>
                 {item.href ? (
                   <a
                     href={item.href}
-                    className="text-white font-medium hover:text-orange-500 transition-colors"
+                    className="font-medium transition-colors hover:underline"
+                    style={{ color: "var(--text)" }}
                   >
                     {item.value}
                   </a>
                 ) : (
-                  <span className="text-white font-medium">{item.value}</span>
+                  <span className="font-medium" style={{ color: "var(--text)" }}>{item.value}</span>
                 )}
               </div>
             </div>
           ))}
+
+          {/* Map embed */}
+          <div className="card overflow-hidden">
+            <iframe
+              title="Moto Jakopec lokacija"
+              src="https://www.google.com/maps?q=Ul.+Eugena+Kvaternika+4,+10430,+Mala+Rakovica&output=embed"
+              width="100%"
+              height="260"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
         </div>
 
         {/* Contact form */}
         <div className="card p-6">
-          <h2 className="text-white font-bold text-xl mb-6">Pošalji upit</h2>
+          <h2 className="font-bold text-xl mb-6" style={{ color: "var(--text)" }}>Pošalji upit</h2>
           <form
-            action="mailto:info@moto-jakopec.com"
+            action="mailto:moto.jakopec@gmail.com"
             method="get"
             className="space-y-4"
           >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-gray-400 text-sm mb-1.5">Ime i prezime</label>
+                <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Ime i prezime</label>
                 <input
                   name="name"
                   type="text"
                   required
                   placeholder="Ivan Horvat"
-                  className="w-full bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-orange-500 transition-colors text-sm"
+                  className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors"
+                  style={{
+                    background: "var(--bg2)",
+                    border: "1px solid var(--line)",
+                    color: "var(--text)",
+                  }}
                 />
               </div>
               <div>
-                <label className="block text-gray-400 text-sm mb-1.5">Telefon</label>
+                <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Telefon</label>
                 <input
                   name="phone"
                   type="tel"
                   placeholder="+385 9x xxx xxxx"
-                  className="w-full bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-orange-500 transition-colors text-sm"
+                  className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors"
+                  style={{
+                    background: "var(--bg2)",
+                    border: "1px solid var(--line)",
+                    color: "var(--text)",
+                  }}
                 />
               </div>
             </div>
 
             <div>
-              <label className="block text-gray-400 text-sm mb-1.5">Email</label>
+              <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Email</label>
               <input
                 name="email"
                 type="email"
                 required
                 placeholder="ivan@email.com"
-                className="w-full bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-orange-500 transition-colors text-sm"
+                className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors"
+                style={{
+                  background: "var(--bg2)",
+                  border: "1px solid var(--line)",
+                  color: "var(--text)",
+                }}
               />
             </div>
 
             <div>
-              <label className="block text-gray-400 text-sm mb-1.5">Model koji vas zanima</label>
+              <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Model koji vas zanima</label>
               <input
                 name="model"
                 type="text"
                 placeholder="npr. Kawasaki Z900"
-                className="w-full bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-orange-500 transition-colors text-sm"
+                className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors"
+                style={{
+                  background: "var(--bg2)",
+                  border: "1px solid var(--line)",
+                  color: "var(--text)",
+                }}
               />
             </div>
 
             <div>
-              <label className="block text-gray-400 text-sm mb-1.5">Poruka</label>
+              <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Poruka</label>
               <textarea
                 name="body"
                 required
                 rows={4}
                 placeholder="Vaša poruka..."
-                className="w-full bg-[#1a1a1a] border border-[#2a2a2a] rounded-lg px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-orange-500 transition-colors text-sm resize-none"
+                className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors resize-none"
+                style={{
+                  background: "var(--bg2)",
+                  border: "1px solid var(--line)",
+                  color: "var(--text)",
+                }}
               />
             </div>
 
