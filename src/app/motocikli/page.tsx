@@ -7,7 +7,7 @@ import FilterBar from "@/components/FilterBar";
 import type { Motorcycle, Category } from "@/types/motorcycle";
 import modelsData from "@/data/models.json";
 
-const models = modelsData as Motorcycle[];
+const models = modelsData as unknown as Motorcycle[];
 
 export default function MotocikliPage() {
   const searchParams = useSearchParams();

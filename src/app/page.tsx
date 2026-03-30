@@ -3,7 +3,7 @@ import MotorcycleCard from "@/components/MotorcycleCard";
 import type { Motorcycle } from "@/types/motorcycle";
 import modelsData from "@/data/models.json";
 
-const models = modelsData as Motorcycle[];
+const models = modelsData as unknown as Motorcycle[];
 
 const FEATURED_COUNT = 6;
 
