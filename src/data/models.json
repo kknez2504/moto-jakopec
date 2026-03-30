@@ -1,217 +1,632 @@
 [
   {
     "id": 1,
+    "name": "Kawasaki Ninja H2R",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "",
+    "is_new": false,
+    "description": "Najmoćniji serijski motocikl na svijetu. Supercharged motor od 310 KS, karbon karoserija i aerodinamički paketi za stazu.",
+    "price": "59.438 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/nin/Resource_299074_24MY_Ninja_H2R_GY3_STU.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 2,
+    "name": "Kawasaki Ninja ZX-10RR",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "",
+    "is_new": false,
+    "description": "Homologirani superbike za stazu i cestu. Razvijen direktno iz WorldSBK iskustva s Öhlins ovjesom i Brembo kočnicama.",
+    "price": "30.609 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_325568_26ZX1003C_40TGN2DRF3CG_A_v2.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 3,
     "name": "Kawasaki Ninja ZX-10R",
     "brand": "Kawasaki",
     "category": "Sport",
     "purpose": "Sport",
     "license_category": "",
     "is_new": false,
-    "description": "Legendarni supersport motocikl s 200 KS, razvijen na temelju iskustva iz Superbike natjecanja. Elektronski paket svjetske klase.",
-    "price": "22.990 €",
-    "price_2025": "22.990 €",
-    "price_2026": "22.990 €",
-    "images": [],
-    "specs": {
-      "Motor": "4-cilindrični, 998 cc",
-      "Snaga": "203 KS @ 13.200 o/min",
-      "Moment": "114.9 Nm @ 11.400 o/min",
-      "Mjenjač": "6-stupanjski",
-      "Težina": "207 kg",
-      "Kočnice (pred.)": "Brembo Monobloc M50",
-      "Elektronika": "KTRC, KIBS, KQS, Launch Control"
-    }
+    "description": "Legendarni supersport s 200 KS. Bogata elektronika, IMU platforma i WorldSBK DNA u svakom detalju.",
+    "price": "20.510 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_324964_26ZX1003A_40TGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
   },
   {
-    "id": 2,
-    "name": "Kawasaki Z900",
+    "id": 4,
+    "name": "Kawasaki Ninja ZX-6R",
     "brand": "Kawasaki",
-    "category": "Naked",
-    "purpose": "Naked",
+    "category": "Sport",
+    "purpose": "Sport",
     "license_category": "",
-    "is_new": true,
-    "description": "Ikonični naked street fighter. Agresivan dizajn, snažan 948cc motor i bogata elektronika čine Z900 jednim od najpopularnijih naked motocikala.",
-    "price": "10.490 €",
-    "price_2025": "10.290 €",
-    "price_2026": "10.490 €",
-    "images": [],
-    "specs": {
-      "Motor": "4-cilindrični, 948 cc",
-      "Snaga": "125 KS @ 9.500 o/min",
-      "Moment": "98.6 Nm @ 7.700 o/min",
-      "Mjenjač": "6-stupanjski + quickshifter",
-      "Težina": "193 kg",
-      "Elektronika": "KTRC, KIBS, Power Mode"
-    }
+    "is_new": false,
+    "description": "Ikonični 636cc supersport — agilan, zabavan i snažan. Savršen balans između staze i ceste.",
+    "price": "13.689 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320148_26ZX636J_40TGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
   },
   {
-    "id": 3,
-    "name": "Kawasaki Versys 1000 SE",
+    "id": 5,
+    "name": "Kawasaki Ninja ZX-4RR",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "4-cilindrični 400cc motor u A2 paketu. Maksimalan sport osjećaj uz ograničenje snage za A2 kategoriju.",
+    "price": "10.234 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320398_26ZX400S_141GN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 6,
+    "name": "Kawasaki Ninja ZX-4R",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "Pristupačniji ulaz u 4-cilindrični sport segment. Pravi Ninja karakter u A2 paketu.",
+    "price": "9.462 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320402_26ZX400P_141BK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 7,
+    "name": "Kawasaki Ninja H2SX SE",
     "brand": "Kawasaki",
     "category": "Touring",
     "purpose": "Touring",
     "license_category": "",
     "is_new": false,
-    "description": "Ultimativni touring motocikl za dugopružne avanture. Elektronski ovjes Showa SKYHOOK, bogata oprema i komfor na visokoj razini.",
-    "price": "18.490 €",
-    "price_2025": "18.490 €",
-    "price_2026": "18.490 €",
-    "images": [],
-    "specs": {
-      "Motor": "4-cilindrični, 1.043 cc",
-      "Snaga": "120 KS @ 9.000 o/min",
-      "Moment": "102 Nm @ 7.500 o/min",
-      "Ovjes": "Showa SKYHOOK elektronski",
-      "Težina": "255 kg",
-      "Rezervoar": "21 L"
-    }
+    "description": "Supercharged sport-tourer s 200 KS. Elektronski ovjes, adaptivni farovi i touring oprema na najvišoj razini.",
+    "price": "30.386 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320163_26ZX1002R_40TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
   },
   {
-    "id": 4,
-    "name": "Kawasaki Z650RS",
+    "id": 8,
+    "name": "Kawasaki Ninja H2SX",
+    "brand": "Kawasaki",
+    "category": "Touring",
+    "purpose": "Touring",
+    "license_category": "",
+    "is_new": false,
+    "description": "Supercharged touring s kompresiranim motorom i izvanrednim performansama za dugopružne ture.",
+    "price": "27.511 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320158_26ZX1002P_40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 9,
+    "name": "Kawasaki Ninja 1100SX SE",
+    "brand": "Kawasaki",
+    "category": "Touring",
+    "purpose": "Touring",
+    "license_category": "",
+    "is_new": true,
+    "description": "Sport-tourer sljedeće generacije. Electronski ovjes, navigacija i sve što trebate za veliku turu.",
+    "price": "16.409 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/zx/Resource_315246_25_ZX1100HJ_240828.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 10,
+    "name": "Kawasaki Ninja 1100SX",
+    "brand": "Kawasaki",
+    "category": "Touring",
+    "purpose": "Touring",
+    "license_category": "",
+    "is_new": true,
+    "description": "Moćan 1100cc sport-tourer s bogatom elektronikom i sportskim karakterom na dugim rutama.",
+    "price": "14.750 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_321234_26ZX1100H_40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 11,
+    "name": "Kawasaki Ninja 650 SE",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "",
+    "is_new": false,
+    "description": "Najpopularniji Kawasaki za početnike i iskusne vozače. Uravnotežen, zabavan i praktičan za svaki dan.",
+    "price": "8.634 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/s/Resource_320273_26EX650P_S_44TGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 12,
+    "name": "Kawasaki Ninja 650",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "",
+    "is_new": false,
+    "description": "Klasična Ninja formula — dostupna cijena, jak karakter i svakodnevna upotrebljivost.",
+    "price": "8.449 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/s/Resource_320273_26EX650P_S_44TGN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 13,
+    "name": "Kawasaki Ninja 500 SE",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "Novi 500cc parallel-twin u modernom Ninja ruhu. Idealan za A2 kategoriju uz pravi sport izgled.",
+    "price": "7.378 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322737_26EX500J_44TGN3DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 14,
+    "name": "Kawasaki Ninja 500",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "Pristupačni ulaz u Ninja seriju za A2 vozače. Moderan dizajn i pouzdan motor.",
+    "price": "6.857 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322500_26EX500G_242BK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 15,
+    "name": "Kawasaki Ninja 125 SE",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "A1",
+    "is_new": false,
+    "description": "Pravi Ninja karakter u 125cc paketu. Za A1 kategoriju uz punokrvni sport izgled.",
+    "price": "5.665 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322818_26BX125C_47TGN1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 16,
+    "name": "Kawasaki Ninja 125",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "purpose": "Sport",
+    "license_category": "A1",
+    "is_new": false,
+    "description": "125cc Ninja za početnike — pravi dizajn velikog brata uz pristupačnu kategoriju.",
+    "price": "5.549 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322818_26BX125C_47TGN1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 17,
+    "name": "Kawasaki Z H2 SE",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "",
+    "is_new": false,
+    "description": "Supercharged naked — 200 KS bez karoserije. Najsnažniji naked Kawasaki s elektronskim ovjesom.",
+    "price": "21.940 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/r/Resource_320876_26ZR1000L_R_40TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 18,
+    "name": "Kawasaki Z H2",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "",
+    "is_new": false,
+    "description": "Supercharged naked s kompresiranim motorom. Brutalna snaga u street paketu.",
+    "price": "19.391 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/p/Resource_320867_26ZR1000K_P_40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 19,
+    "name": "Kawasaki Z 1100 SE",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "",
+    "is_new": true,
+    "description": "Novi flagship naked s 1100cc motorom. Agresivan dizajn i bogata elektronika nove generacije.",
+    "price": "13.533 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_323185_26ZR1100H_40TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 20,
+    "name": "Kawasaki Z 1100",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "",
+    "is_new": true,
+    "description": "Moćan 1100cc naked street fighter. Nasljednik Z1000 s novim motorom i modernom elektronikom.",
+    "price": "11.863 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_323134_26ZR1100G_40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 21,
+    "name": "Kawasaki Z 900 SE",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "",
+    "is_new": false,
+    "description": "Premium naked s elektronskim ovjesom i punom elektronikom. Z900 na najvišoj razini opreme.",
+    "price": "12.532 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320211_26ZR900T_40TGY2DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 22,
+    "name": "Kawasaki Z 900",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "",
+    "is_new": false,
+    "description": "Ikonični naked street fighter. Agresivan dizajn, 948cc motor i bogata elektronika.",
+    "price": "10.451 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320196_26ZR900S_40TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 23,
+    "name": "Kawasaki Z 650 S",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "",
+    "is_new": true,
+    "description": "Novi Z650S s Sport paketom. Sportskiji položaj i osvježen dizajn za urbanu vožnju.",
+    "price": "7.910 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_324316_26ER650W_44TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 24,
+    "name": "Kawasaki Z 650",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "",
+    "is_new": false,
+    "description": "Lagan, agilni i pristupačni naked. Savršen za grad i vikend izlete.",
+    "price": "7.812 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/s/Resource_320250_26ER650N_S_44TWT1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 25,
+    "name": "Kawasaki Z 125",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "purpose": "Naked",
+    "license_category": "A1",
+    "is_new": false,
+    "description": "Kompaktni Z naked za A1 kategoriju. Pravi Z karakter u urbanom 125cc paketu.",
+    "price": "5.187 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_322814_26BR125M_47TGY1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 26,
+    "name": "Kawasaki Z 900RS SE",
     "brand": "Kawasaki",
     "category": "Classic",
     "purpose": "Classic",
     "license_category": "",
     "is_new": false,
-    "description": "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih, uz modernru tehnologiju i pouzdanost. Savršen za svakodnevnu vožnju u gradu i izletima.",
-    "price": "8.190 €",
-    "price_2025": "7.990 €",
-    "price_2026": "8.190 €",
-    "images": [],
-    "specs": {
-      "Motor": "2-cilindrični, 649 cc",
-      "Snaga": "67 KS @ 8.000 o/min",
-      "Moment": "64 Nm @ 6.700 o/min",
-      "Težina": "187 kg",
-      "Rezervoar": "15 L"
-    }
+    "description": "Premium retro s elektronskim ovjesom i zlatnim Öhlins amortizerom. Najluđi retro Kawasaki.",
+    "price": "14.055 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/a/Resource_324753_26ZR902B_A40TBK1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
   },
   {
-    "id": 5,
-    "name": "Kawasaki KLX 300",
+    "id": 27,
+    "name": "Kawasaki Z 650RS SE",
     "brand": "Kawasaki",
-    "category": "Offroad",
-    "purpose": "Offroad",
-    "license_category": "A2",
-    "is_new": false,
-    "description": "Pouzdani enduro motocikl za lagani offroad i svakodnevnu vožnju. Odličan za početnike i iskusne vozače koji žele versatilnost.",
-    "price": "5.690 €",
-    "price_2025": "5.490 €",
-    "price_2026": "5.690 €",
-    "images": [],
-    "specs": {
-      "Motor": "1-cilindrični, 292 cc",
-      "Snaga": "26 KS",
-      "Mjenjač": "6-stupanjski",
-      "Težina": "137 kg",
-      "Rezervoar": "7.7 L"
-    }
-  },
-  {
-    "id": 6,
-    "name": "Kawasaki Ninja 400",
-    "brand": "Kawasaki",
-    "category": "Sport",
-    "purpose": "Sport",
-    "license_category": "A2",
-    "is_new": false,
-    "description": "Savršen sport motocikl za A2 kategoriju. Lagani i agilni, s izgledom koji nadahnjuje Ninja ZX-10R. Idealan za početnike koji žele pravi sport osjećaj.",
-    "price": "6.490 €",
-    "price_2025": "6.290 €",
-    "price_2026": "6.490 €",
-    "images": [],
-    "specs": {
-      "Motor": "2-cilindrični, 399 cc",
-      "Snaga": "45 KS @ 10.000 o/min",
-      "Moment": "38 Nm @ 8.000 o/min",
-      "Težina": "167 kg",
-      "Rezervoar": "14 L"
-    }
-  },
-  {
-    "id": 7,
-    "name": "Kawasaki Z400",
-    "brand": "Kawasaki",
-    "category": "Naked",
-    "purpose": "Naked",
-    "license_category": "A2",
-    "is_new": false,
-    "description": "Naked verzija Ninja 400 — lakši pristup, isti motor i performanse. Odličan za svakodnevno korištenje i početnici u A2 kategoriji.",
-    "price": "6.190 €",
-    "price_2025": "5.990 €",
-    "price_2026": "6.190 €",
-    "images": [],
-    "specs": {
-      "Motor": "2-cilindrični, 399 cc",
-      "Snaga": "45 KS @ 10.000 o/min",
-      "Moment": "38 Nm @ 8.000 o/min",
-      "Težina": "164 kg",
-      "Rezervoar": "14 L"
-    }
-  },
-  {
-    "id": 8,
-    "name": "Kawasaki Versys 650",
-    "brand": "Kawasaki",
-    "category": "Adventure",
-    "purpose": "Adventure",
+    "category": "Classic",
+    "purpose": "Classic",
     "license_category": "",
-    "is_new": true,
-    "description": "Pristupačni adventure-touring motocikl. Udoban, svestran i ekonomičan — idealan za svakodnevnu vožnju i vikend izlete.",
-    "price": "9.490 €",
-    "price_2025": "9.190 €",
-    "price_2026": "9.490 €",
-    "images": [],
-    "specs": {
-      "Motor": "2-cilindrični, 649 cc",
-      "Snaga": "69 KS @ 8.500 o/min",
-      "Moment": "64 Nm @ 7.000 o/min",
-      "Težina": "216 kg",
-      "Rezervoar": "21 L"
-    }
+    "is_new": false,
+    "description": "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih uz modernu tehnologiju i pouzdanost.",
+    "price": "8.441 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320232_26ER650R_44TBU1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
   },
   {
-    "id": 9,
+    "id": 28,
+    "name": "Kawasaki W 800",
+    "brand": "Kawasaki",
+    "category": "Classic",
+    "purpose": "Classic",
+    "license_category": "",
+    "is_new": false,
+    "description": "Prava retro ikona s paralel-twin motorom i vremenski provjerenim dizajnom. Za ljubitelje klasike.",
+    "price": "9.868 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/e/Resource_312864_25EJ800D_E_40RGD1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 29,
+    "name": "Kawasaki Meguro S1",
+    "brand": "Kawasaki",
+    "category": "Classic",
+    "purpose": "Classic",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "Oživljeni Meguro brend u modernom paketu. Elegantni 125cc klasik s Kawasaki pouzdanošću.",
+    "price": "5.795 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/a/Resource_315865_25BJ230B_A141GY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 30,
+    "name": "Kawasaki W 230",
+    "brand": "Kawasaki",
+    "category": "Classic",
+    "purpose": "Classic",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "Moderan retro u pristupačnom 230cc paketu. Savršen za A2 vozače koji vole klasičan stil.",
+    "price": "5.168 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320381_26BJ230A_141GN1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 31,
+    "name": "Kawasaki Vulcan S SE",
+    "brand": "Kawasaki",
+    "category": "Cruiser",
+    "purpose": "Cruiser",
+    "license_category": "",
+    "is_new": false,
+    "description": "Premium cruiser s ergonomski prilagodljivom pozicijom vožnje. Stil, udobnost i karakter.",
+    "price": "8.916 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/m/Resource_320137_26EN650D_M_44TGY1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 32,
     "name": "Kawasaki Vulcan S",
     "brand": "Kawasaki",
     "category": "Cruiser",
     "purpose": "Cruiser",
     "license_category": "",
     "is_new": false,
-    "description": "Moderni cruiser s ergonomski prilagodljivim pozicijom vožnje. Styler s dušom — za one koji žele slobodu ceste uz komfor.",
-    "price": "8.990 €",
-    "price_2025": "8.790 €",
-    "price_2026": "8.990 €",
-    "images": [],
-    "specs": {
-      "Motor": "2-cilindrični, 649 cc",
-      "Snaga": "61 KS @ 7.500 o/min",
-      "Moment": "63 Nm @ 6.600 o/min",
-      "Težina": "226 kg",
-      "Rezervoar": "14 L"
-    }
+    "description": "Moderni cruiser s adjustable ergonomijom. Za sve koji žele slobodu ceste uz komfor.",
+    "price": "8.593 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/m/Resource_320137_26EN650D_M_44TGY1DRF1CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
   },
   {
-    "id": 10,
-    "name": "Kawasaki Ninja H2 SX SE",
+    "id": 33,
+    "name": "Kawasaki Eliminator 500 SE",
     "brand": "Kawasaki",
-    "category": "Touring",
-    "purpose": "Touring",
+    "category": "Cruiser",
+    "purpose": "Cruiser",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "Novi Eliminator u A2 paketu s SE opremom. Low-seat cruiser za svaki dan.",
+    "price": "7.184 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320187_26EL450B_44TGY1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 34,
+    "name": "Kawasaki Eliminator 500",
+    "brand": "Kawasaki",
+    "category": "Cruiser",
+    "purpose": "Cruiser",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "Moderni low-seat cruiser za A2 kategoriju. Pristupačan ulaz u cruiser segment.",
+    "price": "6.785 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_320178_26EL450A_44TRD1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 35,
+    "name": "Kawasaki Versys 1100 SE",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "purpose": "Adventure",
+    "license_category": "",
+    "is_new": false,
+    "description": "Ultimativni adventure-tourer s elektronskim ovjesom i kompletnom touring opremom.",
+    "price": "16.827 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/ver/Resource_323107_26MY_Versys_1100_SE_BU1_TDF.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 36,
+    "name": "Kawasaki Versys 1100 S",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "purpose": "Adventure",
+    "license_category": "",
+    "is_new": false,
+    "description": "Moćan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom.",
+    "price": "15.263 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/ver/Resource_323109_26MY_Versys_1100_S_BU1_TDF.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 37,
+    "name": "Kawasaki Versys 1100",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "purpose": "Adventure",
+    "license_category": "",
+    "is_new": false,
+    "description": "Klasični Versys recept uz 1100cc snagu. Svestran, udoban i pouzdan za duge ture.",
+    "price": "13.556 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/ver/Resource_323108_26MY_Versys_1100_GY1_TDF.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 38,
+    "name": "Kawasaki Versys 650",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "purpose": "Adventure",
     "license_category": "",
     "is_new": true,
-    "description": "Supercharged touring — jedinstven motocikl s kompresiranim motorom i 200+ KS za touring. Tehnološki vrhunac Kawasaki ponude.",
-    "price": "32.490 €",
-    "price_2025": "31.990 €",
-    "price_2026": "32.490 €",
-    "images": [],
-    "specs": {
-      "Motor": "4-cilindrični supercharged, 998 cc",
-      "Snaga": "200 KS @ 11.000 o/min",
-      "Moment": "137 Nm @ 8.500 o/min",
-      "Elektronika": "KTRC, KIBS, KCMF, IMU",
-      "Ovjes": "Showa elektronski",
-      "Težina": "260 kg"
-    }
+    "description": "Najpristupačniji adventure-tourer. Udoban, svestran i ekonomičan za svakodnevnu vožnju.",
+    "price": "8.937 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/j/Resource_320369_26KLE650H_J_44TBU1DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 39,
+    "name": "Kawasaki KLE 500 SE",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "purpose": "Adventure",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "Novi KLE500 SE — pravi mali adventure u A2 paketu s bogatom opremom.",
+    "price": "7.442 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_324442_26KLE500D_44TWT2DRF3CG_A.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 40,
+    "name": "Kawasaki KLE 500",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "purpose": "Adventure",
+    "license_category": "A2",
+    "is_new": true,
+    "description": "Ulazni adventure motocikl za A2 kategoriju. Robusni dizajn i pouzdan motor.",
+    "price": "6.664 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/Resource_327953_26KLE500C_44TGY1DRF3CG_A_v2.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 41,
+    "name": "Kawasaki Ninja e-1",
+    "brand": "Kawasaki",
+    "category": "Electric",
+    "purpose": "Electric",
+    "license_category": "A2",
+    "is_new": false,
+    "description": "Električni Ninja za urbanu vožnju. Nulta emisija uz prepoznatljiv Ninja dizajn i A2 pristupačnost.",
+    "price": "9.095 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/nin/Resource_298748_24MY_Ninja_e-1_SL1_STU.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
+  },
+  {
+    "id": 42,
+    "name": "Kawasaki Z e-1",
+    "brand": "Kawasaki",
+    "category": "Electric",
+    "purpose": "Electric",
+    "license_category": "A2",
+    "is_new": false,
+    "description": "Električni Z naked za grad. Tiha i čista vožnja s prepoznatljivim Z karakterom.",
+    "price": "8.492 €",
+    "images": [
+      "https://www.kawasaki.eu/content/dam/products/pim/studio/z/Resource_298786_24MY_Z_e-1_SL1_STU.jpg/jcr:content/renditions/cq5dam.web.1280.1280.png"
+    ],
+    "specs": {}
   }
 ]
