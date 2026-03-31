@@ -350,7 +350,11 @@ def extract_images(html, page_url):
                          '_m.jpg', '_m.png', 'K-CARE', 'SLO-flag', 'ani_ski']
         if any(p.lower() in img.lower() for p in skip_patterns):
             continue
+        # Preskoči numbered navigation thumbnails (1..png, 2..png itd.)
         if re.match(r'^\d+\.\.(png|jpg)$', img, re.IGNORECASE):
+            continue
+        # Preskoči thumbnail verzije s dimenzijama u imenu (npr. -1066x800_150)
+        if re.search(r'-\d+x\d+_\d+', img):
             continue
         full = img if img.startswith('http') else urllib.parse.urljoin(page_url, img)
         result.append(full)
@@ -360,20 +364,47 @@ def extract_images(html, page_url):
 def img_sort_key(url):
     """
     Sortiraj slike: studio/cijelo vozilo prvo, detalji zadnji.
-    Podrzava dva sustava imenovanja na dks.si:
-      - Motocikli: bez 'FT' u imenu = glavna slika; s 'FT' = detalj
-      - ATV/Jet Ski: _STU_ = studio; _DET_ = detalj; _ACT_/_STY_ = srednje
+
+    dks.si konvencije:
+    Stariji motocikli: _STU (1).jpg = studio, _STU_(2) = studio
+    Noviji motocikli: DRF/DLF = 3/4 front (hero shot), DRS/DLS = bočni,
+                      NRS/NLS = natural side, FCW/FME/AFA = feature/detalj
+    ATV/Jet Ski/SxS: _STU_ = studio, _DET_ = detalj, _ACT_/_STY_ = action
     """
     fname = os.path.basename(urllib.parse.unquote(url)).lower()
-    # ATV / Jet Ski / SxS konvencija
-    if '_stu_' in fname:  return "0_" + fname   # Studio snimak - cijelo vozilo
-    if '_sty_' in fname:  return "2_" + fname   # Styling
-    if '_act_' in fname:  return "3_" + fname   # Action
-    if '_det_' in fname:  return "8_" + fname   # Detalj - na kraj
-    # Motocikl konvencija: FT = feature/detail snimak
-    if ' ft' in fname or '_ft' in fname: return "7_" + fname
-    # Zadrzavamo redoslijed stranice za ostale (najcesce glavna slika)
-    return "1_" + fname
+
+    # ── Studio snimci (cijelo vozilo, bijela pozadina) ────────────────────────
+    # Stariji format: "2022_Ninja H2R_GY3_STU (1).jpg" — _stu s razmakom ili _
+    if '_stu' in fname:   return "0_" + fname
+    # ATV/Jet Ski format
+    if '_sty_' in fname:  return "1_" + fname   # Styling / bočni
+
+    # ── Novi format motocikli: kodni sufiks u imenu ───────────────────────────
+    # DRF/DLF = Direct Right/Left Front (3/4 kut - glavni hero snimak)
+    if 'drf' in fname or 'dlf' in fname:   return "0_" + fname
+    # DRS/DLS = Direct Right/Left Side (bočni snimak)
+    if 'drs' in fname or 'dls' in fname:   return "1_" + fname
+    # NRS/NLS = Natural Right/Left Side
+    if 'nrs' in fname or 'nls' in fname:   return "2_" + fname
+    # DRB/DLB = Direct Right/Left Back (stražnji)
+    if 'drb' in fname or 'dlb' in fname:   return "3_" + fname
+
+    # ── Action / styling ─────────────────────────────────────────────────────
+    if '_act_' in fname:  return "4_" + fname
+    if 'afa' in fname or 'arfa' in fname or 'alfa' in fname: return "4_" + fname
+
+    # ── Feature / detalj snimci (na kraj) ────────────────────────────────────
+    if '_det_' in fname:  return "8_" + fname
+    # FCW = Feature Close-up (cockpit/dashboard), FME = Feature Motor/Engine
+    if 'fcw' in fname or 'fme' in fname or 'fcb' in fname: return "8_" + fname
+    # Stariji FT format (feature/detalj)
+    if ' ft' in fname or '_ft' in fname:   return "8_" + fname
+    # Slike s "Highly durable", "paint area" i slično u imenu
+    if 'durable' in fname or 'paint area' in fname or 'detail' in fname:
+        return "8_" + fname
+
+    # ── Sve ostalo u sredinu ──────────────────────────────────────────────────
+    return "5_" + fname
 
 
 def extract_specs(html):
