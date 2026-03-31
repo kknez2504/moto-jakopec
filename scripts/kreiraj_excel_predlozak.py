@@ -13,7 +13,7 @@ NAPOMENA o padajućim izbornicima:
   Za nove BRENDOVE ipak pokreni skriptu jer treba ažurirati i brands.json.
 """
 
-import os
+import os, json
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
@@ -23,6 +23,7 @@ from openpyxl.workbook.defined_name import DefinedName
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR    = os.path.join(SCRIPT_DIR, "..")
 EXCEL_PATH  = os.path.join(ROOT_DIR, "proizvodi.xlsx")
+JSON_PATH   = os.path.join(ROOT_DIR, "src", "data", "products.json")
 DD_SHEET    = "Drop Down"   # naziv sheeta s listama za padajuće izbornike
 
 # ── Podaci brendova ──────────────────────────────────────────────────────────
@@ -270,28 +271,66 @@ def ensure_brand_column(ws):
     ws.column_dimensions[get_column_letter(next_col)].width = 14
     print(f"  Stupac 'brand' dodan u Proizvodi (kolona {get_column_letter(next_col)})")
 
-# ── Kreira prazni Proizvodi sheet ako xlsx ne postoji ─────────────────────────
+# ── Kreira Proizvodi sheet (učita xlsx ili regenerira iz products.json) ────────
+PROD_HEADERS = ["id","name","category","subcategory","price",
+                "description","image_folder","is_new","brand"]
+PROD_COL_WIDTHS = {"id":5,"name":35,"category":12,"subcategory":18,
+                   "price":16,"description":55,"image_folder":25,"is_new":8,"brand":14}
+
+def _write_prod_headers(ws):
+    fill, font, center, border = header_style("1B5E20")
+    db = data_border()
+    for ci, col in enumerate(PROD_HEADERS, start=1):
+        cell = ws.cell(row=1, column=ci, value=col)
+        cell.font = font; cell.fill = fill
+        cell.alignment = center; cell.border = border
+        ws.column_dimensions[get_column_letter(ci)].width = PROD_COL_WIDTHS.get(col, 15)
+    ws.freeze_panes = "A2"
+    ws.row_dimensions[1].height = 30
+    return db
+
+def _fill_from_json(ws, products):
+    db = data_border()
+    for row_idx, p in enumerate(products, start=2):
+        rf = FILLS[row_idx % 2]
+        row_data = {
+            "id":           p.get("id", row_idx - 1),
+            "name":         p.get("name", ""),
+            "category":     p.get("category", ""),
+            "subcategory":  p.get("subcategory", ""),
+            "price":        p.get("price", ""),
+            "description":  p.get("description", ""),
+            "image_folder": p.get("image_folder", ""),
+            "is_new":       p.get("is_new", False),
+            "brand":        p.get("brand", ""),
+        }
+        for ci, col in enumerate(PROD_HEADERS, start=1):
+            c = ws.cell(row=row_idx, column=ci, value=row_data[col])
+            c.fill = rf; c.border = db
+            c.alignment = Alignment(vertical="center")
+        ws.row_dimensions[row_idx].height = 18
+
 def ensure_workbook():
     if os.path.exists(EXCEL_PATH):
         wb = openpyxl.load_workbook(EXCEL_PATH)
         print(f"Učitan: {EXCEL_PATH}")
     else:
+        # xlsx ne postoji — kreiraj i popuni iz products.json
         wb = openpyxl.Workbook()
         ws = wb.active
         ws.title = "Proizvodi"
-        PROD_HEADERS = ["id","name","category","subcategory","price",
-                        "description","image_folder","is_new","brand"]
-        fill, font, center, border = header_style("1B5E20")
-        col_widths = {"id":5,"name":35,"category":12,"subcategory":18,
-                      "price":16,"description":55,"image_folder":25,"is_new":8,"brand":14}
-        for ci, col in enumerate(PROD_HEADERS, start=1):
-            cell = ws.cell(row=1, column=ci, value=col)
-            cell.font = font; cell.fill = fill
-            cell.alignment = center; cell.border = border
-            ws.column_dimensions[get_column_letter(ci)].width = col_widths.get(col, 15)
-        ws.freeze_panes = "A2"
-        ws.row_dimensions[1].height = 30
-        print(f"Kreiran novi: {EXCEL_PATH}")
+        _write_prod_headers(ws)
+
+        products = []
+        if os.path.exists(JSON_PATH):
+            with open(JSON_PATH, encoding="utf-8") as f:
+                products = json.load(f)
+
+        if products:
+            _fill_from_json(ws, products)
+            print(f"Kreiran iz products.json: {EXCEL_PATH} ({len(products)} proizvoda)")
+        else:
+            print(f"Kreiran prazan: {EXCEL_PATH}  (products.json je prazan)")
     return wb
 
 # ── Upute sheet ───────────────────────────────────────────────────────────────
