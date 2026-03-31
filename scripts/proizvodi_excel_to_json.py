@@ -10,12 +10,26 @@ Pokreni nakon svake izmjene u Excelu:
 import json, os, re
 import openpyxl
 
-SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
-ROOT_DIR    = os.path.join(SCRIPT_DIR, "..")
-EXCEL_PATH  = os.path.join(ROOT_DIR, "proizvodi.xlsx")
-JSON_PATH   = os.path.join(ROOT_DIR, "src", "data", "products.json")
-BRANDS_PATH = os.path.join(ROOT_DIR, "src", "data", "brands.json")
-IMG_BASE    = os.path.join(ROOT_DIR, "public", "images")
+SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
+ROOT_DIR     = os.path.join(SCRIPT_DIR, "..")
+EXCEL_PATH   = os.path.join(ROOT_DIR, "proizvodi.xlsx")
+JSON_PATH    = os.path.join(ROOT_DIR, "src", "data", "products.json")
+BRANDS_PATH  = os.path.join(ROOT_DIR, "src", "data", "brands.json")
+IMG_BASE     = os.path.join(ROOT_DIR, "public", "images")
+BRENDOVI_DIR = os.path.join(ROOT_DIR, "public", "images", "brendovi")
+
+LOGO_EXTS = [".svg", ".png", ".jpg", ".jpeg", ".ico", ".webp"]
+
+def find_logo_path(logo_folder: str) -> str:
+    """Pronađi stvarnu putanju loga — provjeri koji fajl postoji."""
+    if not logo_folder:
+        return ""
+    for ext in LOGO_EXTS:
+        path = os.path.join(BRENDOVI_DIR, f"{logo_folder}{ext}")
+        if os.path.exists(path):
+            return f"/images/brendovi/{logo_folder}{ext}"
+    # Fallback: SVG placeholder
+    return f"/images/brendovi/{logo_folder}.svg"
 
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
@@ -77,7 +91,7 @@ def read_brands(wb, sheet_name, category_key):
         brands.append({
             "brand_id": brand_id,
             "name":     name,
-            "logo":     f"/images/brendovi/{logo_folder}.svg" if logo_folder else "",
+            "logo":     find_logo_path(logo_folder),
             "website":  website or "",
             "active":   active,
         })

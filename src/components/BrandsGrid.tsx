@@ -46,7 +46,7 @@ export default function BrandsGrid({ category }: Props) {
                   src={brand.logo}
                   alt={brand.name}
                   fill
-                  unoptimized={brand.logo.endsWith(".svg")}
+                  unoptimized={/\.(svg|ico)$/.test(brand.logo)}
                   className="object-contain"
                   sizes="40px"
                 />
