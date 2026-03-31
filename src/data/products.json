@@ -3,11 +3,11 @@
     "id": 1,
     "name": "kaciga",
     "category": "Oprema",
-    "subcategory": "kacige",
+    "subcategory": "Jakne",
     "price": 5,
     "description": "Bla bla bla",
     "image_folder": "01 kaciga",
-    "brand": "prox",
+    "brand": "airoh",
     "is_new": true,
     "images": [
       "/images/oprema/01 kaciga/img_01.jpg"
@@ -17,11 +17,11 @@
     "id": 2,
     "name": "zupcanik",
     "category": "Dijelovi",
-    "subcategory": "filteri",
+    "subcategory": "Ulja i maziva",
     "price": 5,
     "description": "Bla bla bla",
     "image_folder": "01 zupcanik",
-    "brand": "airoh",
+    "brand": "wiseco",
     "is_new": true,
     "images": [
       "/images/dijelovi/01 zupcanik/img_01.jpg"
