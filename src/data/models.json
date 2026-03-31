@@ -2,12 +2,11 @@
   {
     "id": 1,
     "name": "Kawasaki Ninja H2R",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "",
     "is_new": false,
-    "description": "Najsnažniji serijski motocikl na svijetu. Supercharged motor od 310 KS, karbon karoserija i aerodinamički dodaci za stazu.",
     "price": "59.438 €",
+    "description": "Najsnažniji serijski motocikl na svijetu. Supercharged motor od 310 KS, karbon karoserija i aerodinamički dodaci za stazu.",
     "images": [
       "/images/01-ninja-h2r/img_01.jpg",
       "/images/01-ninja-h2r/img_02.jpg",
@@ -59,12 +58,11 @@
   {
     "id": 2,
     "name": "Kawasaki Ninja ZX-10RR",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "",
     "is_new": false,
-    "description": "Homologirani superbike za stazu i cestu. WorldSBK iskustvo, Ohlins ovjes i Brembo kočnice.",
     "price": "30.609 €",
+    "description": "Homologirani superbike za stazu i cestu. WorldSBK iskustvo, Ohlins ovjes i Brembo kočnice.",
     "images": [
       "/images/02-ninja-zx-10rr/img_01.png",
       "/images/02-ninja-zx-10rr/img_02.png",
@@ -112,12 +110,11 @@
   {
     "id": 3,
     "name": "Kawasaki Ninja ZX-10R",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "",
     "is_new": false,
-    "description": "Legendarni supersport s 200 KS. Bogata elektronika, IMU platforma i WorldSBK DNA.",
     "price": "20.510 €",
+    "description": "Legendarni supersport s 200 KS. Bogata elektronika, IMU platforma i WorldSBK DNA.",
     "images": [
       "/images/03-ninja-zx-10r/img_01.jpg",
       "/images/03-ninja-zx-10r/img_02.jpg",
@@ -169,12 +166,11 @@
   {
     "id": 4,
     "name": "Kawasaki Ninja ZX-6R",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "",
     "is_new": false,
-    "description": "Ikonični 636cc supersport — agilan i snažan. Savršen balans između staze i ceste.",
     "price": "13.689 €",
+    "description": "Ikonični 636cc supersport — agilan i snažan. Savršen balans između staze i ceste.",
     "images": [
       "/images/04-ninja-zx-6r/img_01.jpg",
       "/images/04-ninja-zx-6r/img_02.jpg",
@@ -240,12 +236,11 @@
   {
     "id": 5,
     "name": "Kawasaki Ninja ZX-4RR",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "A2",
     "is_new": true,
-    "description": "4-cilindrični 400cc motor u A2 paketu. Maksimalan sport osjećaj uz A2 ograničenje snage.",
     "price": "10.234 €",
+    "description": "4-cilindrični 400cc motor u A2 paketu. Maksimalan sport osjećaj uz A2 ograničenje snage.",
     "images": [
       "/images/05-ninja-zx-4rr/img_01.jpg",
       "/images/05-ninja-zx-4rr/img_02.jpg",
@@ -310,12 +305,11 @@
   {
     "id": 6,
     "name": "Kawasaki Ninja ZX-4R",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "A2",
     "is_new": true,
-    "description": "Pristupačniji ulaz u 4-cilindrični sport segment. Pravi Ninja karakter u A2 paketu.",
     "price": "9.462 €",
+    "description": "Pristupačniji ulaz u 4-cilindrični sport segment. Pravi Ninja karakter u A2 paketu.",
     "images": [
       "/images/06-ninja-zx-4r/img_01.jpg",
       "/images/06-ninja-zx-4r/img_02.jpg",
@@ -362,12 +356,11 @@
   {
     "id": 7,
     "name": "Kawasaki Ninja H2SX SE",
-    "brand": "Kawasaki",
     "category": "Touring",
     "license_category": "",
     "is_new": false,
-    "description": "Supercharged sport-tourer s 200 KS. Elektronski ovjes, adaptivni farovi i vrhunska touring oprema.",
     "price": "30.386 €",
+    "description": "Supercharged sport-tourer s 200 KS. Elektronski ovjes, adaptivni farovi i vrhunska touring oprema.",
     "images": [
       "/images/07-ninja-h2sx-se/img_01.jpg",
       "/images/07-ninja-h2sx-se/img_02.jpg",
@@ -445,23 +438,22 @@
       "Mokra tea": "267 kg",
       "Posoda goriva": "19 litrov",
       "Poraba goriva": "5,4 /100km",
+      "Tehnologije": "TFT barvni, tankoplastni tranzistorski merilnik, ACC adaptivni radarski tempomat, FCW opozorilo pred trkom spredaj, BSD zaznavanje mrtvega kota v vzvratnih ogledalih, KTRC kontrola oprijema, KEBC nadzor zaviranja z motorja, KECS elektronsko nadzorovano vzmetenje, KLCM nain nadzora speljevanja, VHA sistem zadrevanja vozila, KQS dvosmerni hitri prestavljalnik, IMU inercialma merilna enota, KCMF funkcija kontrole v zavijih, KIBS inteligentni protiblokirni zavorni system, 3 naini moi, kazalnik varne porabe goriva, kazalnik prestave, KSC povezljivost s pametnim telefonom, LED diodne lui, ESS signal zaustavitve v sili, KIPASS inteligentni sistem bliinske aktivacije zagona, TPMS spremljanje tlaka v pnevmatikah, SPIN - infozabava (stiki, telefon, zemljevidi, glasba, koledar, navigacija, ...), AHB samodelji vklop dolge lui",
+      "Oprema Performance": "Izpuni lonec Euro 5+ Akrapovi Titanium, zaita motorja, zatemnjen vetrobran",
       "Izpust CO2": "122 g/km",
       "Emisijski razred": "Euro 5+",
-      "Tehnologije": "TFT barvni, tankoplastni tranzistorski merilnik, ACC adaptivni radarski tempomat, FCW opozorilo pred trkom spredaj, BSD zaznavanje mrtvega kota v vzvratnih ogledalih, KTRC kontrola oprijema, KEBC nadzor zaviranja z motorja, KECS elektronsko nadzorovano vzmetenje, KLCM nain nadzora speljevanja, VHA sistem zadrevanja vozila, KQS dvosmerni hitri prestavljalnik, IMU inercialma merilna enota, KCMF funkcija kontrole v zavijih, KIBS inteligentni protiblokirni zavorni system, 3 naini moi, kazalnik varne porabe goriva, kazalnik prestave, KSC povezljivost s pametnim telefonom, LED diodne lui, ESS signal zaustavitve v sili, KIPASS inteligentni sistem bliinske aktivacije zagona, TPMS spremljanje tlaka v pnevmatikah, SPIN - infozabava (stiki, telefon, zemljevidi, glasba, koledar, navigacija, ...), AHB samodelji vklop dolge lui",
       "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi",
-      "Oprema Performance": "Izpuni lonec Euro 5+ Akrapovi Titanium, zaita motorja, zatemnjen vetrobran",
       "Oprema Performance Tourer": "2 x 28 l kovka v barvi, notranji torbi, izpuni lonec Akrapovi Titanium, zaita motorja, zatemnjen vetrobran"
     }
   },
   {
     "id": 8,
     "name": "Kawasaki Ninja H2SX",
-    "brand": "Kawasaki",
     "category": "Touring",
     "license_category": "",
     "is_new": false,
-    "description": "Supercharged touring s kompresiranim motorom za dugopružne ture.",
     "price": "27.511 €",
+    "description": "Supercharged touring s kompresiranim motorom za dugopružne ture.",
     "images": [
       "/images/08-ninja-h2sx/img_01.jpg",
       "/images/08-ninja-h2sx/img_02.jpg",
@@ -517,23 +509,22 @@
       "Mokra tea": "266 kg",
       "Posoda goriva": "19 litrov",
       "Poraba goriva": "5,4 /100km",
+      "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, ACC adaptivni radarski tempomat, FCW opozorilo pred trkom spredaj, BSD zaznavanje mrtvega kota v vzvratnig ogledalih, KTRC kontrola oprijema, KEBC nadzor zaviranja z motorjem, KLCM naina nadzora speljevanja, VHA sistem zadrrvanja vozila, KQS dvosmerni hitri prestavljalnik, IMU inercialna merilna enota, KCMF funkcija kontrole v zavojih, KIBS inteligentni protiblokirni zavorni sistem, 3 naini moi, kazalnik varne porabe goriva, kazalnik prestave, KSC povezljivost s pametnim telefonom, LED diodne lui, ESS signal zaustavitve v sili, KIPASS inteligentni sistem bliinske aktivacije zagona, TPMS spremljanje tlaka v pnevmatikah, SPIN - infozabava (stiki, telefon, zemljevidi, glasba, koledar, navigacija, ...), AHB samodejni vklop dolge lui",
+      "Oprema Performance": "Izpuni lonec Euro 5+ Akrapovi Titanium, zaita motorja, zatemnjen vetrobran",
       "Izpust CO2": "122 g/km",
       "Emisijski razred": "Euro 5+",
-      "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, ACC adaptivni radarski tempomat, FCW opozorilo pred trkom spredaj, BSD zaznavanje mrtvega kota v vzvratnig ogledalih, KTRC kontrola oprijema, KEBC nadzor zaviranja z motorjem, KLCM naina nadzora speljevanja, VHA sistem zadrrvanja vozila, KQS dvosmerni hitri prestavljalnik, IMU inercialna merilna enota, KCMF funkcija kontrole v zavojih, KIBS inteligentni protiblokirni zavorni sistem, 3 naini moi, kazalnik varne porabe goriva, kazalnik prestave, KSC povezljivost s pametnim telefonom, LED diodne lui, ESS signal zaustavitve v sili, KIPASS inteligentni sistem bliinske aktivacije zagona, TPMS spremljanje tlaka v pnevmatikah, SPIN - infozabava (stiki, telefon, zemljevidi, glasba, koledar, navigacija, ...), AHB samodejni vklop dolge lui",
       "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi",
-      "Oprema Performance": "Izpuni lonec Euro 5+ Akrapovi Titanium, zaita motorja, zatemnjen vetrobran",
       "Oprema Performance Tourer": "2 x 28 l kovka v barvi, notranji torbi, izpuni lonec Akrapovi Titanium, zaita motorja, zatemnjen vetrobran"
     }
   },
   {
     "id": 9,
     "name": "Kawasaki Ninja 1100SX SE",
-    "brand": "Kawasaki",
     "category": "Touring",
     "license_category": "",
     "is_new": true,
-    "description": "Sport-tourer sljedeće generacije. Elektronski ovjes i sve što trebate za veliku turu.",
     "price": "16.409 €",
+    "description": "Sport-tourer sljedeće generacije. Elektronski ovjes i sve što trebate za veliku turu.",
     "images": [
       "/images/09-ninja-1100sx-se/img_01.jpg",
       "/images/09-ninja-1100sx-se/img_02.jpg",
@@ -600,21 +591,20 @@
       "Izpusti CO2": "126 g/km",
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, ETV elektronska loputa plina, ECC elektronski tempomat, KTRC 3-nainski nadzor oprijema, IMU inercialna merilna enota, KCMF funkcija kontrole v zavojih, KIBS Inteligentni protiblokirni zavorni sistem, KQS dvosmerni hitri prestavljalnik od 1.500 o/min, KSC povezljivost s pametnim telefonom z glasovnimi ukazi*, 2 naina moi, LED diodna arometa, kazalnik varne porabe goriva, kazalnik prestave, ogrevane roke, UBS vtinica, nastavljiv vetrobran",
-      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
-      "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi, zaita TFT, veji zatemnjen vetrobran, 12V vtinica, nosilec telefona",
       "Oprema Performance": "Zaita TFT, izpuni lonec (karbon) Akrapovi, pokrov sedea sovoznika v barvi, zaita posode goriva, zaita motorja",
-      "Oprema Performance Tourer": "2 x 28 l kovka v barvi, notranji torbi, zaita TFT, veji zatemnjen vetrobran, 12V vtinica, nosilec telefona, izpuni lonec (karbon) Akrapovi, pokrov sedea sovoznika v barvi, zaita posode goriva, zaita motorja"
+      "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi, zaita TFT, veji zatemnjen vetrobran, 12V vtinica, nosilec telefona",
+      "Oprema Performance Tourer": "2 x 28 l kovka v barvi, notranji torbi, zaita TFT, veji zatemnjen vetrobran, 12V vtinica, nosilec telefona, izpuni lonec (karbon) Akrapovi, pokrov sedea sovoznika v barvi, zaita posode goriva, zaita motorja",
+      "Oprema Light Tourer": "2 x 28 l kovka v barvi"
     }
   },
   {
     "id": 10,
     "name": "Kawasaki Ninja 1100SX",
-    "brand": "Kawasaki",
     "category": "Touring",
     "license_category": "",
     "is_new": true,
-    "description": "Moćan 1100cc sport-tourer s bogatom elektronikom i sportskim karakterom.",
     "price": "14.750 €",
+    "description": "Moćan 1100cc sport-tourer s bogatom elektronikom i sportskim karakterom.",
     "images": [
       "/images/10-ninja-1100sx/img_01.jpg",
       "/images/10-ninja-1100sx/img_02.jpg",
@@ -697,21 +687,20 @@
       "Izpusti CO2": "126 g/km",
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, ETV elektronska loputa plina, ECC elektronski tempomat, KTRC 3-nainski nadzor oprijema, IMU inercialna merilna enota, KCMF funkcija kontrole v zavojih, KIBS inteligentni protiblokirni zavorni sistem, KQS dvosmerni hitri prestavljalnik od 1.500 o/min, KSC povezljivost s pametnim telefonom z glasovnimi ukazi*, 2 naina moi, LED diodna arometa, kazalnik varne porabe goriva, kazalnik prestave, UBS vtinica, nastavljiv vetrobran",
-      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
-      "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi, ogrevane roke, zaita TFT, veji zatemnjen vetrobran, 12V vtinica, nosilec telefona",
       "Oprema Performance": "Zaita TFT, izpuni lonec (karbon) Akrapovi, pokrov sedea sovoznika v barvi, zaita posode goriva, zaita motorja",
-      "Oprema Performance Tourer": "2 x 28 l kovka v barvi, notranji torbi, ogrevane roke, zaita TFT, veji zatemnjen vetrobran, 12V vtinica, nosilec telefona, izpuni lonec (karbon) Akrapovi, pokrov sedea sovoznika v barvi, zaita posode goriva, zaita motorja"
+      "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi, ogrevane roke, zaita TFT, veji zatemnjen vetrobran, 12V vtinica, nosilec telefona",
+      "Oprema Performance Tourer": "2 x 28 l kovka v barvi, notranji torbi, ogrevane roke, zaita TFT, veji zatemnjen vetrobran, 12V vtinica, nosilec telefona, izpuni lonec (karbon) Akrapovi, pokrov sedea sovoznika v barvi, zaita posode goriva, zaita motorja",
+      "Oprema Light Tourer": "2 x 28 l kovka v barvi"
     }
   },
   {
     "id": 11,
     "name": "Kawasaki Ninja 7 Hybrid",
-    "brand": "Kawasaki",
     "category": "Električni",
     "license_category": "",
     "is_new": false,
-    "description": "Revolucionarni hibridni motocikl — kombinacija 451cc benzinskog i električnog motora.",
     "price": "Cijena na upit",
+    "description": "Revolucionarni hibridni motocikl — kombinacija 451cc benzinskog i električnog motora.",
     "images": [
       "/images/11-ninja-7-hybrid/img_01.jpg",
       "/images/11-ninja-7-hybrid/img_02.jpg",
@@ -753,19 +742,9 @@
       "Radni obujam": "451 cm³",
       "Promjer × hod": "70 x 58,6 mm",
       "Kompresijski omjer": "11,7 : 1",
-      "Maks. snaga sustava": "51,1 kW {69 KM} pri 10.500 vrt",
-      "Maks. moment sustava": "60,4 Nm pri 2.800 vrt",
-      "Najveja mo motorja": "43,5 kW {59 KM} pri 10.500 vrt",
-      "Najveji navor motorja": "43,6 Nm pri 7.500 vrt",
-      "Najveja mo e-motorja": "9,0 kW {12 KM} pri 2.600 - 4.000 vrt",
-      "Najveji navor e-motorja": "36,0 Nm pri 0 - 2.400 vrt",
       "Najveja hitrost": "193 km/h",
       "Sistem ventilov": "DOHC, 8 ventilov",
       "Sistem dovoda goriva": "Vbrizg goriva: &oslash; 32 mm x 2",
-      "Vrsta": "Litij-ionski akumulator",
-      "Nazivna napetost": "50,4 V",
-      "Skupna nazivna zmogljivost": "27,2 Ah",
-      "Skupna tea akumulatorja": "13 kg",
       "Podmazivanje": "Prisilno mazanje, mokri karter",
       "Mjenjač": "Samodejni roni menjalnik, elektronsko nadzorovan, 6 prestav",
       "Pogon": "Zatesnjena veriga",
@@ -785,20 +764,29 @@
       "Posoda goriva": "14 litrov",
       "Poraba goriva": "4,0 l/100 km Sport; 3,7 l/100 km Eco",
       "Izpusti CO2": "92 g/km Sport; 86 g/km Eco",
-      "Emisijski razred": "Euro 5",
       "Tehnologije": "Moni hibrid, e-Boost elektrini pospeek, 3 naini vonje: Sport-Hybrid, Eco-Hybrid in EV, nain hoje naprej in nazaj, TFT barvni tankoplastni tranzistorski merilnik, ABS protiblokirni zavorni sistem, LED diodni aromet, kazalnik varne porabe goriva, kazalnik prestave, KSC povetljivost s pametnim telefonom",
+      "Emisijski razred": "Euro 5",
+      "Maks. snaga sustava": "51,1 kW {69 KM} pri 10.500 vrt",
+      "Maks. moment sustava": "60,4 Nm pri 2.800 vrt",
+      "Najveja mo motorja": "43,5 kW {59 KM} pri 10.500 vrt",
+      "Najveji navor motorja": "43,6 Nm pri 7.500 vrt",
+      "Najveja mo e-motorja": "9,0 kW {12 KM} pri 2.600 - 4.000 vrt",
+      "Najveji navor e-motorja": "36,0 Nm pri 0 - 2.400 vrt",
+      "Vrsta": "Litij-ionski akumulator",
+      "Nazivna napetost": "50,4 V",
+      "Skupna nazivna zmogljivost": "27,2 Ah",
+      "Skupna tea akumulatorja": "13 kg",
       "Oprema Evolution": "Izpuni lonec Euro 5+ titan Akrapovi, zaita posode goriva, zaita ekrana, veji zatemnjen vetrobran"
     }
   },
   {
     "id": 12,
     "name": "Kawasaki Ninja 650",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "",
     "is_new": false,
-    "description": "Klasična Ninja formula — dostupna cijena, jak karakter i svakodnevna upotrebljivost.",
     "price": "8.449 €",
+    "description": "Klasična Ninja formula — dostupna cijena, jak karakter i svakodnevna upotrebljivost.",
     "images": [
       "/images/12-ninja-650/img_01.jpg",
       "/images/12-ninja-650/img_02.jpg",
@@ -868,21 +856,20 @@
       "Izpusti CO2": "107 g/km",
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "ABS protiblokirni zavorni sistem, kazalnik varne porabe goriva, kazalnik prestave, nastavljiv vetrobran, LED diodna arometa, TFT barvni tankoplastni tranzistorski merilnik, KSC povezljivost s pametnim telefonom, Bluetooth, KTRC nadzor oprijema pogonskega kolesa",
-      "Oprema Urban": "30 l zgornji kovek v barvi z nosilcem, zaita TFT, veji vetrobran, nosilec telefona",
-      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, zatemnjen vetrobran, zaita TFT",
       "Oprema Performance": "...izpuni lonec Euro 5+ Arrow",
-      "Oprema Tourer": "2 x 14 l polmehka kovka z nosilcema, zaite posode goriva, itnika motorja, veji vetrobran, zaita TFT"
+      "Oprema Tourer": "2 x 14 l polmehka kovka z nosilcema, zaite posode goriva, itnika motorja, veji vetrobran, zaita TFT",
+      "Oprema Urban": "30 l zgornji kovek v barvi z nosilcem, zaita TFT, veji vetrobran, nosilec telefona",
+      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, zatemnjen vetrobran, zaita TFT"
     }
   },
   {
     "id": 13,
     "name": "Kawasaki Ninja 500 SE",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "A2",
     "is_new": true,
-    "description": "Novi 500cc parallel-twin u modernom Ninja ruhu. Idealan za A2 kategoriju.",
     "price": "7.378 €",
+    "description": "Novi 500cc parallel-twin u modernom Ninja ruhu. Idealan za A2 kategoriju.",
     "images": [
       "/images/13-ninja-500-se/img_01.jpg",
       "/images/13-ninja-500-se/img_02.jpg",
@@ -947,21 +934,20 @@
       "Posoda goriva": "14 litrov",
       "Poraba goriva": "3,8 l/100 km",
       "Izpusti CO2": "89 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, KIPASS inteligentni sistem bliinske aktivacije zagona, ABS protiblokirni zavorni sistem, LED diodni aromet, kazalnik varne porabe goriva, kazalnik prestave, KSC povetljivost s pametnim telefonon",
-      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, viji zatemnjen vetrobran, zaita TFT",
-      "Oprema Performance": "... izpuh Euro 5+ Remus (Akrapovi)"
+      "Oprema Performance": "... izpuh Euro 5+ Remus (Akrapovi)",
+      "Emisijski razred": "Euro 5+",
+      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, viji zatemnjen vetrobran, zaita TFT"
     }
   },
   {
     "id": 14,
     "name": "Kawasaki Ninja 500",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "A2",
     "is_new": true,
-    "description": "Pristupačni ulaz u Ninja seriju za A2 vozače. Moderan dizajn i pouzdan motor.",
     "price": "6.857 €",
+    "description": "Pristupačni ulaz u Ninja seriju za A2 vozače. Moderan dizajn i pouzdan motor.",
     "images": [
       "/images/14-ninja-500/img_01.jpg",
       "/images/14-ninja-500/img_02.jpg",
@@ -1007,21 +993,20 @@
       "Posoda goriva": "14 litrov",
       "Poraba goriva": "3,8 l/100 km",
       "Izpusti CO2": "89 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "LCD merilnik s tekoimi kristali visoke loljivosti, ABS protiblokirni zavorni sistem, LED diodni aromet, kazalnik varne porabe goriva, kazalnik prestave, KSC povetljivost s pametnim telefonon",
-      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, viji zatemnjen vetrobran",
-      "Oprema Performance": "... izpuh Euro 5+ Akrapovi"
+      "Oprema Performance": "... izpuh Euro 5+ Akrapovi",
+      "Emisijski razred": "Euro 5+",
+      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, viji zatemnjen vetrobran"
     }
   },
   {
     "id": 15,
     "name": "Kawasaki Ninja 125",
-    "brand": "Kawasaki",
     "category": "Sport",
     "license_category": "A1",
     "is_new": false,
-    "description": "125cc Ninja za početnike — pravi dizajn velikog brata uz pristupačnu kategoriju.",
     "price": "5.549 €",
+    "description": "125cc Ninja za početnike — pravi dizajn velikog brata uz pristupačnu kategoriju.",
     "images": [
       "/images/15-ninja-125/img_01.jpg",
       "/images/15-ninja-125/img_02.jpg",
@@ -1075,21 +1060,20 @@
       "Posoda goriva": "11 litrov",
       "Poraba goriva": "2,7 l/100 km",
       "Izpusti CO2": "61 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "ABS",
-      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita motorja, zatemnjen vetrobran",
-      "Oprema Performance": "... izpuni lonec Eur 5+ Arrow"
+      "Oprema Performance": "... izpuni lonec Eur 5+ Arrow",
+      "Emisijski razred": "Euro 5+",
+      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita motorja, zatemnjen vetrobran"
     }
   },
   {
     "id": 16,
     "name": "Kawasaki Ninja e-1",
-    "brand": "Kawasaki",
     "category": "Električni",
     "license_category": "A2",
     "is_new": false,
-    "description": "Električni Ninja za urbanu vožnju. Nulta emisija uz prepoznatljiv Ninja dizajn.",
     "price": "9.095 €",
+    "description": "Električni Ninja za urbanu vožnju. Nulta emisija uz prepoznatljiv Ninja dizajn.",
     "images": [
       "/images/16-ninja-e-1/img_01.jpg",
       "/images/16-ninja-e-1/img_02.jpg",
@@ -1126,20 +1110,8 @@
       "Šifra modela": "NX011ARFNN",
       "Boje": "Bijela",
       "Tip motora": "Zrano hlajen, notranji sinhronski motor s trajnim mahnetom",
-      "Vrsta": "Litij-ionski akumulator x 2",
-      "Nazivna napetost": "50,4 V",
-      "Skupna nazivna zmogljivost": "30 Ah x 2",
-      "Skupna tea akumulatorja": "11,5 kg x 2",
-      "(0% do 100%)": "3,7 h x 2",
-      "(20% do 100%)": "3,0 h x 2",
-      "(20% do 85%)": "1,6 h x 2",
-      "Nazivna mo": "5,0 kW (6,8 KM) pri 2.800 vrt",
       "Najveja mo": "9,0 kW {12 KM} pri 2.600 - 4.000 vrt",
       "Najveji navor": "40,7 Nm pri 0 - 1.600 vrt",
-      "ECO nain": "64 km/h",
-      "ECO nain + e-boost": "75 km/h",
-      "ROAD nain": "88 km/h",
-      "ROAD nain + e-boost": "99 km/h (omejitev v ES)",
       "Pogon": "Zatesnjena veriga",
       "Vrsta okvirja": "Reetka, visolo natezno jeklo",
       "Pnevmatike spredaj": "100/80-17 M/C 52S",
@@ -1153,21 +1125,32 @@
       "Odmik od tal": "170 mm",
       "Viina sedea": "785 mm",
       "Mokra tea": "140 kg",
-      "Poraba elektrike": "49 Wh/km",
-      "Domet": "72 km (skladno z WMTC* - razred 1 - do ~ 50 km/h)",
       "Izpusti CO2": "0 g/km",
-      "Tehnologije": "Elektrino vozilo, 2 naina moi, e-Boost elektrini pospeek, nain hoje naprej in nazaj, ABS protiblokirni zavorni sistem, TFT barvni tankoplastni tranzistorski merilnik, KCS povezljivost s pametnim telefonom"
+      "Tehnologije": "Elektrino vozilo, 2 naina moi, e-Boost elektrini pospeek, nain hoje naprej in nazaj, ABS protiblokirni zavorni sistem, TFT barvni tankoplastni tranzistorski merilnik, KCS povezljivost s pametnim telefonom",
+      "Vrsta": "Litij-ionski akumulator x 2",
+      "Nazivna napetost": "50,4 V",
+      "Skupna nazivna zmogljivost": "30 Ah x 2",
+      "Skupna tea akumulatorja": "11,5 kg x 2",
+      "(0% do 100%)": "3,7 h x 2",
+      "(20% do 100%)": "3,0 h x 2",
+      "(20% do 85%)": "1,6 h x 2",
+      "Nazivna mo": "5,0 kW (6,8 KM) pri 2.800 vrt",
+      "ECO nain": "64 km/h",
+      "ECO nain + e-boost": "75 km/h",
+      "ROAD nain": "88 km/h",
+      "ROAD nain + e-boost": "99 km/h (omejitev v ES)",
+      "Poraba elektrike": "49 Wh/km",
+      "Domet": "72 km (skladno z WMTC* - razred 1 - do ~ 50 km/h)"
     }
   },
   {
     "id": 17,
     "name": "Kawasaki Z H2 SE",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "",
     "is_new": false,
-    "description": "Supercharged naked — 200 KS bez karoserije. Najsnažniji naked Kawasaki s elektronskim ovjesom.",
     "price": "21.940 €",
+    "description": "Supercharged naked — 200 KS bez karoserije. Najsnažniji naked Kawasaki s elektronskim ovjesom.",
     "images": [
       "/images/17-z-h2-se/img_01.jpg",
       "/images/17-z-h2-se/img_02.jpg",
@@ -1213,21 +1196,20 @@
       "Mokra tea": "239 kg",
       "Posoda goriva": "19 litrov",
       "Poraba goriva": "6,0 /100km",
-      "Izpust CO2": "134 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, ECC elektronski tempomat, KTRC nadzor oprijema, KEBC nadzor zaviranja z motorjem, KLCM nain nadzora speljevanja, KQS dvosmerni hitri prestavljalnik, IMU inercialna merilna enota, KCMF funkcija kontrole v zavojih, KIBS Inteligentni protiblokirni zavorni sistem, 3 naini moi, kazalnik varne porabe goriva, kazalnik prestave, KSC povezljivost s pametnim telefonom, LED diodne lui",
-      "Oprema Performance": "Izpuni lonec (titan) Akrapovi, pokrov sedea v barvi, zaita TFT, zaita posode goriva"
+      "Oprema Performance": "Izpuni lonec (titan) Akrapovi, pokrov sedea v barvi, zaita TFT, zaita posode goriva",
+      "Izpust CO2": "134 g/km",
+      "Emisijski razred": "Euro 5+"
     }
   },
   {
     "id": 18,
     "name": "Kawasaki Z H2",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "",
     "is_new": false,
-    "description": "Supercharged naked s kompresiranim motorom. Brutalna snaga u street paketu.",
     "price": "19.391 €",
+    "description": "Supercharged naked s kompresiranim motorom. Brutalna snaga u street paketu.",
     "images": [
       "/images/18-z-h2/img_01.jpg",
       "/images/18-z-h2/img_02.jpg",
@@ -1277,21 +1259,20 @@
       "Mokra tea": "239 kg",
       "Posoda goriva": "19 litrov",
       "Poraba goriva": "6,0 /100km",
-      "Izpust CO2": "134 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, ECC elektronski tempomat, KTRC nadzor oprijema, KEBC nadzor zaviranja z motorjem, KLCM nain nadzora speljevanja, KQS dvosmerni hitri prestavljalnik, IMU inercialna merilna enota, KCMF funkcija kontrole v zavojih, KIBS inteligentni protiblokirni zavorni sistem, 3 naini moi, kazalnik varne porabe goriva, kazalnik prestave, KSC povezljivost s pametnim telefonom, LED diodne lui",
-      "Oprema Performance": "Izpuni lonec (titan) Akrapovi, pokrov sedea v barvi, zaita TFT, zaita posode goriva"
+      "Oprema Performance": "Izpuni lonec (titan) Akrapovi, pokrov sedea v barvi, zaita TFT, zaita posode goriva",
+      "Izpust CO2": "134 g/km",
+      "Emisijski razred": "Euro 5+"
     }
   },
   {
     "id": 19,
     "name": "Kawasaki Z 1100 SE",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "",
     "is_new": true,
-    "description": "Novi flagship naked s 1100cc motorom. Agresivan dizajn i bogata elektronika nove generacije.",
     "price": "13.533 €",
+    "description": "Novi flagship naked s 1100cc motorom. Agresivan dizajn i bogata elektronika nove generacije.",
     "images": [
       "/images/19-z-1100-se/img_01.jpg",
       "/images/19-z-1100-se/img_02.jpg",
@@ -1351,12 +1332,11 @@
   {
     "id": 20,
     "name": "Kawasaki Z 1100",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "",
     "is_new": true,
-    "description": "Moćan 1100cc naked street fighter. Nasljednik Z1000 s novim motorom i modernom elektronikom.",
     "price": "11.863 €",
+    "description": "Moćan 1100cc naked street fighter. Nasljednik Z1000 s novim motorom i modernom elektronikom.",
     "images": [
       "/images/20-z-1100/img_01.jpg",
       "/images/20-z-1100/img_02.jpg",
@@ -1419,12 +1399,11 @@
   {
     "id": 21,
     "name": "Kawasaki Z 900 SE",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "",
     "is_new": false,
-    "description": "Premium naked s elektronskim ovjesom. Z900 na najvišoj razini opreme.",
     "price": "12.532 €",
+    "description": "Premium naked s elektronskim ovjesom. Z900 na najvišoj razini opreme.",
     "images": [
       "/images/21-z-900-se/img_01.jpg",
       "/images/21-z-900-se/img_02.jpg",
@@ -1479,12 +1458,11 @@
   {
     "id": 22,
     "name": "Kawasaki Z 900",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "",
     "is_new": false,
-    "description": "Ikonični naked street fighter. Agresivan dizajn, 948cc motor i bogata elektronika.",
     "price": "10.451 €",
+    "description": "Ikonični naked street fighter. Agresivan dizajn, 948cc motor i bogata elektronika.",
     "images": [
       "/images/22-z-900/img_01.jpg",
       "/images/22-z-900/img_02.jpg",
@@ -1549,12 +1527,11 @@
   {
     "id": 23,
     "name": "Kawasaki Z 7 Hybrid",
-    "brand": "Kawasaki",
     "category": "Električni",
     "license_category": "",
     "is_new": false,
-    "description": "Hibridni Z naked — kombinacija benzinskog i električnog motora za urbanu vožnju.",
     "price": "Cijena na upit",
+    "description": "Hibridni Z naked — kombinacija benzinskog i električnog motora za urbanu vožnju.",
     "images": [
       "/images/23-z-7-hybrid/img_01.jpg",
       "/images/23-z-7-hybrid/img_02.jpg",
@@ -1606,19 +1583,9 @@
       "Radni obujam": "451 cm³",
       "Promjer × hod": "70 x 58,6 mm",
       "Kompresijski omjer": "11,7 : 1",
-      "Maks. snaga sustava": "51,1 kW {69 KM} pri 10.500 vrt",
-      "Maks. moment sustava": "60,4 Nm pri 2.800 vrt",
-      "Najveja mo motorja": "43,5 kW {59 KM} pri 10.500 vrt",
-      "Najveji navor motorja": "43,6 Nm pri 7.500 vrt",
-      "Najveja mo e-motorja": "9,0 kW {12 KM} pri 2.600 - 4.000 vrt",
-      "Najveji navor e-motorja": "36,0 Nm pri 0 - 2.400 vrt",
       "Najveja hitrost": "185 km/h",
       "Sistem ventilov": "DOHC, 8 ventilov",
       "Sistem dovoda goriva": "Vbrizg goriva: &oslash; 32 mm x 2",
-      "Vrsta": "Litij-ionski akumulator",
-      "Nazivna napetost": "50,4 V",
-      "Skupna nazivna zmogljivost": "27,2 Ah",
-      "Skupna tea akumulatorja": "13 kg",
       "Podmazivanje": "Prisilno mazanje, mokri karter",
       "Mjenjač": "Samodejni roni menjalnik, elektronsko nadzorovan, 6 prestav",
       "Pogon": "Zatesnjena veriga",
@@ -1638,20 +1605,29 @@
       "Posoda goriva": "14 litrov",
       "Poraba goriva": "4,0 l/100 km Sport; 3,7 l/100 km Eco",
       "Izpusti CO2": "92 g/km Sport; 86 g/km Eco",
-      "Emisijski razred": "Euro 5",
       "Tehnologije": "Moni hibrid, e-Boost elektrini pospeek, 3 naini vonje: Sport-Hybrid, Eco-Hybrid in EV, nain hoje naprej in nazaj, TFT barvni tankoplastni tranzistorski merilnik, ABS protiblokirni zavorni sistem, LED diodni aromet, kazalnik varne porabe goriva, kazalnik prestave, KSC povetljivost s pametnim telefonon",
+      "Emisijski razred": "Euro 5",
+      "Maks. snaga sustava": "51,1 kW {69 KM} pri 10.500 vrt",
+      "Maks. moment sustava": "60,4 Nm pri 2.800 vrt",
+      "Najveja mo motorja": "43,5 kW {59 KM} pri 10.500 vrt",
+      "Najveji navor motorja": "43,6 Nm pri 7.500 vrt",
+      "Najveja mo e-motorja": "9,0 kW {12 KM} pri 2.600 - 4.000 vrt",
+      "Najveji navor e-motorja": "36,0 Nm pri 0 - 2.400 vrt",
+      "Vrsta": "Litij-ionski akumulator",
+      "Nazivna napetost": "50,4 V",
+      "Skupna nazivna zmogljivost": "27,2 Ah",
+      "Skupna tea akumulatorja": "13 kg",
       "Oprema Evolution": "Izpuni lonec Euro 5+ titan Akrapovi, zaita posode goriva, zaita ekrana"
     }
   },
   {
     "id": 24,
     "name": "Kawasaki Z 650 S",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "",
     "is_new": true,
-    "description": "Novi Z650S s Sport paketom. Sportskiji položaj i osvježen dizajn za urbanu vožnju.",
     "price": "7.910 €",
+    "description": "Novi Z650S s Sport paketom. Sportskiji položaj i osvježen dizajn za urbanu vožnju.",
     "images": [
       "/images/24-z-650-s/img_01.jpg",
       "/images/24-z-650-s/img_02.jpg",
@@ -1721,21 +1697,20 @@
       "Izpusti CO2": "107 g/km",
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "4,3&quot; TFT barvni tankoplastni tranzistorski merilnik, KSC povezljivost s pametnim telefonom z glasovnimi ukazi*, ABS protiblokirni zavorni sistem, LED diodni aromet, kazalnik varne porabe goriva, kazalnik prestave, KTRC nadzor oprijema pogonskega kolesa",
-      "Oprema Urban": "30 l zgornji kovek v barvi z nosilcem, zatemnjen vetrobran, zaita posode gorica, zaita TFT, nosilec telefona",
-      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, zaita TFT",
       "Oprema Performance": "... izpuni lonec Euro 5+ Akrapovi",
-      "Oprema Tourer": "2 x 14 l polmehka kovka z nosilcema ..."
+      "Oprema Tourer": "2 x 14 l polmehka kovka z nosilcema ...",
+      "Oprema Urban": "30 l zgornji kovek v barvi z nosilcem, zatemnjen vetrobran, zaita posode gorica, zaita TFT, nosilec telefona",
+      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, zaita TFT"
     }
   },
   {
     "id": 25,
     "name": "Kawasaki Z 650",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "",
     "is_new": false,
-    "description": "Lagan, agilni i pristupačni naked. Savršen za grad i vikend izlete.",
     "price": "7.812 €",
+    "description": "Lagan, agilni i pristupačni naked. Savršen za grad i vikend izlete.",
     "images": [
       "/images/25-z-650/img_01.jpg",
       "/images/25-z-650/img_02.jpg",
@@ -1795,21 +1770,20 @@
       "Izpusti CO2": "107 g/km",
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, KSC povezljivost s pametnim telefonom, ABS protiblokirni zavorni sistem, LED diodni aromet, kazalnik varne porabe goriva, kazalnik prestave, KTRC nadzor oprijema pogonskega kolesa",
-      "Oprema Urban": "30 l zgornji kovek v barvi z nosilcem, zatemnjen vetrobran, zaita posode gorica, zaita TFT, nosilec telefona",
-      "Oprema Sport Pack": "Pokrov sedea sovoznika v barvi, zaita posode goriva, zaita TFT",
       "Oprema Performance": "... izpuni lonec Euro 5+ Arrow",
-      "Oprema Tourer": "2 x 14 l polmehka kovka z nosilcema ..."
+      "Oprema Tourer": "2 x 14 l polmehka kovka z nosilcema ...",
+      "Oprema Urban": "30 l zgornji kovek v barvi z nosilcem, zatemnjen vetrobran, zaita posode gorica, zaita TFT, nosilec telefona",
+      "Oprema Sport Pack": "Pokrov sedea sovoznika v barvi, zaita posode goriva, zaita TFT"
     }
   },
   {
     "id": 26,
     "name": "Kawasaki Z 500 SE",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "A2",
     "is_new": true,
-    "description": "Novi Z500SE za A2 kategoriju. Naked karakter uz pristupačno ograničenje snage.",
     "price": "7.184 €",
+    "description": "Novi Z500SE za A2 kategoriju. Naked karakter uz pristupačno ograničenje snage.",
     "images": [
       "/images/26-z-500-se/img_01.jpg",
       "/images/26-z-500-se/img_02.jpg",
@@ -1860,21 +1834,20 @@
       "Posoda goriva": "14 litrov",
       "Poraba goriva": "3,8 l/100 km",
       "Izpusti CO2": "89 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, ABS protiblokirni zavorni sistem, LED diodni aromet, kazalnik varne porabe goriva, kazalnik prestave, KSC povetljivost s pametnim telefonon",
-      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, zaita TFT",
-      "Oprema Performance": "... izpuh Euro 5+ Remus"
+      "Oprema Performance": "... izpuh Euro 5+ Remus",
+      "Emisijski razred": "Euro 5+",
+      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva, zaita TFT"
     }
   },
   {
     "id": 27,
     "name": "Kawasaki Z 500",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "A2",
     "is_new": true,
-    "description": "Naked motocikl za A2 kategoriju. Odličan za grad i svakodnevnu vožnju.",
     "price": "6.785 €",
+    "description": "Naked motocikl za A2 kategoriju. Odličan za grad i svakodnevnu vožnju.",
     "images": [
       "/images/27-z-500/img_01.jpg",
       "/images/27-z-500/img_02.jpg",
@@ -1938,21 +1911,20 @@
       "Posoda goriva": "14 litrov",
       "Poraba goriva": "3,8 l/100 km",
       "Izpusti CO2": "89 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "LCD merilnik s tekoimi kristali visoke loljivosti, ABS protiblokirni zavorni sistem, LED diodni aromet, kazalnik varne porabe goriva, kazalnik prestave, KSC povetljivost s pametnim telefonon",
-      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva",
-      "Oprema Performance": "... izpuh Euro 5+ Remus"
+      "Oprema Performance": "... izpuh Euro 5+ Remus",
+      "Emisijski razred": "Euro 5+",
+      "Oprema Sport": "Pokrov sedea sovoznika v barvi, zaita posode goriva"
     }
   },
   {
     "id": 28,
     "name": "Kawasaki Z 125",
-    "brand": "Kawasaki",
     "category": "Naked",
     "license_category": "A1",
     "is_new": false,
-    "description": "Kompaktni Z naked za A1 kategoriju. Pravi Z karakter u urbanom 125cc paketu.",
     "price": "5.187 €",
+    "description": "Kompaktni Z naked za A1 kategoriju. Pravi Z karakter u urbanom 125cc paketu.",
     "images": [
       "/images/28-z-125/img_01.jpg",
       "/images/28-z-125/img_02.jpg",
@@ -2002,21 +1974,20 @@
       "Posoda goriva": "11 litrov",
       "Poraba goriva": "2,7 l/100 km",
       "Izpusti CO2": "61 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "ABS",
-      "Oprema Sport": "Pokrov sedea sovoznika v barvi, kazalnik prestave z nosilcem",
-      "Oprema Performance": "... izpuni lonec Eur 5+ Arrow"
+      "Oprema Performance": "... izpuni lonec Eur 5+ Arrow",
+      "Emisijski razred": "Euro 5+",
+      "Oprema Sport": "Pokrov sedea sovoznika v barvi, kazalnik prestave z nosilcem"
     }
   },
   {
     "id": 29,
     "name": "Kawasaki Z e-1",
-    "brand": "Kawasaki",
     "category": "Električni",
     "license_category": "A2",
     "is_new": false,
-    "description": "Električni Z naked za grad. Tiha i čista vožnja s prepoznatljivim Z karakterom.",
     "price": "8.492 €",
+    "description": "Električni Z naked za grad. Tiha i čista vožnja s prepoznatljivim Z karakterom.",
     "images": [
       "/images/29-z-e-1/img_01.jpg",
       "/images/29-z-e-1/img_02.jpg",
@@ -2057,20 +2028,8 @@
       "Šifra modela": "NR011ARFNN",
       "Boje": "Bijela",
       "Tip motora": "Zrano hlajen, notranji sinhronski motor s trajnim mahnetom",
-      "Vrsta": "Litij-ionski akumulator x 2",
-      "Nazivna napetost": "50,4 V",
-      "Skupna nazivna zmogljivost": "30 Ah x 2",
-      "Skupna tea akumulatorja": "11,5 kg x 2",
-      "(0% do 100%)": "3,7 h x 2",
-      "(20% do 100%)": "3,0 h x 2",
-      "(20% do 85%)": "1,6 h x 2",
-      "Nazivna mo": "5,0 kW (6,8 KM) pri 2.800 vrt",
       "Najveja mo": "9,0 kW {12 KM} pri 2.600 - 4.000 vrt",
       "Najveji navor": "40,7 Nm pri 0 - 1.600 vrt",
-      "ECO nain": "62 km/h",
-      "ECO nain + e-boost": "72 km/h",
-      "ROAD nain": "85 km/h",
-      "ROAD nain + e-boost": "99 km/h (omejitev v ES)",
       "Pogon": "Zatesnjena veriga",
       "Vrsta okvirja": "Reetka, visolo natezno jeklo",
       "Pnevmatike spredaj": "100/80-17 M/C 52S",
@@ -2084,21 +2043,32 @@
       "Odmik od tal": "170 mm",
       "Viina sedea": "785 mm",
       "Mokra tea": "135 kg",
-      "Poraba elektrike": "49 Wh/km",
-      "Domet": "72 km (skladno z WMTC* - razred 1 - do ~ 50 km/h)",
       "Izpusti CO2": "0 g/km",
-      "Tehnologije": "Elektrino vozilo, 2 naina moi, e-Boost elektrini pospeek, nain hoje naprej in nazaj, ABS protiblokirni zavorni sistem, TFT barvni tankoplastni tranzistorski merilnik, KSC povezljivost s pametnim telefonom"
+      "Tehnologije": "Elektrino vozilo, 2 naina moi, e-Boost elektrini pospeek, nain hoje naprej in nazaj, ABS protiblokirni zavorni sistem, TFT barvni tankoplastni tranzistorski merilnik, KSC povezljivost s pametnim telefonom",
+      "Vrsta": "Litij-ionski akumulator x 2",
+      "Nazivna napetost": "50,4 V",
+      "Skupna nazivna zmogljivost": "30 Ah x 2",
+      "Skupna tea akumulatorja": "11,5 kg x 2",
+      "(0% do 100%)": "3,7 h x 2",
+      "(20% do 100%)": "3,0 h x 2",
+      "(20% do 85%)": "1,6 h x 2",
+      "Nazivna mo": "5,0 kW (6,8 KM) pri 2.800 vrt",
+      "ECO nain": "62 km/h",
+      "ECO nain + e-boost": "72 km/h",
+      "ROAD nain": "85 km/h",
+      "ROAD nain + e-boost": "99 km/h (omejitev v ES)",
+      "Poraba elektrike": "49 Wh/km",
+      "Domet": "72 km (skladno z WMTC* - razred 1 - do ~ 50 km/h)"
     }
   },
   {
     "id": 30,
     "name": "Kawasaki Elektrode 20",
-    "brand": "Kawasaki",
     "category": "Električni",
     "license_category": "",
     "is_new": false,
-    "description": "Električni motocross za djecu. Tiha i ekološki prihvatljiva zabava na terenu.",
     "price": "Cijena na upit",
+    "description": "Električni motocross za djecu. Tiha i ekološki prihvatljiva zabava na terenu.",
     "images": [
       "/images/30-elektrode-20/img_01.jpg",
       "/images/30-elektrode-20/img_02.jpg",
@@ -2121,13 +2091,6 @@
       "Šifra modela": "KSL050ASFNN",
       "Boje": "Zelena",
       "Tip motora": "Zrano hlajen, brez krtak, v kolesu",
-      "Vrsta": "Litij-ionski akumulator (v okvirju)",
-      "Nazivna napetost": "50,4 V",
-      "Skupna nazivna zmogljivost": "10,2 Ah",
-      "as polnjenja (0% do 100%)": "4 h",
-      "Poasi": "21 km/h",
-      "Srednje": "39 km/h (neneje pospeevanje)",
-      "Hitro": "39 km/h",
       "Vrsta okvirja": "Aluminij",
       "Pnevmatike spredaj": "20 x 2,125",
       "Pnevmatike zadaj": "20 x 2,125",
@@ -2138,23 +2101,29 @@
       "Medosje": "989 mm",
       "Odmik od tal": "181 mm",
       "Viina sedea": "550 - 693 mm",
-      "Najveja tea voznika": "60 kg",
       "Mokra tea": "20,9 kg",
+      "Izpusti CO2": "0 g/km",
+      "Tehnologije": "Elektrino vozilo, 2 naina moi, ergo-fit",
+      "Vrsta": "Litij-ionski akumulator (v okvirju)",
+      "Nazivna napetost": "50,4 V",
+      "Skupna nazivna zmogljivost": "10,2 Ah",
       "Poraba elektrike": "- Wh/km",
       "Domet": "60 min (Hitro), 180 min (Poasi)",
-      "Izpusti CO2": "0 g/km",
-      "Tehnologije": "Elektrino vozilo, 2 naina moi, ergo-fit"
+      "as polnjenja (0% do 100%)": "4 h",
+      "Poasi": "21 km/h",
+      "Srednje": "39 km/h (neneje pospeevanje)",
+      "Hitro": "39 km/h",
+      "Najveja tea voznika": "60 kg"
     }
   },
   {
     "id": 31,
     "name": "Kawasaki Z 900RS SE",
-    "brand": "Kawasaki",
     "category": "Classic",
     "license_category": "",
     "is_new": false,
-    "description": "Premium retro s elektronskim ovjesom i zlatnim Ohlins amortizerom. Spoj tradicije i moderne tehnologije.",
     "price": "14.055 €",
+    "description": "Premium retro s elektronskim ovjesom i zlatnim Ohlins amortizerom. Spoj tradicije i moderne tehnologije.",
     "images": [
       "/images/31-z-900rs-se/img_01.jpg",
       "/images/31-z-900rs-se/img_02.jpg",
@@ -2199,12 +2168,11 @@
   {
     "id": 32,
     "name": "Kawasaki Z 650RS",
-    "brand": "Kawasaki",
     "category": "Classic",
     "license_category": "",
     "is_new": false,
-    "description": "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih uz modernu tehnologiju.",
     "price": "8.441 €",
+    "description": "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih uz modernu tehnologiju.",
     "images": [
       "/images/32-z-650rs/img_01.jpg",
       "/images/32-z-650rs/img_02.jpg",
@@ -2264,12 +2232,11 @@
   {
     "id": 33,
     "name": "Kawasaki W 800",
-    "brand": "Kawasaki",
     "category": "Classic",
     "license_category": "",
     "is_new": false,
-    "description": "Prava retro ikona s paralel-twin motorom. Za ljubitelje klasike.",
     "price": "9.868 €",
+    "description": "Prava retro ikona s paralel-twin motorom. Za ljubitelje klasike.",
     "images": [
       "/images/33-w-800/img_01.jpg",
       "/images/33-w-800/img_02.jpg",
@@ -2311,19 +2278,18 @@
       "Posoda goriva": "15 litrov",
       "Poraba goriva": "4,8 l/100 km",
       "Izpusti CO2": "119 g/km",
-      "Emisijski razred": "Euro 5",
-      "Tehnologije": "ABS protiblokirni zavorni sistem, LED diodni aromet"
+      "Tehnologije": "ABS protiblokirni zavorni sistem, LED diodni aromet",
+      "Emisijski razred": "Euro 5"
     }
   },
   {
     "id": 34,
     "name": "Kawasaki W 230",
-    "brand": "Kawasaki",
     "category": "Classic",
     "license_category": "A2",
     "is_new": true,
-    "description": "Moderan retro u pristupačnom 230cc paketu. Savršen za A2 vozače koji vole klasičan stil.",
     "price": "5.168 €",
+    "description": "Moderan retro u pristupačnom 230cc paketu. Savršen za A2 vozače koji vole klasičan stil.",
     "images": [
       "/images/34-w-230/img_01.jpg",
       "/images/34-w-230/img_02.jpg",
@@ -2360,7 +2326,6 @@
       "Najveja hitrost": "113 km/h",
       "Sistem ventilov": "SOHC, 2 ventila",
       "Sistem dovoda goriva": "Elektronski vbrizg 32 mm x 1",
-      "Zagon": "Elektrini zaganjalnik",
       "Podmazivanje": "Prisilno mazanje, mokri karter",
       "Mjenjač": "6 prestav",
       "Pogon": "Veriga",
@@ -2381,18 +2346,18 @@
       "Poraba goriva": "2,5 l/100km",
       "Izpusti CO2": "58 g/km",
       "Emisijski razred EC": "Euro 5+",
-      "Tehnologije": "ABS protiblokirni zavorni sistem"
+      "Tehnologije": "ABS protiblokirni zavorni sistem",
+      "Zagon": "Elektrini zaganjalnik"
     }
   },
   {
     "id": 35,
     "name": "Kawasaki Meguro S1",
-    "brand": "Kawasaki",
     "category": "Classic",
     "license_category": "A2",
     "is_new": true,
-    "description": "Oživljeni Meguro brend u modernom paketu. Elegantni klasik s Kawasaki pouzdanošću.",
     "price": "5.795 €",
+    "description": "Oživljeni Meguro brend u modernom paketu. Elegantni klasik s Kawasaki pouzdanošću.",
     "images": [
       "/images/35-meguro-s1/img_01.jpg",
       "/images/35-meguro-s1/img_02.jpg",
@@ -2425,7 +2390,6 @@
       "Najveja hitrost": "113 km/h",
       "Sistem ventilov": "SOHC, 2 ventila",
       "Sistem dovoda goriva": "Elektronski vbrizg 32 mm x 1",
-      "Zagon": "Elektrini zaganjalnik",
       "Podmazivanje": "Prisilno mazanje, mokri karter",
       "Mjenjač": "6 prestav",
       "Pogon": "Veriga",
@@ -2446,18 +2410,18 @@
       "Poraba goriva": "2,5 l/100km",
       "Izpusti CO2": "58 g/km",
       "Emisijski razred EC": "Euro 5+",
-      "Tehnologije": "ABS protiblokirni zavorni sistem"
+      "Tehnologije": "ABS protiblokirni zavorni sistem",
+      "Zagon": "Elektrini zaganjalnik"
     }
   },
   {
     "id": 36,
     "name": "Kawasaki Vulcan S",
-    "brand": "Kawasaki",
     "category": "Cruiser",
     "license_category": "",
     "is_new": false,
-    "description": "Moderni cruiser s ergonomski prilagodljivom pozicijom vožnje. Stil, udobnost i karakter.",
     "price": "8.916 €",
+    "description": "Moderni cruiser s ergonomski prilagodljivom pozicijom vožnje. Stil, udobnost i karakter.",
     "images": [
       "/images/36-vulcan-s/img_01.jpg",
       "/images/36-vulcan-s/img_02.jpg",
@@ -2480,7 +2444,6 @@
       "/images/36-vulcan-s/img_19.jpg"
     ],
     "specs": {
-      "Ime modela": "EN650MSFNN; MTFNN, MTFAN",
       "Boje": "rna; rna, Siva.se",
       "Tip motora": "Tekoinsko hlajen, 4-taktni redni dvocilindrični",
       "Radni obujam": "649 cm³",
@@ -2513,19 +2476,19 @@
       "Emisijski razred EC": "Euro 5/Euro 5+",
       "Tehnologije": "ABS protiblokirni zavorni sistem, kazalnik varne porabe goriva, kazalnik prestave",
       "Oprema Performance": "Izpuni sistem Euro 5+ Arrow, fiksni Cafe zatemnjen vetrobran z fiksnim nosilcem",
-      "Oprema Ligt Tourer": "Usnjeni torbi z fiksnim nosilcem, naslonjalo sovoznika za fiksni nosilec, Cafe vetrobran z fiksnimi nosilci",
-      "Oprema Tourer": "Usnjeni torbi z fiksnim nosilcem, naslonjalo sovoznika za fiksni nosilec, veliki vetrobran z fiksnimi nosilci"
+      "Oprema Tourer": "Usnjeni torbi z fiksnim nosilcem, naslonjalo sovoznika za fiksni nosilec, veliki vetrobran z fiksnimi nosilci",
+      "Ime modela": "EN650MSFNN; MTFNN, MTFAN",
+      "Oprema Ligt Tourer": "Usnjeni torbi z fiksnim nosilcem, naslonjalo sovoznika za fiksni nosilec, Cafe vetrobran z fiksnimi nosilci"
     }
   },
   {
     "id": 37,
     "name": "Kawasaki Eliminator 500 SE",
-    "brand": "Kawasaki",
     "category": "Cruiser",
     "license_category": "A2",
     "is_new": true,
-    "description": "Novi Eliminator u A2 paketu s SE opremom. Low-seat cruiser za svaki dan.",
     "price": "7.184 €",
+    "description": "Novi Eliminator u A2 paketu s SE opremom. Low-seat cruiser za svaki dan.",
     "images": [
       "/images/37-eliminator-500-se/img_01.jpg",
       "/images/37-eliminator-500-se/img_02.jpg",
@@ -2570,7 +2533,6 @@
       "/images/37-eliminator-500-se/img_41.jpg"
     ],
     "specs": {
-      "Ime modela": "EL450BSFNN; BTFNN",
       "Boje": "Siva; Siva",
       "Tip motora": "Tekoinsko hlajen, 4-taktni redni dvocilindrični",
       "Radni obujam": "451 cm³",
@@ -2603,18 +2565,18 @@
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "LCD digitalni merilnik s tekoimi kristali, ABS protiblokirni zavorni sistem, kazalnik varne porabe goriva, kazalnik prestave, KSC povezljivost s pametnim telefonom, USB vtinica",
       "Oprema Performance": "Izpuni sistem Euro 5+, Cafe zatemnjen vetrobran z fiksnim nosilcem, zaita posode goriva, zaita motorja",
+      "Ime modela": "EL450BSFNN; BTFNN",
       "Oprema Ligt Tourer": "Usnjeni torbi 2 x 19,5 l z fiksnim nosilcem, Cafe zatemnjen vetrobran z fiksnimi nosilci, zaita posode goriva, zaita motorja"
     }
   },
   {
     "id": 38,
     "name": "Kawasaki Eliminator 500",
-    "brand": "Kawasaki",
     "category": "Cruiser",
     "license_category": "A2",
     "is_new": true,
-    "description": "Moderni low-seat cruiser za A2 kategoriju.",
     "price": "6.785 €",
+    "description": "Moderni low-seat cruiser za A2 kategoriju.",
     "images": [
       "/images/38-eliminator-500/img_01.jpg",
       "/images/38-eliminator-500/img_02.jpg",
@@ -2651,7 +2613,6 @@
       "/images/38-eliminator-500/img_33.jpg"
     ],
     "specs": {
-      "Ime modela": "EL450ASFNN; ATNN, ATFAN",
       "Boje": "rna, Bijela; rna, rdea",
       "Tip motora": "Tekoinsko hlajen, 4-taktni redni dvocilindrični",
       "Radni obujam": "451 cm³",
@@ -2684,18 +2645,18 @@
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "ABS protiblokirni zavorni sistem, kazalnik varne porabe goriva, kazalnik prestave, LCD digitalni merilnik s tekoimi kristali, KSC povezlivost s pametnim telefonom",
       "Oprema Performance": "Izpuni sistem Euro 5+, Cafe zatemnjen vetrobran z fiksnim nosilcem, zaita posode goriva, zaita motorja",
+      "Ime modela": "EL450ASFNN; ATNN, ATFAN",
       "Oprema Ligt Tourer": "Usnjeni torbi 2 x 19,5 l z fiksnim nosilcem, Cafe zatemnjen vetrobran z fiksnimi nosilci, zaita posode goriva, zaita motorja"
     }
   },
   {
     "id": 39,
     "name": "Kawasaki Versys 1100 SE",
-    "brand": "Kawasaki",
     "category": "Adventure",
     "license_category": "",
     "is_new": false,
-    "description": "Ultimativni adventure-tourer s elektronskim ovjesom i kompletnom touring opremom.",
     "price": "16.827 €",
+    "description": "Ultimativni adventure-tourer s elektronskim ovjesom i kompletnom touring opremom.",
     "images": [
       "/images/39-versys-1100-se/img_01.jpg",
       "/images/39-versys-1100-se/img_02.jpg",
@@ -2768,8 +2729,8 @@
       "Izpusti CO2": "128 g/km",
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, ETV elektronska loputa plina, ECC elektronski tempomat, LED diodna arometa, LED diodne lui za osvetlitev ovinkov, KTRC 3-nainski nadzor oprijema, IMU inercialna merilna enota, KCMF funkcija kontrole v zavojih, KIBS intelegentni protiblokirni zavorni sistem, KQS dvosmerni hitri prestavljalnik od 1.500 o/min, KECS elektronsko nadzorovano vzmetenje, KSC povezljivost s pametnim telefonom z glasovnimi ukazi*, 2-naina moi, ogrevane roke, itnika rok, 12V vtinica, USB vtinica, kazalnik varne porabe goriva, kazalnik prestave, visoko trpena barva, veji vetrobran",
-      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
       "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi, zaita posode goriva",
+      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
       "Oprema Tourer +": "... dodatni LED meglenki, itnika motorja, GPS nosilec",
       "Oprema Grand Tourer": "... zgornji kovek 47 l v barvi, nosila ploa, notranja torba 47 l"
     }
@@ -2777,12 +2738,11 @@
   {
     "id": 40,
     "name": "Kawasaki Versys 1100 S",
-    "brand": "Kawasaki",
     "category": "Adventure",
     "license_category": "",
     "is_new": false,
-    "description": "Moćan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom.",
     "price": "15.263 €",
+    "description": "Moćan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom.",
     "images": [
       "/images/40-versys-1100-s/img_01.jpg",
       "/images/40-versys-1100-s/img_02.jpg",
@@ -2844,8 +2804,8 @@
       "Izpusti CO2": "128 g/km",
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, ETV elektronska loputa plina, ECC elektronski tempomat, LED diodna arometa, LED diodne lui za osvetlitev ovinkov, KTRC 3-nainski nadzor oprijema, IMU inercialna merilna enota, KCMF funkcija kontrole v zavojih, KIBS inteligentni protiblokirni zavorni sistem, KQD dvosmerni hitri prstavljalnik od 1.500 o/min, KSC povezljivost s pametnim telefonom z glasovnimi ukazi*, 2-naina moi, ogrevane roke, itnika rok, 12V vtinica, USB vtinica, kazalnik varne porabe goriva, kazalnik prestave, visoko trpena barva, veji vetrobran",
-      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
       "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi, zaita posode goriva",
+      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
       "Oprema Tourer +": "... dodatni LED meglenki, itnika motorja, GPS nosilec",
       "Oprema Grand Tourer": "... zgornji kovek 47 l v barvi, nosilna ploa, notranja torba 47 l"
     }
@@ -2853,12 +2813,11 @@
   {
     "id": 41,
     "name": "Kawasaki Versys 1100",
-    "brand": "Kawasaki",
     "category": "Adventure",
     "license_category": "",
     "is_new": false,
-    "description": "Klasični Versys recept uz 1100cc snagu. Svestran, udoban i pouzdan za duge ture.",
     "price": "13.556 €",
+    "description": "Klasični Versys recept uz 1100cc snagu. Svestran, udoban i pouzdan za duge ture.",
     "images": [
       "/images/41-versys-1100/img_01.jpg",
       "/images/41-versys-1100/img_02.jpg",
@@ -2911,8 +2870,8 @@
       "Izpusti CO2": "128 g/km",
       "Emisijski razred EC": "Euro 5+",
       "Tehnologije": "ETV elektronska loputa plina, ECC elektronski tempomat, LED diodna arometa, KTRC 3-nainski nadzor oprijema, IMU inercialna merilna enota, KCMF funkcija kontrole v zavojih, KIBS inteligentni protiblokirni zavorni sisten, 12V vtinica, kazalnik varne porabe goriva, kazalnik prestave",
-      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
       "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi, itnika rok, veji vetrobran",
+      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
       "Oprema Tourer +": "... dodatni LED meglenki, itnika motorja, GPS nosilec",
       "Oprema Grand Tourer": "... zgornji kovek 47 l v barvi, nosilna ploa, notranja torba 47 l"
     }
@@ -2920,12 +2879,11 @@
   {
     "id": 42,
     "name": "Kawasaki Versys 650",
-    "brand": "Kawasaki",
     "category": "Adventure",
     "license_category": "",
     "is_new": true,
-    "description": "Najpristupačniji adventure-tourer. Udoban, svestran i ekonomičan za svakodnevnu vožnju.",
     "price": "8.937 €",
+    "description": "Najpristupačniji adventure-tourer. Udoban, svestran i ekonomičan za svakodnevnu vožnju.",
     "images": [
       "/images/42-versys-650/img_01.jpg",
       "/images/42-versys-650/img_02.jpg",
@@ -3012,11 +2970,11 @@
       "Posoda goriva": "21 litrov",
       "Poraba goriva": "4,4 l/100km",
       "Izpusti CO2": "107 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, KSC povezljivost s pametnim telefonom, KTRC nadzor oprijema pogonskega kolesa, ABS protiblokirni zavorni sistem, LED diodna arometa, kazalnik varne porabe goriva, kazalnik prestave, kazalnik zunanje temperature",
-      "Oprema Urban": "Zgornji kovek 40 l v barvi, nosilna ploa, nosilec telefona, viji vetrobran",
-      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
+      "Emisijski razred": "Euro 5+",
       "Oprema Tourer": "2 x 28 l kovka v barvi, notranji torbi, zaita posode goriva, itnika rok",
+      "Oprema Light Tourer": "2 x 28 l kovka v barvi",
+      "Oprema Urban": "Zgornji kovek 40 l v barvi, nosilna ploa, nosilec telefona, viji vetrobran",
       "Oprema Tourer +": "... dodatni LED meglenki",
       "Oprema Grand Tourer": "... zgornji kovek 47 l v barvi, notranja torba 47 l, nosilna ploa, 12 V vtinica, GPS nosilec, viji vetrobran, USB vtinica"
     }
@@ -3024,12 +2982,11 @@
   {
     "id": 43,
     "name": "Kawasaki KLE 500 SE",
-    "brand": "Kawasaki",
     "category": "Adventure",
     "license_category": "A2",
     "is_new": true,
-    "description": "Novi KLE500 SE — pravi mali adventure u A2 paketu s bogatom opremom.",
     "price": "7.442 €",
+    "description": "Novi KLE500 SE — pravi mali adventure u A2 paketu s bogatom opremom.",
     "images": [
       "/images/43-kle-500-se/img_01.jpg",
       "/images/43-kle-500-se/img_02.jpg",
@@ -3105,8 +3062,8 @@
       "Posoda goriva": "16 litrov",
       "Poraba goriva": "4,0 l/100 km",
       "Izpusti CO2": "93 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "TFT barvni tankoplastni tranzistorski merilnik, izlopljiv ABS protiblokirni zavorni sistem, LED diodni aromet in smerniki, kazalnik varne porabe goriva, kazalnik prestave, KSC povetljivost s pametnim telefonon, visok vetrobran,velika zaitna loa motorja, zaita rok",
+      "Emisijski razred": "Euro 5+",
       "Oprema Rally": "Izpuni lonec Euro 5+ Akrapovi, niji rally zadni sede, zaita hladilnika, USB-C vtinica",
       "Oprema Adventure Tourer": "Stranska kovka 2 x 21 l z nosilcema, zaita motorja",
       "Oprema Topcase": "Zgornji kovek 42 l z nosilcem, USB-C vtinica"
@@ -3115,12 +3072,11 @@
   {
     "id": 44,
     "name": "Kawasaki KLE 500",
-    "brand": "Kawasaki",
     "category": "Adventure",
     "license_category": "A2",
     "is_new": true,
-    "description": "Ulazni adventure motocikl za A2 kategoriju. Robusni dizajn i pouzdan motor.",
     "price": "6.664 €",
+    "description": "Ulazni adventure motocikl za A2 kategoriju. Robusni dizajn i pouzdan motor.",
     "images": [
       "/images/44-kle-500/img_01.jpg",
       "/images/44-kle-500/img_02.jpg",
@@ -3167,8 +3123,8 @@
       "Posoda goriva": "16 litrov",
       "Poraba goriva": "4,0 l/100 km",
       "Izpusti CO2": "93 g/km",
-      "Emisijski razred": "Euro 5+",
       "Tehnologije": "LCD merilnik s tekoimi kristali visoke loljivosti, izklopljiv ABS protiblokirni zavorni sistem, LED diodni aromet, kazalnik varne porabe goriva, kazalnik prestave, KSC povetljivost s pametnim telefonon, vetrobran, zaitna ploa motorja",
+      "Emisijski razred": "Euro 5+",
       "Oprema Rally": "Izpuni lonec Euro 5+ Akrapovi, niji rally zadnji sede, zaita hladilnika, USB-C vtinica, velika zaitna ploa motorja",
       "Oprema Adventure Tourer": "Stranska kovka 2 x 21 l z nosilcema, zaita rok, veji vetrobran, veja zaintna ploa motorja, zaita motorja",
       "Oprema Topcase": "Zgornji kovek 42 l z nosilcem, USB-C vtinica"
@@ -3177,12 +3133,11 @@
   {
     "id": 45,
     "name": "Kawasaki KX 450X",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "Enduro za cross-country utrke. Dugotrajna off-road snaga i preciznost.",
     "price": "Cijena na upit",
+    "description": "Enduro za cross-country utrke. Dugotrajna off-road snaga i preciznost.",
     "images": [
       "/images/45-kx-450x/img_01.jpg",
       "/images/45-kx-450x/img_02.jpg",
@@ -3202,7 +3157,6 @@
     ],
     "specs": {
       "Šifra modela": "KX450NSFNN; NTFNN",
-      "Boja": "Zelena; Zelena",
       "Tip motora": "Tekoinsko hlajen, 4-taktni jednoválcovýnik, DOHC (Finger-follower)",
       "Radni obujam": "449 cm³",
       "Promjer × hod": "96 x 62,1 mm",
@@ -3212,7 +3166,6 @@
       "Sistem ventilov": "DOHC, 4 ventili",
       "Sistem dovoda goriva": "Vbrizg goriva: &oslash; 44 mm x 1",
       "Podmazivanje": "Prisilno mazanje, polsuhi karter",
-      "Zagon": "Elektrini",
       "Mjenjač": "5 prestav",
       "Pogon": "Veriga",
       "Kvačilo": "Mokra velamelna, rona hidravlina",
@@ -3229,18 +3182,19 @@
       "Viina sedea": "960 mm",
       "Mokra tea": "113,5 kg",
       "Posoda goriva": "6,2 litra",
-      "Tehnologije": "Kontrola speljevanja, Ergo Fit, Naini moi, kontrola oprijema, povezljivost s pametnim telefonom"
+      "Tehnologije": "Kontrola speljevanja, Ergo Fit, Naini moi, kontrola oprijema, povezljivost s pametnim telefonom",
+      "Zagon": "Elektrini",
+      "Boja": "Zelena; Zelena"
     }
   },
   {
     "id": 46,
     "name": "Kawasaki KX 250X",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "Cross-country enduro 250cc za dugotrajne off-road avanture.",
     "price": "Cijena na upit",
+    "description": "Cross-country enduro 250cc za dugotrajne off-road avanture.",
     "images": [
       "/images/46-kx-250x/img_01.jpg",
       "/images/46-kx-250x/img_02.jpg",
@@ -3259,7 +3213,6 @@
     ],
     "specs": {
       "Šifra modela": "KX252FSFNN",
-      "Boja": "Zelena",
       "Tip motora": "Tekoinsko hlajen, 4-taktni jednoválcovýnik, DOHC (Finger-follower)",
       "Radni obujam": "249 cm³",
       "Promjer × hod": "78 x 52,2 mm",
@@ -3269,7 +3222,6 @@
       "Sistem ventilov": "DOHC, 4 ventili",
       "Sistem dovoda goriva": "Vbrizg goriva: &oslash; 44 mm x 1",
       "Podmazivanje": "Prisilno mazanje, polsuhi karter",
-      "Zagon": "Elektrini",
       "Mjenjač": "5 prestav",
       "Pogon": "Veriga",
       "Kvačilo": "Mokra velamelna, rona hidravlina",
@@ -3286,18 +3238,19 @@
       "Viina sedea": "955 mm",
       "Mokra tea": "110,6 kg",
       "Posoda goriva": "6,2 litra",
-      "Tehnologije": "Kontrola speljevanja, Ergo Fit, Naini moi, kontrola oprijema, povezljivost s pametnim telefonom"
+      "Tehnologije": "Kontrola speljevanja, Ergo Fit, Naini moi, kontrola oprijema, povezljivost s pametnim telefonom",
+      "Zagon": "Elektrini",
+      "Boja": "Zelena"
     }
   },
   {
     "id": 47,
     "name": "Kawasaki KLX 230R S",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "A2",
     "is_new": false,
-    "description": "Dual-sport enduro za cestu i blato. Pouzdan i lagan za A2 off-road entuzijaste.",
     "price": "Cijena na upit",
+    "description": "Dual-sport enduro za cestu i blato. Pouzdan i lagan za A2 off-road entuzijaste.",
     "images": [
       "/images/47-klx-230r-s/img_01.jpg",
       "/images/47-klx-230r-s/img_02.jpg",
@@ -3334,7 +3287,6 @@
       "Najveja hitrost": "- km/h",
       "Sistem ventilov": "SOHC, 2 ventila",
       "Sistem dovoda goriva": "Elektronski vbrizg 32 mm x 1",
-      "Zagon": "Elektrini zaganjalnik",
       "Podmazivanje": "Prisilno mazanje, mokri karter",
       "Mjenjač": "6 prestav",
       "Pogon": "Veriga",
@@ -3355,18 +3307,18 @@
       "Poraba goriva": "3,2 l/100km",
       "Izpusti CO2": "88 g/km",
       "Emisijski razred EC": "-",
-      "Tehnologije": "Ergo-Fit"
+      "Tehnologije": "Ergo-Fit",
+      "Zagon": "Elektrini zaganjalnik"
     }
   },
   {
     "id": 48,
     "name": "Kawasaki KLX 140R",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "Off-road za mlade i odrasle vozače. Pouzdan, lak za upravljanje i zabavan.",
     "price": "Cijena na upit",
+    "description": "Off-road za mlade i odrasle vozače. Pouzdan, lak za upravljanje i zabavan.",
     "images": [
       "/images/48-klx-140r/img_01.jpg",
       "/images/48-klx-140r/img_02.jpg",
@@ -3410,12 +3362,11 @@
   {
     "id": 49,
     "name": "Kawasaki KLX 110R",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "Mini off-road za najmlađe. Automatski mjenjač i niska sjedala.",
     "price": "Cijena na upit",
+    "description": "Mini off-road za najmlađe. Automatski mjenjač i niska sjedala.",
     "images": [
       "/images/49-klx-110r/img_01.jpg",
       "/images/49-klx-110r/img_02.jpg",
@@ -3460,12 +3411,11 @@
   {
     "id": 50,
     "name": "Kawasaki KX 450",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "Vrhunski motocross natjecatelj. Razvijen za pobjedu na stazi.",
     "price": "Cijena na upit",
+    "description": "Vrhunski motocross natjecatelj. Razvijen za pobjedu na stazi.",
     "images": [
       "/images/50-kx-450/img_01.jpg",
       "/images/50-kx-450/img_02.jpg",
@@ -3498,7 +3448,6 @@
     ],
     "specs": {
       "Šifra modela": "KX450MSFNN; MTFNN",
-      "Boja": "Zelena; Zelena",
       "Tip motora": "Tekoinsko hlajen, 4-taktni jednoválcovýnik, DOHC (Prstni nihajnik)",
       "Radni obujam": "449 cm³",
       "Promjer × hod": "96 x 62,1 mm",
@@ -3508,7 +3457,6 @@
       "Sistem ventilov": "DOHC, 4 ventili",
       "Sistem dovoda goriva": "Vbrizg goriva: &oslash; 44 mm x 1",
       "Podmazivanje": "Prisilno mazanje, polsuhi karter",
-      "Zagon": "Elektrini",
       "Mjenjač": "5 prestav",
       "Pogon": "Veriga",
       "Kvačilo": "Mokra velamelna, rona hidravlina",
@@ -3525,18 +3473,19 @@
       "Viina sedea": "960 mm",
       "Mokra tea": "112,6 kg",
       "Posoda goriva": "6,2 litra",
-      "Tehnologije": "Kontrola speljevanja, Ergo Fit, Naini moi, kontrola oprijema, povezljivost s pametnim telefonom"
+      "Tehnologije": "Kontrola speljevanja, Ergo Fit, Naini moi, kontrola oprijema, povezljivost s pametnim telefonom",
+      "Zagon": "Elektrini",
+      "Boja": "Zelena; Zelena"
     }
   },
   {
     "id": 51,
     "name": "Kawasaki KX 250",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "Profesionalni 250cc motocross. Lagan, brz i agresivan.",
     "price": "Cijena na upit",
+    "description": "Profesionalni 250cc motocross. Lagan, brz i agresivan.",
     "images": [
       "/images/51-kx-250/img_01.jpg",
       "/images/51-kx-250/img_02.jpg",
@@ -3558,7 +3507,6 @@
     ],
     "specs": {
       "Šifra modela": "KX252ETFNN",
-      "Boja": "Zelena",
       "Tip motora": "Tekoinsko hlajen, 4-taktni jednoválcovýnik, DOHC (Prstni nihajnik)",
       "Radni obujam": "249 cm³",
       "Promjer × hod": "78 x 52,2 mm",
@@ -3568,7 +3516,6 @@
       "Sistem ventilov": "DOHC, 4 ventili",
       "Sistem dovoda goriva": "Vbrizg goriva: &oslash; 44 mm x 1",
       "Podmazivanje": "Prisilno mazanje, polsuhi karter",
-      "Zagon": "Elektrini",
       "Mjenjač": "5 prestav",
       "Pogon": "Veriga",
       "Kvačilo": "Mokra velamelna, rona hidravlina",
@@ -3585,18 +3532,19 @@
       "Viina sedea": "955 mm",
       "Mokra tea": "109,5 kg",
       "Posoda goriva": "6,2 litra",
-      "Tehnologije": "Kontrola speljevanja, Ergo Fit, Naini moi, kontrola oprijema, povezljivost s pametnim telefonom"
+      "Tehnologije": "Kontrola speljevanja, Ergo Fit, Naini moi, kontrola oprijema, povezljivost s pametnim telefonom",
+      "Zagon": "Elektrini",
+      "Boja": "Zelena"
     }
   },
   {
     "id": 52,
     "name": "Kawasaki KX 112",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "2-taktni motocross za mlađe natjecatelje. Lagan i precizan.",
     "price": "Cijena na upit",
+    "description": "2-taktni motocross za mlađe natjecatelje. Lagan i precizan.",
     "images": [
       "/images/52-kx-112/img_01.jpg",
       "/images/52-kx-112/img_02.jpg",
@@ -3610,7 +3558,6 @@
       "/images/52-kx-112/img_10.jpg"
     ],
     "specs": {
-      "Ime modela": "KX112BTFNN",
       "Boje": "Zelena",
       "Tip motora": "Tekoinsko hlajen, 2-taktni jednoválcovýnik z KIPS (integrirani izpuni ventili)",
       "Radni obujam": "112 cm³",
@@ -3636,25 +3583,24 @@
       "Odmik od tal": "330 mm",
       "Viina sedea": "865 mm",
       "Mokra tea": "78,4 kg",
-      "Posoda goriva": "5 litrov"
+      "Posoda goriva": "5 litrov",
+      "Ime modela": "KX112BTFNN"
     }
   },
   {
     "id": 53,
     "name": "Kawasaki KX 85L",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "2-taktni junior motocross Large verzija — za više vozače.",
     "price": "Cijena na upit",
+    "description": "2-taktni junior motocross Large verzija — za više vozače.",
     "images": [
       "/images/53-kx-85l/img_01.jpg",
       "/images/53-kx-85l/img_02.jpg",
       "/images/53-kx-85l/img_03.jpg"
     ],
     "specs": {
-      "Ime modela": "KX85TFNN",
       "Boje": "Zelena",
       "Tip motora": "Tekoinsko hlajen, 2-taktni jednoválcovýnik z KIPS (integrirani izpuni ventili)",
       "Radni obujam": "84 cm³",
@@ -3680,18 +3626,18 @@
       "Odmik od tal": "330 mm",
       "Viina sedea": "865 mm",
       "Mokra tea": "78,2 kg",
-      "Posoda goriva": "5 litrov"
+      "Posoda goriva": "5 litrov",
+      "Ime modela": "KX85TFNN"
     }
   },
   {
     "id": 54,
     "name": "Kawasaki KX 85",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "2-taktni junior motocross za mlade natjecatelje.",
     "price": "Cijena na upit",
+    "description": "2-taktni junior motocross za mlade natjecatelje.",
     "images": [
       "/images/54-kx-85/img_01.jpg",
       "/images/54-kx-85/img_02.jpg",
@@ -3732,12 +3678,11 @@
   {
     "id": 55,
     "name": "Kawasaki KX 65",
-    "brand": "Kawasaki",
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "description": "Motocross za najmlađe natjecatelje. Idealan ulaz u motocross sport.",
     "price": "Cijena na upit",
+    "description": "Motocross za najmlađe natjecatelje. Idealan ulaz u motocross sport.",
     "images": [
       "/images/55-kx-65/img_01.jpg",
       "/images/55-kx-65/img_02.jpg",
@@ -3781,30 +3726,27 @@
   {
     "id": 56,
     "name": "Kawasaki Brute Force 750 SE",
-    "brand": "Kawasaki",
     "category": "Quad",
     "license_category": "",
     "is_new": false,
-    "description": "Brute Force 750 SE 4x4 — najsnažniji Kawasaki ATV s EPS elektronskim upravljanjem i V-twin motorom.",
     "price": "Cijena na upit",
+    "description": "Brute Force 750 SE 4x4 — najsnažniji Kawasaki ATV s EPS elektronskim upravljanjem i V-twin motorom.",
     "images": [
       "/images/56-brute-force-750-se/img_01.png",
       "/images/56-brute-force-750-se/img_02.png",
       "/images/56-brute-force-750-se/img_03.png",
       "/images/56-brute-force-750-se/img_04.png",
       "/images/56-brute-force-750-se/img_05.png"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 57,
     "name": "Kawasaki Brute Force 750",
-    "brand": "Kawasaki",
     "category": "Quad",
     "license_category": "",
     "is_new": false,
-    "description": "Brute Force 750 4x4 — moćni V-twin 749cc ATV za svaki teren bez kompromisa.",
     "price": "Cijena na upit",
+    "description": "Brute Force 750 4x4 — moćni V-twin 749cc ATV za svaki teren bez kompromisa.",
     "images": [
       "/images/57-brute-force-750/img_01.jpg",
       "/images/57-brute-force-750/img_02.jpg",
@@ -3831,18 +3773,16 @@
       "/images/57-brute-force-750/img_23.jpg",
       "/images/57-brute-force-750/img_24.jpg",
       "/images/57-brute-force-750/img_25.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 58,
     "name": "Kawasaki Brute Force 450 EPS",
-    "brand": "Kawasaki",
     "category": "Quad",
     "license_category": "",
     "is_new": false,
-    "description": "Brute Force 450 EPS 4x4 — snažni ATV s elektronskim upravljanjem za zahtjevne terene.",
     "price": "Cijena na upit",
+    "description": "Brute Force 450 EPS 4x4 — snažni ATV s elektronskim upravljanjem za zahtjevne terene.",
     "images": [
       "/images/58-brute-force-450-eps/img_01.jpg",
       "/images/58-brute-force-450-eps/img_02.jpg",
@@ -3864,18 +3804,16 @@
       "/images/58-brute-force-450-eps/img_18.jpg",
       "/images/58-brute-force-450-eps/img_19.jpg",
       "/images/58-brute-force-450-eps/img_20.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 59,
     "name": "Kawasaki Brute Force 450",
-    "brand": "Kawasaki",
     "category": "Quad",
     "license_category": "",
     "is_new": false,
-    "description": "Brute Force 450 4x4 — provjereni četverocikl za teren, posao i avanturu.",
     "price": "Cijena na upit",
+    "description": "Brute Force 450 4x4 — provjereni četverocikl za teren, posao i avanturu.",
     "images": [
       "/images/59-brute-force-450/img_01.jpg",
       "/images/59-brute-force-450/img_02.jpg",
@@ -3918,18 +3856,16 @@
       "/images/59-brute-force-450/img_39.jpg",
       "/images/59-brute-force-450/img_40.jpg",
       "/images/59-brute-force-450/img_41.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 60,
     "name": "Kawasaki KFX 90",
-    "brand": "Kawasaki",
     "category": "Quad",
     "license_category": "",
     "is_new": false,
-    "description": "KFX 90 — sportski ATV za mlade vozače. Automatski mjenjač i zabavni sportski karakter.",
     "price": "Cijena na upit",
+    "description": "KFX 90 — sportski ATV za mlade vozače. Automatski mjenjač i zabavni sportski karakter.",
     "images": [
       "/images/60-kfx-90/img_01.jpg",
       "/images/60-kfx-90/img_02.jpg",
@@ -3942,35 +3878,31 @@
       "/images/60-kfx-90/img_09.jpg",
       "/images/60-kfx-90/img_10.jpg",
       "/images/60-kfx-90/img_11.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 61,
     "name": "Kawasaki Mule PRO-DXT",
-    "brand": "Kawasaki",
     "category": "Mule",
     "license_category": "",
     "is_new": false,
-    "description": "Mule PRO-DXT — šestosjedni višenamjenski SxS za najtežu primjenu na farmi i gradilištu.",
     "price": "Cijena na upit",
+    "description": "Mule PRO-DXT — šestosjedni višenamjenski SxS za najtežu primjenu na farmi i gradilištu.",
     "images": [
       "/images/61-mule-pro-dxt/img_01.jpg",
       "/images/61-mule-pro-dxt/img_02.jpg",
       "/images/61-mule-pro-dxt/img_03.jpg",
       "/images/61-mule-pro-dxt/img_04.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 62,
     "name": "Kawasaki Mule PRO-DX",
-    "brand": "Kawasaki",
     "category": "Mule",
     "license_category": "",
     "is_new": false,
-    "description": "Mule PRO-DX — robusni radni SxS vozač za najzahtjevnije terenske zadatke.",
     "price": "Cijena na upit",
+    "description": "Mule PRO-DX — robusni radni SxS vozač za najzahtjevnije terenske zadatke.",
     "images": [
       "/images/62-mule-pro-dx/img_01.jpg",
       "/images/62-mule-pro-dx/img_02.jpg",
@@ -3983,18 +3915,16 @@
       "/images/62-mule-pro-dx/img_09.jpg",
       "/images/62-mule-pro-dx/img_10.jpg",
       "/images/62-mule-pro-dx/img_11.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 63,
     "name": "Kawasaki Mule PRO-FX",
-    "brand": "Kawasaki",
     "category": "Mule",
     "license_category": "",
     "is_new": false,
-    "description": "Mule PRO-FX — čvrstoća i pouzdanost Kawasaki za najteže radne uvjete.",
     "price": "Cijena na upit",
+    "description": "Mule PRO-FX — čvrstoća i pouzdanost Kawasaki za najteže radne uvjete.",
     "images": [
       "/images/63-mule-pro-fx/img_01.jpg",
       "/images/63-mule-pro-fx/img_02.jpg",
@@ -4006,18 +3936,16 @@
       "/images/63-mule-pro-fx/img_09.jpg",
       "/images/63-mule-pro-fx/img_10.jpg",
       "/images/63-mule-pro-fx/img_11.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 64,
     "name": "Kawasaki Mule PRO-MX",
-    "brand": "Kawasaki",
     "category": "Mule",
     "license_category": "",
     "is_new": false,
-    "description": "Mule PRO-MX — kompaktni i moćni radni SxS. Idealan za farme i terenska radilišta.",
     "price": "Cijena na upit",
+    "description": "Mule PRO-MX — kompaktni i moćni radni SxS. Idealan za farme i terenska radilišta.",
     "images": [
       "/images/64-mule-pro-mx/img_01.jpg",
       "/images/64-mule-pro-mx/img_02.jpg",
@@ -4050,34 +3978,30 @@
       "/images/64-mule-pro-mx/img_29.jpg",
       "/images/64-mule-pro-mx/img_30.jpg",
       "/images/64-mule-pro-mx/img_31.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 65,
     "name": "Kawasaki Mule SX 4x4 FI",
-    "brand": "Kawasaki",
     "category": "Mule",
     "license_category": "",
     "is_new": false,
-    "description": "Mule SX 4x4 FI — mali ali moćan. Najpristupačniji Kawasaki SxS za manje radne površine.",
     "price": "Cijena na upit",
+    "description": "Mule SX 4x4 FI — mali ali moćan. Najpristupačniji Kawasaki SxS za manje radne površine.",
     "images": [
       "/images/65-mule-sx-4x4-fi/img_01.jpg",
       "/images/65-mule-sx-4x4-fi/img_02.jpg",
       "/images/65-mule-sx-4x4-fi/img_03.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 66,
     "name": "Kawasaki Jet Ski Ultra 310LX",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski Ultra 310LX — luksuzni 3-sjedni vodeni skuter s 310 KS supercharged motorom za vrhunsko iskustvo.",
     "price": "Cijena na upit",
+    "description": "Jet Ski Ultra 310LX — luksuzni 3-sjedni vodeni skuter s 310 KS supercharged motorom za vrhunsko iskustvo.",
     "images": [
       "/images/66-jet-ski-ultra-310lx/img_01.jpg",
       "/images/66-jet-ski-ultra-310lx/img_02.jpg",
@@ -4091,18 +4015,16 @@
       "/images/66-jet-ski-ultra-310lx/img_10.jpg",
       "/images/66-jet-ski-ultra-310lx/img_11.jpg",
       "/images/66-jet-ski-ultra-310lx/img_12.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 67,
     "name": "Kawasaki Jet Ski Ultra 310LX-S",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski Ultra 310LX-S — sport-luksuzna verzija Ultra serije s dodatnim performansama.",
     "price": "Cijena na upit",
+    "description": "Jet Ski Ultra 310LX-S — sport-luksuzna verzija Ultra serije s dodatnim performansama.",
     "images": [
       "/images/67-jet-ski-ultra-310lx-s/img_01.jpg",
       "/images/67-jet-ski-ultra-310lx-s/img_02.jpg",
@@ -4126,18 +4048,16 @@
       "/images/67-jet-ski-ultra-310lx-s/img_20.jpg",
       "/images/67-jet-ski-ultra-310lx-s/img_21.jpg",
       "/images/67-jet-ski-ultra-310lx-s/img_22.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 68,
     "name": "Kawasaki Jet Ski Ultra 310X",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski Ultra 310X — sportski jednosjed s 310 KS za maksimalnu adrenalińsku zabavu.",
     "price": "Cijena na upit",
+    "description": "Jet Ski Ultra 310X — sportski jednosjed s 310 KS za maksimalnu adrenalińsku zabavu.",
     "images": [
       "/images/68-jet-ski-ultra-310x/img_01.jpg",
       "/images/68-jet-ski-ultra-310x/img_02.jpg",
@@ -4150,18 +4070,16 @@
       "/images/68-jet-ski-ultra-310x/img_09.jpg",
       "/images/68-jet-ski-ultra-310x/img_10.jpg",
       "/images/68-jet-ski-ultra-310x/img_11.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 69,
     "name": "Kawasaki Jet Ski Ultra 160LX",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski Ultra 160LX — luksuzni 3-sjedni vodeni skuter za dugačke vodene ture.",
     "price": "Cijena na upit",
+    "description": "Jet Ski Ultra 160LX — luksuzni 3-sjedni vodeni skuter za dugačke vodene ture.",
     "images": [
       "/images/69-jet-ski-ultra-160lx/img_01.jpg",
       "/images/69-jet-ski-ultra-160lx/img_02.jpg",
@@ -4181,18 +4099,16 @@
       "/images/69-jet-ski-ultra-160lx/img_16.jpg",
       "/images/69-jet-ski-ultra-160lx/img_17.jpg",
       "/images/69-jet-ski-ultra-160lx/img_18.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 70,
     "name": "Kawasaki Jet Ski Ultra 160LX-S",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski Ultra 160LX-S — kombinacija sporta i luksuza u vodenom skuteru.",
     "price": "Cijena na upit",
+    "description": "Jet Ski Ultra 160LX-S — kombinacija sporta i luksuza u vodenom skuteru.",
     "images": [
       "/images/70-jet-ski-ultra-160lx-s/img_01.jpg",
       "/images/70-jet-ski-ultra-160lx-s/img_02.jpg",
@@ -4205,18 +4121,16 @@
       "/images/70-jet-ski-ultra-160lx-s/img_09.jpg",
       "/images/70-jet-ski-ultra-160lx-s/img_10.jpg",
       "/images/70-jet-ski-ultra-160lx-s/img_11.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 71,
     "name": "Kawasaki Jet Ski Ultra 160LX-S Angler",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski Ultra 160LX-S Angler — posebna outdoor verzija s opremom za ribolov i avanturu.",
     "price": "Cijena na upit",
+    "description": "Jet Ski Ultra 160LX-S Angler — posebna outdoor verzija s opremom za ribolov i avanturu.",
     "images": [
       "/images/71-jet-ski-ultra-160lx-s-angler/img_01.jpg",
       "/images/71-jet-ski-ultra-160lx-s-angler/img_02.jpg",
@@ -4244,18 +4158,16 @@
       "/images/71-jet-ski-ultra-160lx-s-angler/img_24.jpg",
       "/images/71-jet-ski-ultra-160lx-s-angler/img_25.jpg",
       "/images/71-jet-ski-ultra-160lx-s-angler/img_26.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 72,
     "name": "Kawasaki Jet Ski STX 160LX",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski STX 160LX — sportski vodeni skuter s 160 KS za uzbudljivo klizanje valovima.",
     "price": "Cijena na upit",
+    "description": "Jet Ski STX 160LX — sportski vodeni skuter s 160 KS za uzbudljivo klizanje valovima.",
     "images": [
       "/images/72-jet-ski-stx-160lx/img_01.jpg",
       "/images/72-jet-ski-stx-160lx/img_02.jpg",
@@ -4285,18 +4197,16 @@
       "/images/72-jet-ski-stx-160lx/img_26.jpg",
       "/images/72-jet-ski-stx-160lx/img_27.jpg",
       "/images/72-jet-ski-stx-160lx/img_28.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 73,
     "name": "Kawasaki Jet Ski STX 160R",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski STX 160R — vrhunski sport jednosjed s 160 KS za trkačke entuzijaste.",
     "price": "Cijena na upit",
+    "description": "Jet Ski STX 160R — vrhunski sport jednosjed s 160 KS za trkačke entuzijaste.",
     "images": [
       "/images/73-jet-ski-stx-160r/img_01.jpg",
       "/images/73-jet-ski-stx-160r/img_02.jpg",
@@ -4313,18 +4223,16 @@
       "/images/73-jet-ski-stx-160r/img_13.jpg",
       "/images/73-jet-ski-stx-160r/img_14.jpg",
       "/images/73-jet-ski-stx-160r/img_15.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 74,
     "name": "Kawasaki Jet Ski STX 160X",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski STX 160X — moćni sport jednosjed za adrenalin na vodi.",
     "price": "Cijena na upit",
+    "description": "Jet Ski STX 160X — moćni sport jednosjed za adrenalin na vodi.",
     "images": [
       "/images/74-jet-ski-stx-160x/img_01.jpg",
       "/images/74-jet-ski-stx-160x/img_02.jpg",
@@ -4343,18 +4251,16 @@
       "/images/74-jet-ski-stx-160x/img_15.jpg",
       "/images/74-jet-ski-stx-160x/img_16.jpg",
       "/images/74-jet-ski-stx-160x/img_17.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 75,
     "name": "Kawasaki Jet Ski ST 160X",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski ST 160X — ulazni sport jednosjed za adrenalinsko klizanje.",
     "price": "Cijena na upit",
+    "description": "Jet Ski ST 160X — ulazni sport jednosjed za adrenalinsko klizanje.",
     "images": [
       "/images/75-jet-ski-st-160x/img_01.png",
       "/images/75-jet-ski-st-160x/img_02.png",
@@ -4379,18 +4285,16 @@
       "/images/75-jet-ski-st-160x/img_21.jpg",
       "/images/75-jet-ski-st-160x/img_22.jpg",
       "/images/75-jet-ski-st-160x/img_23.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 76,
     "name": "Kawasaki Jet Ski ST 160",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski ST 160 — pristupačni ulaz u Kawasaki vodeni sport.",
     "price": "Cijena na upit",
+    "description": "Jet Ski ST 160 — pristupačni ulaz u Kawasaki vodeni sport.",
     "images": [
       "/images/76-jet-ski-st-160/img_01.jpg",
       "/images/76-jet-ski-st-160/img_02.jpg",
@@ -4404,18 +4308,16 @@
       "/images/76-jet-ski-st-160/img_10.jpg",
       "/images/76-jet-ski-st-160/img_11.jpg",
       "/images/76-jet-ski-st-160/img_12.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 77,
     "name": "Kawasaki Jet Ski STX 160LX",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski STX 160LX — sportski luksuzni vodeni skuter.",
     "price": "Cijena na upit",
+    "description": "Jet Ski STX 160LX — sportski luksuzni vodeni skuter.",
     "images": [
       "/images/77-jet-ski-stx-160lx/img_01.jpg",
       "/images/77-jet-ski-stx-160lx/img_02.jpg",
@@ -4424,18 +4326,16 @@
       "/images/77-jet-ski-stx-160lx/img_05.jpg",
       "/images/77-jet-ski-stx-160lx/img_06.jpg",
       "/images/77-jet-ski-stx-160lx/img_07.jpg"
-    ],
-    "specs": {}
+    ]
   },
   {
     "id": 78,
     "name": "Kawasaki Jet Ski STX 160X",
-    "brand": "Kawasaki",
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "description": "Jet Ski STX 160X — sportski jednosjed za maksimalne performanse na vodi.",
     "price": "Cijena na upit",
+    "description": "Jet Ski STX 160X — sportski jednosjed za maksimalne performanse na vodi.",
     "images": [
       "/images/78-jet-ski-stx-160x/img_01.jpg",
       "/images/78-jet-ski-stx-160x/img_02.jpg",
@@ -4445,7 +4345,6 @@
       "/images/78-jet-ski-stx-160x/img_06.jpg",
       "/images/78-jet-ski-stx-160x/img_07.jpg",
       "/images/78-jet-ski-stx-160x/img_08.jpg"
-    ],
-    "specs": {}
+    ]
   }
 ]
