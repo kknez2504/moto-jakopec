@@ -148,25 +148,29 @@ def write_dropdown_sheet(wb):
     #   Kad korisnik doda novi red, COUNTA se automatski uvećava.
     q = f"'{DD_SHEET}'"   # ime sheeta s navodnicima (ima razmak)
 
-    dynamic_ranges = {
-        # Kategorija
-        "NR_Kategorija":    f"OFFSET({q}!$A$1,1,0,COUNTA({q}!$A:$A)-1,1)",
-        # Podkategorije — imenuju se točno "Oprema" i "Dijelovi" da INDIRECT radi:
-        #   subcategory formula = INDIRECT($C2) → kad C2="Oprema" → traži NR "Oprema"
-        "Oprema":           f"OFFSET({q}!$B$1,1,0,COUNTA({q}!$B:$B)-1,1)",
-        "Dijelovi":         f"OFFSET({q}!$C$1,1,0,COUNTA({q}!$C:$C)-1,1)",
-        # Brendovi — INDIRECT("NR_Brand_"&$C2) → "NR_Brand_Oprema" ili "NR_Brand_Dijelovi"
-        "NR_Brand_Oprema":  f"OFFSET({q}!$D$1,1,0,COUNTA({q}!$D:$D)-1,1)",
-        "NR_Brand_Dijelovi":f"OFFSET({q}!$E$1,1,0,COUNTA({q}!$E:$E)-1,1)",
+    # Statički rangevi s dovoljno prostora za buduće dodatke.
+    # OFFSET ovdje ne koristimo jer ga neke Excel verzije ne podržavaju
+    # unutar INDIRECT-a u DataValidation.
+    # Redovi 2–3:   Kategorija (samo 2, ne mijenja se)
+    # Redovi 2–100: Podkategorije (10/12 trenutno + 80+ mjesta)
+    # Redovi 2–50:  Brendovi (6/7 trenutno + 40+ mjesta)
+    named_ranges = {
+        "NR_Kategorija":     f"{q}!$A$2:$A$3",
+        # Imenuju se točno "Oprema" i "Dijelovi" → INDIRECT($C2) radi
+        "Oprema":            f"{q}!$B$2:$B$100",
+        "Dijelovi":          f"{q}!$C$2:$C$100",
+        # INDIRECT("NR_Brand_"&$C2) → "NR_Brand_Oprema" ili "NR_Brand_Dijelovi"
+        "NR_Brand_Oprema":   f"{q}!$D$2:$D$50",
+        "NR_Brand_Dijelovi": f"{q}!$E$2:$E$50",
     }
 
-    for name in list(dynamic_ranges.keys()):
+    for name in list(named_ranges.keys()):
         if name in wb.defined_names:
             del wb.defined_names[name]
-    for name, formula in dynamic_ranges.items():
-        wb.defined_names[name] = DefinedName(name, attr_text=formula)
+    for name, ref in named_ranges.items():
+        wb.defined_names[name] = DefinedName(name, attr_text=ref)
 
-    return dynamic_ranges
+    return named_ranges
 
 # ── Padajući izbornici u Proizvodi sheetu ─────────────────────────────────────
 def add_dropdowns(ws):
