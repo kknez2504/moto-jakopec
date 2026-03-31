@@ -36,3 +36,5 @@ next-env.d.ts
 
 # lokalne datoteke za upravljanje podacima (ne trebaju na Vercel)
 vozila.xlsx
+
+proizvodi.xlsx

@@ -11,6 +11,8 @@ const navLinks = [
   { href: "/motocikli?category=Quad",     label: "Quad" },
   { href: "/motocikli?category=Mule",     label: "Mule" },
   { href: "/motocikli?category=Jet+Ski",  label: "Jet Ski" },
+  { href: "/oprema",                      label: "Oprema" },
+  { href: "/dijelovi",                    label: "Dijelovi" },
   { href: "/kontakt",                     label: "Kontakt" },
 ];
 
