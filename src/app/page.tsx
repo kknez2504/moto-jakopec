@@ -18,7 +18,7 @@ const CATEGORIES_INFO = [
   { name: "Quad",         icon: "🚜", desc: "ATV / četverocikli" },
   { name: "Mule",         icon: "🛻", desc: "Kawasaki Mule vozila" },
   { name: "Jet Ski",      icon: "🚤", desc: "Kawasaki vodeni skuteri" },
-  { name: "Electric",     icon: "🔋", desc: "Električni & hibridni" },
+  { name: "Električni",   icon: "🔋", desc: "Električni & hibridni" },
 ];
 
 export default function HomePage() {

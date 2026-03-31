@@ -38,9 +38,9 @@ function MotocikliContent() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Header */}
       <div className="mb-10">
-        <h1 className="section-title">Motocikli u ponudi</h1>
+        <h1 className="section-title">Vozila u ponudi</h1>
         <p className="section-subtitle">
-          Kawasaki novi modeli — cijene za {new Date().getFullYear()}
+          Kawasaki motocikli, quadovi, Mule i Jet Ski — {new Date().getFullYear()}
         </p>
       </div>
 

@@ -24,11 +24,10 @@ export type Category =
   | "Classic"
   | "Cruiser"
   | "Offroad"
-  | "Electric"
+  | "Električni"
   | "Quad"
-  | "Radna vozila"
-  | "Jet Ski"
-  | "Električni";
+  | "Mule"
+  | "Jet Ski";
 
 export const CATEGORIES: Category[] = [
   "Sve",
@@ -39,7 +38,7 @@ export const CATEGORIES: Category[] = [
   "Classic",
   "Cruiser",
   "Offroad",
-  "Electric",
+  "Električni",
   "Quad",
   "Mule",
   "Jet Ski",

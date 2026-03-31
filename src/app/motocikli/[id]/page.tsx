@@ -40,7 +40,7 @@ export default async function BikeDetailPage({ params }: Props) {
       <nav className="flex items-center gap-2 text-sm mb-8" style={{ color: "var(--muted)" }}>
         <Link href="/" className="transition-colors hover:underline" style={{ color: "var(--muted)" }}>Početna</Link>
         <span>/</span>
-        <Link href="/motocikli" className="transition-colors hover:underline" style={{ color: "var(--muted)" }}>Motocikli</Link>
+        <Link href="/motocikli" className="transition-colors hover:underline" style={{ color: "var(--muted)" }}>Vozila</Link>
         <span>/</span>
         <span style={{ color: "var(--text)" }}>{bike.name}</span>
       </nav>

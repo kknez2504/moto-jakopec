@@ -48,7 +48,7 @@ const INFO = [
       </svg>
     ),
     label: "Radno vrijeme",
-    value: "Pon. i sri. 10:00–18:00  |  Uto., čet. i pet. 8:00–16:00",
+    value: "Ponedjeljak i srijeda: 10:00 – 18:00\nUtorak, četvrtak i petak: 8:00 – 16:00",
     href: null,
   },
 ];
@@ -83,7 +83,7 @@ export default function KontaktPage() {
                     {item.value}
                   </a>
                 ) : (
-                  <span className="font-medium" style={{ color: "var(--text)" }}>{item.value}</span>
+                  <span className="font-medium" style={{ color: "var(--text)", whiteSpace: "pre-line" }}>{item.value}</span>
                 )}
               </div>
             </div>
