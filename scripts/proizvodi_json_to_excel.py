@@ -1,10 +1,12 @@
 """
-Kreira/ažurira proizvodi.xlsx iz products.json (jednom za inicijalizaciju).
+Kreira osnovni proizvodi.xlsx iz products.json (za inicijalizaciju / oporavak).
 
-Pokreni: py -X utf8 scripts/products_to_excel.py
+Nakon ovoga pokreni i predložak da dobiješ dropdowne:
+    py -X utf8 scripts/proizvodi_json_to_excel.py
+    py -X utf8 scripts/kreiraj_excel_predlozak.py
 
 Stupci:
-  id, name, category, subcategory, price, description, image_folder, is_new
+  id, name, category, subcategory, price, description, image_folder, is_new, brand
 """
 
 import json, os
@@ -17,11 +19,11 @@ ROOT_DIR    = os.path.join(SCRIPT_DIR, "..")
 JSON_PATH   = os.path.join(ROOT_DIR, "src", "data", "products.json")
 EXCEL_PATH  = os.path.join(ROOT_DIR, "proizvodi.xlsx")
 
-HEADERS = ["id", "name", "category", "subcategory", "price", "description", "image_folder", "is_new"]
+HEADERS = ["id", "name", "category", "subcategory", "price", "description", "image_folder", "is_new", "brand"]
 
 COL_WIDTHS = {
     "id": 5, "name": 35, "category": 12, "subcategory": 18,
-    "price": 16, "description": 55, "image_folder": 25, "is_new": 8,
+    "price": 16, "description": 55, "image_folder": 25, "is_new": 8, "brand": 14,
 }
 
 def main():
@@ -68,6 +70,7 @@ def main():
             "description":  p.get("description", ""),
             "image_folder": p.get("image_folder", ""),
             "is_new":       p.get("is_new", False),
+            "brand":        p.get("brand", ""),
         }
         for col_idx, col in enumerate(HEADERS, start=1):
             cell = ws.cell(row=row_idx, column=col_idx, value=row_data[col])

@@ -2,7 +2,7 @@
 Pretvara vozila.xlsx natrag u models.json.
 
 Pokreni nakon svake izmjene u Excelu:
-    py -X utf8 scripts/excel_to_json.py
+    py -X utf8 scripts/vozila_excel_to_json.py
 
 Što radi:
   - Čita vozila.xlsx (sheet "Vozila")
