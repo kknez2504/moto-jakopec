@@ -7,7 +7,7 @@
     "price": 5,
     "description": "Bla bla bla",
     "image_folder": "01 kaciga",
-    "brand": "",
+    "brand": "prox",
     "is_new": true,
     "images": [
       "/images/oprema/01 kaciga/img_01.jpg"
@@ -21,7 +21,7 @@
     "price": 5,
     "description": "Bla bla bla",
     "image_folder": "01 zupcanik",
-    "brand": "",
+    "brand": "airoh",
     "is_new": true,
     "images": [
       "/images/dijelovi/01 zupcanik/img_01.jpg"
