@@ -3,42 +3,42 @@
     {
       "brand_id": "wind",
       "name": "WIND Raceware",
-      "logo": "/images/brendovi/wind.png",
+      "logo": "/images/brendovi/wind.svg",
       "website": "wind-raceware.com",
       "active": true
     },
     {
       "brand_id": "airoh",
       "name": "Airoh",
-      "logo": "/images/brendovi/airoh.png",
+      "logo": "/images/brendovi/airoh.svg",
       "website": "airoh.com",
       "active": true
     },
     {
       "brand_id": "progrip",
       "name": "Progrip",
-      "logo": "/images/brendovi/progrip.png",
+      "logo": "/images/brendovi/progrip.svg",
       "website": "progrip.it",
       "active": true
     },
     {
       "brand_id": "mitas",
       "name": "Mitas",
-      "logo": "/images/brendovi/mitas.png",
+      "logo": "/images/brendovi/mitas.svg",
       "website": "mitas-moto.com",
       "active": true
     },
     {
       "brand_id": "motul",
       "name": "Motul",
-      "logo": "/images/brendovi/motul.png",
+      "logo": "/images/brendovi/motul.svg",
       "website": "motul.com",
       "active": true
     },
     {
       "brand_id": "valvoline",
       "name": "Valvoline",
-      "logo": "/images/brendovi/valvoline.png",
+      "logo": "/images/brendovi/valvoline.svg",
       "website": "valvoline.com",
       "active": true
     }
@@ -47,49 +47,49 @@
     {
       "brand_id": "prox",
       "name": "Pro-X Racing Parts",
-      "logo": "/images/brendovi/prox.png",
+      "logo": "/images/brendovi/prox.svg",
       "website": "pro-x.com",
       "active": true
     },
     {
       "brand_id": "wiseco",
       "name": "Wiseco",
-      "logo": "/images/brendovi/wiseco.png",
+      "logo": "/images/brendovi/wiseco.svg",
       "website": "wiseco.com",
       "active": true
     },
     {
       "brand_id": "wrp",
       "name": "WRP",
-      "logo": "/images/brendovi/wrp.png",
+      "logo": "/images/brendovi/wrp.svg",
       "website": "wrp-racing.com",
       "active": true
     },
     {
       "brand_id": "cht",
       "name": "CHT Sprockets",
-      "logo": "/images/brendovi/cht.png",
+      "logo": "/images/brendovi/cht.svg",
       "website": "cht-sprockets.com",
       "active": true
     },
     {
       "brand_id": "rk",
       "name": "RK Chains",
-      "logo": "/images/brendovi/rk.png",
+      "logo": "/images/brendovi/rk.svg",
       "website": "rk-chain.com",
       "active": true
     },
     {
       "brand_id": "trw",
       "name": "TRW Lucas",
-      "logo": "/images/brendovi/trw.png",
+      "logo": "/images/brendovi/trw.svg",
       "website": "trwaftermarket.com",
       "active": true
     },
     {
       "brand_id": "denso",
       "name": "Denso",
-      "logo": "/images/brendovi/denso.png",
+      "logo": "/images/brendovi/denso.svg",
       "website": "denso.com",
       "active": true
     }

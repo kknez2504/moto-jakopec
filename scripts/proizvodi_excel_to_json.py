@@ -77,7 +77,7 @@ def read_brands(wb, sheet_name, category_key):
         brands.append({
             "brand_id": brand_id,
             "name":     name,
-            "logo":     f"/images/brendovi/{logo_folder}.png" if logo_folder else "",
+            "logo":     f"/images/brendovi/{logo_folder}.svg" if logo_folder else "",
             "website":  website or "",
             "active":   active,
         })

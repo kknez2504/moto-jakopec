@@ -62,6 +62,7 @@ export default function OpremaBrend({ params }: Props) {
               src={brand.logo}
               alt={brand.name}
               fill
+              unoptimized={brand.logo.endsWith(".svg")}
               className="object-contain"
               sizes="80px"
             />
