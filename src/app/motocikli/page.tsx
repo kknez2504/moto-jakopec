@@ -9,9 +9,9 @@ import modelsData from "@/data/models.json";
 
 const models = modelsData as unknown as Motorcycle[];
 
-// Kategorije koje se prikazuju kada nema URL parametra (samo motocikli)
+// Kategorije koje se prikazuju kada nema URL parametra (samo motocikli, bez Quad/Mule/Jet Ski)
 const MOTO_CATEGORIES: Category[] = [
-  "Sport", "Naked", "Adventure", "Touring", "Classic", "Cruiser", "Offroad", "Električni", "Quad"
+  "Sport", "Naked", "Adventure", "Touring", "Classic", "Cruiser", "Offroad", "Električni"
 ];
 
 function MotocikliContent() {
@@ -27,20 +27,18 @@ function MotocikliContent() {
   }, [searchParams]);
 
   // Ako je kategorija Mule ili Jet Ski — prikaži samo tu kategoriju
-  // Ako je "Sve" bez URL parametra — prikaži samo motocikle (ne Mule/Jet Ski)
+  // Posebne kategorije koje imaju vlastiti nav link (ne prikazuju se pod "Motocikli")
+  const SPECIAL_CATEGORIES = ["Quad", "Mule", "Jet Ski"];
+
   const filtered = useMemo(() => {
     return models.filter((m) => {
-      const isSpecial = m.category === "Mule" || m.category === "Jet Ski";
-
       let matchesCategory: boolean;
-      if (category === "Mule" || category === "Jet Ski") {
-        // Direktna kategorija iz nav linka
+      if (SPECIAL_CATEGORIES.includes(category)) {
+        // Direktna posebna kategorija iz nav linka
         matchesCategory = m.category === category;
       } else if (category === "Sve") {
-        // "Sve" u motocikli sekciji = samo moto kategorije
-        matchesCategory = urlCategory
-          ? !isSpecial  // ako je dosao s URL-om ali category=Sve, ne prikazuj Mule/JetSki
-          : MOTO_CATEGORIES.includes(m.category as Category);
+        // "Sve" u motocikli sekciji = samo moto kategorije (bez Quad/Mule/Jet Ski)
+        matchesCategory = MOTO_CATEGORIES.includes(m.category as Category);
       } else {
         matchesCategory = m.category === category;
       }
@@ -54,22 +52,24 @@ function MotocikliContent() {
 
       return matchesCategory && matchesSearch;
     });
-  }, [category, search, urlCategory]);
+  }, [category, search]);
 
   // Naslov i podnaslov ovisno o odabranoj kategoriji
   const pageTitle =
-    category === "Mule" ? "Kawasaki Mule" :
+    category === "Quad"    ? "Kawasaki Quad" :
+    category === "Mule"    ? "Kawasaki Mule" :
     category === "Jet Ski" ? "Kawasaki Jet Ski" :
     "Motocikli u ponudi";
 
   const pageSubtitle =
-    category === "Mule" ? "Radna i višenamjenska vozila" :
+    category === "Quad"    ? "ATV četverocikli za sport i teren" :
+    category === "Mule"    ? "Radna i višenamjenska vozila" :
     category === "Jet Ski" ? "Osobni plovni skuteri" :
-    `Kawasaki motocikli i ATV — ${new Date().getFullYear()}`;
+    `Kawasaki motocikli — ${new Date().getFullYear()}`;
 
   // Kategorije za FilterBar — ovisno o kontekstu
-  const visibleCategories: Category[] = (category === "Mule" || category === "Jet Ski")
-    ? ["Sve", category]
+  const visibleCategories: Category[] = SPECIAL_CATEGORIES.includes(category)
+    ? ["Sve", category as Category]
     : ["Sve", ...MOTO_CATEGORIES];
 
   return (

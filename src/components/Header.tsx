@@ -8,6 +8,7 @@ import { useState, Suspense } from "react";
 const navLinks = [
   { href: "/",                            label: "Početna" },
   { href: "/motocikli",                   label: "Motocikli" },
+  { href: "/motocikli?category=Quad",     label: "Quad" },
   { href: "/motocikli?category=Mule",     label: "Mule" },
   { href: "/motocikli?category=Jet+Ski",  label: "Jet Ski" },
   { href: "/kontakt",                     label: "Kontakt" },
