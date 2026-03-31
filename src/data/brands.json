@@ -1,0 +1,97 @@
+{
+  "oprema": [
+    {
+      "brand_id": "wind",
+      "name": "WIND Raceware",
+      "logo": "/images/brendovi/wind.png",
+      "website": "wind-raceware.com",
+      "active": true
+    },
+    {
+      "brand_id": "airoh",
+      "name": "Airoh",
+      "logo": "/images/brendovi/airoh.png",
+      "website": "airoh.com",
+      "active": true
+    },
+    {
+      "brand_id": "progrip",
+      "name": "Progrip",
+      "logo": "/images/brendovi/progrip.png",
+      "website": "progrip.it",
+      "active": true
+    },
+    {
+      "brand_id": "mitas",
+      "name": "Mitas",
+      "logo": "/images/brendovi/mitas.png",
+      "website": "mitas-moto.com",
+      "active": true
+    },
+    {
+      "brand_id": "motul",
+      "name": "Motul",
+      "logo": "/images/brendovi/motul.png",
+      "website": "motul.com",
+      "active": true
+    },
+    {
+      "brand_id": "valvoline",
+      "name": "Valvoline",
+      "logo": "/images/brendovi/valvoline.png",
+      "website": "valvoline.com",
+      "active": true
+    }
+  ],
+  "dijelovi": [
+    {
+      "brand_id": "prox",
+      "name": "Pro-X Racing Parts",
+      "logo": "/images/brendovi/prox.png",
+      "website": "pro-x.com",
+      "active": true
+    },
+    {
+      "brand_id": "wiseco",
+      "name": "Wiseco",
+      "logo": "/images/brendovi/wiseco.png",
+      "website": "wiseco.com",
+      "active": true
+    },
+    {
+      "brand_id": "wrp",
+      "name": "WRP",
+      "logo": "/images/brendovi/wrp.png",
+      "website": "wrp-racing.com",
+      "active": true
+    },
+    {
+      "brand_id": "cht",
+      "name": "CHT Sprockets",
+      "logo": "/images/brendovi/cht.png",
+      "website": "cht-sprockets.com",
+      "active": true
+    },
+    {
+      "brand_id": "rk",
+      "name": "RK Chains",
+      "logo": "/images/brendovi/rk.png",
+      "website": "rk-chain.com",
+      "active": true
+    },
+    {
+      "brand_id": "trw",
+      "name": "TRW Lucas",
+      "logo": "/images/brendovi/trw.png",
+      "website": "trwaftermarket.com",
+      "active": true
+    },
+    {
+      "brand_id": "denso",
+      "name": "Denso",
+      "logo": "/images/brendovi/denso.png",
+      "website": "denso.com",
+      "active": true
+    }
+  ]
+}

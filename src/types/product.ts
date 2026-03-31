@@ -8,6 +8,7 @@ export interface Product {
   price: string;            // npr. "49,90 €" ili "Cijena na upit"
   description: string;
   image_folder: string;
+  brand?: string;    // brand_id iz brands.json (npr. "airoh", "motul")
   images: string[];
   is_new?: boolean;
 }

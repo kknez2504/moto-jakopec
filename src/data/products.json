@@ -3,10 +3,11 @@
     "id": 1,
     "name": "kaciga",
     "category": "Oprema",
-    "subcategory": "Gume",
+    "subcategory": "kacige",
     "price": 5,
-    "description": "Bla bla",
+    "description": "Bla bla bla",
     "image_folder": "01 kaciga",
+    "brand": "",
     "is_new": true,
     "images": [
       "/images/oprema/01 kaciga/img_01.jpg"
@@ -16,10 +17,11 @@
     "id": 2,
     "name": "zupcanik",
     "category": "Dijelovi",
-    "subcategory": "zupcanici",
-    "price": 15,
-    "description": "Bla bla gla",
+    "subcategory": "filteri",
+    "price": 5,
+    "description": "Bla bla bla",
     "image_folder": "01 zupcanik",
+    "brand": "",
     "is_new": true,
     "images": [
       "/images/dijelovi/01 zupcanik/img_01.jpg"

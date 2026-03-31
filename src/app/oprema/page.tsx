@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import ProductCard from "@/components/ProductCard";
+import BrandsGrid from "@/components/BrandsGrid";
 import type { Product } from "@/types/product";
 import productsData from "@/data/products.json";
 
@@ -31,6 +32,9 @@ export default function OpremaPage() {
         <h1 className="section-title">Oprema</h1>
         <p className="section-subtitle">Kawasaki zaštitna i vozačka oprema</p>
       </div>
+
+      {/* Brendovi */}
+      <BrandsGrid category="oprema" />
 
       {/* Filters */}
       <div className="mb-8 space-y-4">

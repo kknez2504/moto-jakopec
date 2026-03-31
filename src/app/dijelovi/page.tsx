@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import ProductCard from "@/components/ProductCard";
+import BrandsGrid from "@/components/BrandsGrid";
 import type { Product } from "@/types/product";
 import productsData from "@/data/products.json";
 
@@ -31,6 +32,9 @@ export default function DijeloviPage() {
         <h1 className="section-title">Dijelovi</h1>
         <p className="section-subtitle">Originalni Kawasaki dijelovi i potrošni materijal</p>
       </div>
+
+      {/* Brendovi */}
+      <BrandsGrid category="dijelovi" />
 
       {/* Filters */}
       <div className="mb-8 space-y-4">
