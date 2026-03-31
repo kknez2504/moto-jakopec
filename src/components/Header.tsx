@@ -2,18 +2,30 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
+import { useState, Suspense } from "react";
 
 const navLinks = [
-  { href: "/",           label: "Početna" },
-  { href: "/motocikli",  label: "Vozila" },
-  { href: "/kontakt",    label: "Kontakt" },
+  { href: "/",                            label: "Početna" },
+  { href: "/motocikli",                   label: "Motocikli" },
+  { href: "/motocikli?category=Mule",     label: "Mule" },
+  { href: "/motocikli?category=Jet+Ski",  label: "Jet Ski" },
+  { href: "/kontakt",                     label: "Kontakt" },
 ];
 
-export default function Header() {
+function HeaderInner() {
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [open, setOpen] = useState(false);
+
+  function isActive(href: string) {
+    if (href === "/") return pathname === "/";
+    const [path, query] = href.split("?");
+    if (pathname !== path) return false;
+    if (!query) return !searchParams.get("category");
+    const param = new URLSearchParams(query);
+    return searchParams.get("category") === param.get("category");
+  }
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur border-b" style={{background:"rgba(237,243,237,0.95)", borderColor:"var(--line)"}}>
@@ -39,12 +51,12 @@ export default function Header() {
                 key={link.href}
                 href={link.href}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  pathname === link.href
+                  isActive(link.href)
                     ? "font-semibold"
                     : "hover:bg-black/5"
                 }`}
                 style={
-                  pathname === link.href
+                  isActive(link.href)
                     ? { color: "var(--green-dk)", background: "rgba(55,182,58,0.1)" }
                     : { color: "var(--text)" }
                 }
@@ -103,7 +115,7 @@ export default function Header() {
                 onClick={() => setOpen(false)}
                 className={`block px-4 py-3 rounded-lg text-sm font-medium transition-colors`}
                 style={
-                  pathname === link.href
+                  isActive(link.href)
                     ? { color: "var(--green-dk)", background: "rgba(55,182,58,0.1)" }
                     : { color: "var(--text)" }
                 }
@@ -118,5 +130,13 @@ export default function Header() {
         )}
       </div>
     </header>
+  );
+}
+
+export default function Header() {
+  return (
+    <Suspense fallback={null}>
+      <HeaderInner />
+    </Suspense>
   );
 }

@@ -8,9 +8,12 @@ interface Props {
   onCategory: (c: Category) => void;
   onSearch: (v: string) => void;
   total: number;
+  availableCategories?: Category[];
 }
 
-export default function FilterBar({ active, search, onCategory, onSearch, total }: Props) {
+export default function FilterBar({ active, search, onCategory, onSearch, total, availableCategories }: Props) {
+  const cats = availableCategories ?? CATEGORIES;
+
   return (
     <div className="space-y-4">
       {/* Search */}
@@ -50,7 +53,7 @@ export default function FilterBar({ active, search, onCategory, onSearch, total 
 
       {/* Category chips */}
       <div className="flex flex-wrap gap-2">
-        {CATEGORIES.map((cat) => (
+        {cats.map((cat) => (
           <button
             key={cat}
             onClick={() => onCategory(cat)}
@@ -70,7 +73,7 @@ export default function FilterBar({ active, search, onCategory, onSearch, total 
       <p className="text-sm" style={{ color: "var(--muted)" }}>
         Pronađeno{" "}
         <span className="font-semibold" style={{ color: "var(--green-dk)" }}>{total}</span>{" "}
-        {total === 1 ? "model" : "modela"}
+        {total === 1 ? "vozilo" : total >= 2 && total <= 4 ? "vozila" : "vozila"}
       </p>
     </div>
   );
