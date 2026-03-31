@@ -12,23 +12,25 @@ SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR    = os.path.join(SCRIPT_DIR, "..")
 EXCEL_PATH  = os.path.join(ROOT_DIR, "proizvodi.xlsx")
 JSON_PATH   = os.path.join(ROOT_DIR, "src", "data", "products.json")
-IMG_DIR     = os.path.join(ROOT_DIR, "public", "images")
+IMG_BASE    = os.path.join(ROOT_DIR, "public", "images")
 
 IMG_EXTS    = {".jpg", ".jpeg", ".png", ".webp"}
 
 def natural_sort_key(s):
     return [int(t) if t.isdigit() else t.lower() for t in re.split(r'(\d+)', s)]
 
-def get_images(image_folder: str) -> list:
+def get_images(image_folder: str, category: str) -> list:
     if not image_folder:
         return []
-    folder_path = os.path.join(IMG_DIR, image_folder)
+    # Podmapa ovisno o kategoriji: oprema/ ili dijelovi/
+    sub = category.lower() if category.lower() in ("oprema", "dijelovi") else "oprema"
+    folder_path = os.path.join(IMG_BASE, sub, image_folder)
     if not os.path.isdir(folder_path):
         return []
     files = [f for f in os.listdir(folder_path)
              if os.path.splitext(f)[1].lower() in IMG_EXTS]
     files.sort(key=natural_sort_key)
-    return [f"/images/{image_folder}/{f}" for f in files]
+    return [f"/images/{sub}/{image_folder}/{f}" for f in files]
 
 def parse_bool(val) -> bool:
     if isinstance(val, bool): return val
@@ -79,7 +81,7 @@ def main():
             pid = row_idx - 1
 
         image_folder = parse_val(d.get("image_folder")) or ""
-        images       = get_images(image_folder)
+        images       = get_images(image_folder, category)
 
         category    = parse_val(d.get("category")) or ""
         subcategory = parse_val(d.get("subcategory")) or ""

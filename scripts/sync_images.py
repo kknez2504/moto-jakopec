@@ -4,7 +4,7 @@ Sinkronizira models.json s stvarnim slikama na disku.
 Pokreni: py -X utf8 scripts/sync_images.py
 
 Što radi:
-  - Za svaki model u models.json čita stvarne slike iz public/images/{folder}/
+  - Za svaki model u models.json čita stvarne slike iz public/images/vozila/{folder}/
   - Sortira ih numerički (img_01, img_02, ... = već ispravan redoslijed)
   - Ažurira images[] polje u models.json
   - Ispisuje što je promijenjeno
@@ -15,7 +15,7 @@ import json, os, re
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR   = os.path.join(SCRIPT_DIR, "..")
 JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
-IMG_DIR    = os.path.join(ROOT_DIR, "public", "images")
+IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
@@ -34,7 +34,7 @@ def get_images_from_disk(folder: str) -> list:
     files = [f for f in os.listdir(folder_path)
              if os.path.splitext(f)[1].lower() in IMG_EXTS]
     files.sort(key=natural_sort_key)
-    return [f"/images/{folder}/{f}" for f in files]
+    return [f"/images/vozila/{folder}/{f}" for f in files]
 
 
 def main():
@@ -45,12 +45,17 @@ def main():
     missing_folders = []
 
     for m in models:
-        # Izvuci folder iz postojećih slika ili iz image_folder polja
+        # Izvuci folder iz postojećih slika
+        # Nova struktura: /images/vozila/01-ninja-h2r/img_01.jpg → parts[3]
         folder = ""
         existing = m.get("images", [])
         if existing:
             parts = existing[0].split("/")
-            if len(parts) >= 3:
+            # /images/vozila/FOLDER/file.jpg → index 3
+            if len(parts) >= 4 and parts[2] == "vozila":
+                folder = parts[3]
+            # Stara struktura /images/FOLDER/file.jpg → index 2
+            elif len(parts) >= 3:
                 folder = parts[2]
 
         if not folder:
@@ -85,11 +90,14 @@ def main():
             print(f"  - {name}")
 
     # Provjeri nekorištene mape
+    # Nova struktura: /images/vozila/FOLDER/file.jpg → parts[3]
     used_folders = set()
     for m in models:
         for img in m.get("images", []):
             parts = img.split("/")
-            if len(parts) >= 3:
+            if len(parts) >= 4 and parts[2] == "vozila":
+                used_folders.add(parts[3])
+            elif len(parts) >= 3:
                 used_folders.add(parts[2])
 
     all_folders = set(os.listdir(IMG_DIR))

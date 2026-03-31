@@ -8,7 +8,7 @@ Pokreni nakon svake izmjene u Excelu:
   - Čita vozila.xlsx (sheet "Vozila")
   - Fiksni stupci → osnovni podaci vozila
   - Ostali stupci → specs (prazne ćelije se preskaču)
-  - image_folder → automatski učitava slike iz public/images/{folder}/
+  - image_folder → automatski učitava slike iz public/images/vozila/{folder}/
   - Sprema src/data/models.json
 """
 
@@ -19,7 +19,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR   = os.path.join(SCRIPT_DIR, "..")
 EXCEL_PATH = os.path.join(ROOT_DIR, "vozila.xlsx")
 JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
-IMG_DIR    = os.path.join(ROOT_DIR, "public", "images")
+IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 FIXED_COLS = {"id", "name", "category", "license_category",
               "is_new", "price", "description", "image_folder"}
@@ -53,7 +53,7 @@ def get_images(image_folder: str) -> list:
     files = [f for f in os.listdir(folder_path)
              if os.path.splitext(f)[1].lower() in exts]
     files.sort(key=img_sort_key)
-    return [f"/images/{image_folder}/{f}" for f in files]
+    return [f"/images/vozila/{image_folder}/{f}" for f in files]
 
 # ── Parsiranje vrijednosti ─────────────────────────────────────────────────────
 def parse_bool(val) -> bool:

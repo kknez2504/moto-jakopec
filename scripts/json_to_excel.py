@@ -13,7 +13,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR   = os.path.join(SCRIPT_DIR, "..")
 JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
 EXCEL_PATH = os.path.join(ROOT_DIR, "vozila.xlsx")
-IMG_DIR    = os.path.join(ROOT_DIR, "public", "images")
+IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 # Fiksni stupci (uvijek prisutni)
 FIXED_COLS = ["id", "name", "category", "license_category", "is_new", "price", "description", "image_folder"]
@@ -129,7 +129,7 @@ def main():
         ("is_new",        "TRUE = novo, FALSE = nije novo (prikazuje se badge NOVO)"),
         ("price",         "Cijena npr: 9.462 € ili: Cijena na upit"),
         ("description",   "Kratki opis vozila (1-2 rečenice)"),
-        ("image_folder",  "Naziv mape u public/images/ (npr. 05-ninja-zx-4rr)"),
+        ("image_folder",  "Naziv mape u public/images/vozila/ (npr. 05-ninja-zx-4rr)"),
         ("", ""),
         ("TAMNOZELENI STUPCI", "Tehničke specifikacije — uredi ili ostavi prazno"),
         ("",              "Prazna polja = NE prikazuju se na stranici"),
@@ -137,7 +137,7 @@ def main():
         ("DODAVANJE NOVOG VOZILA", ""),
         ("1.", "Dodaj novi red ispod zadnjeg vozila"),
         ("2.", "Ispuni sve zelene stupce"),
-        ("3.", "Stavi slike u public/images/XX-naziv-vozila/"),
+        ("3.", "Stavi slike u public/images/vozila/XX-naziv-vozila/"),
         ("4.", "Upiši naziv te mape u stupac image_folder"),
         ("5.", "Pokreni: py -X utf8 scripts/excel_to_json.py"),
         ("6.", "git add . && git commit -m 'Dodano vozilo' && git push"),

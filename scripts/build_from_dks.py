@@ -13,7 +13,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR   = os.path.join(SCRIPT_DIR, "..")
 JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
-IMG_DIR    = os.path.join(ROOT_DIR, "public", "images")
+IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 # Kategorije: (dks_path, base_dir)
 CATEGORY_PAGES = [
@@ -518,7 +518,7 @@ def main():
             fname = f"img_{i:02d}{ext}"
             dest = os.path.join(model_dir, fname)
             if download_image(img_url, dest):
-                local_paths.append(f"/images/{folder}/{fname}")
+                local_paths.append(f"/images/vozila/{folder}/{fname}")
             time.sleep(0.1)
 
         # Specs
