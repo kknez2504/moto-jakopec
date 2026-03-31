@@ -47,17 +47,16 @@ BRENDOVI_DIJELOVI = [
 
 KATEGORIJE = ["Oprema", "Dijelovi"]
 
-# Sve podkategorije u jednoj listi — korisnik može dodavati ispod zadnje
-PODKATEGORIJE = [
-    # Oprema
+# Odvojene liste — korisnik dodaje ispod zadnjeg reda u odgovarajući stupac
+PODKATEGORIJE_OPREMA = [
     "Kacige", "Jakne", "Hlače", "Rukavice", "Čizme",
-    "Odijela", "Zaštita", "Prsluk", "Termo rublje",
-    # Dijelovi
+    "Odijela", "Zaštita", "Prsluk", "Termo rublje", "Ostalo",
+]
+
+PODKATEGORIJE_DIJELOVI = [
     "Filteri", "Ulja i maziva", "Lanci", "Zupčanici", "Gume",
     "Kočnice", "Svjećice", "Amortizeri", "Ovjesi", "Električni dijelovi",
-    "Motor",
-    # Zajedničko
-    "Ostalo",
+    "Motor", "Ostalo",
 ]
 
 BRAND_HEADERS = ["brand_id", "name", "logo_folder", "website", "active"]
@@ -101,10 +100,11 @@ def write_dropdown_sheet(wb):
     ws = wb.create_sheet(DD_SHEET)
 
     cols = {
-        "A": ("Kategorija",    KATEGORIJE,                         "1B5E20"),
-        "B": ("Podkategorija", PODKATEGORIJE,                      "E65100"),
-        "C": ("Brand Oprema",  [b[0] for b in BRENDOVI_OPREMA],    "7B1FA2"),
-        "D": ("Brand Dijelovi",[b[0] for b in BRENDOVI_DIJELOVI],  "00838F"),
+        "A": ("Kategorija",           KATEGORIJE,                        "1B5E20"),
+        "B": ("Podkat - Oprema",      PODKATEGORIJE_OPREMA,              "E65100"),
+        "C": ("Podkat - Dijelovi",    PODKATEGORIJE_DIJELOVI,            "1565C0"),
+        "D": ("Brand Oprema",         [b[0] for b in BRENDOVI_OPREMA],   "7B1FA2"),
+        "E": ("Brand Dijelovi",       [b[0] for b in BRENDOVI_DIJELOVI], "00838F"),
     }
 
     db = data_border()
@@ -128,7 +128,8 @@ def write_dropdown_sheet(wb):
     ws.freeze_panes = "A2"
 
     # ── Komentar za korisnike ─────────────────────────────────────────────────
-    note_row = max(len(KATEGORIJE), len(PODKATEGORIJE),
+    note_row = max(len(KATEGORIJE), len(PODKATEGORIJE_OPREMA),
+                   len(PODKATEGORIJE_DIJELOVI),
                    len(BRENDOVI_OPREMA), len(BRENDOVI_DIJELOVI)) + 4
     ws.cell(row=note_row, column=1,
             value="Dodaj nove vrijednosti ISPOD zadnjeg reda — automatski ce se pojaviti u dropdownu.").font = \
@@ -136,9 +137,9 @@ def write_dropdown_sheet(wb):
     ws.merge_cells(f"A{note_row}:D{note_row}")
 
     print(f"  Sheet '{DD_SHEET}': {len(KATEGORIJE)} kat, "
-          f"{len(PODKATEGORIJE)} podkat, "
-          f"{len(BRENDOVI_OPREMA)} br.oprema, "
-          f"{len(BRENDOVI_DIJELOVI)} br.dijelovi")
+          f"{len(PODKATEGORIJE_OPREMA)} opr.podkat, "
+          f"{len(PODKATEGORIJE_DIJELOVI)} dij.podkat, "
+          f"{len(BRENDOVI_OPREMA)} br.opr, {len(BRENDOVI_DIJELOVI)} br.dij")
 
     # ── Dinamički named rangevi (OFFSET + COUNTA) ─────────────────────────────
     #   OFFSET(header_cell, 1 red dolje, 0 kol desno,
@@ -147,10 +148,15 @@ def write_dropdown_sheet(wb):
     q = f"'{DD_SHEET}'"   # ime sheeta s navodnicima (ima razmak)
 
     dynamic_ranges = {
+        # Kategorija
         "NR_Kategorija":    f"OFFSET({q}!$A$1,1,0,COUNTA({q}!$A:$A)-1,1)",
-        "NR_Podkategorija": f"OFFSET({q}!$B$1,1,0,COUNTA({q}!$B:$B)-1,1)",
-        "NR_Brand_Oprema":  f"OFFSET({q}!$C$1,1,0,COUNTA({q}!$C:$C)-1,1)",
-        "NR_Brand_Dijelovi":f"OFFSET({q}!$D$1,1,0,COUNTA({q}!$D:$D)-1,1)",
+        # Podkategorije — imenuju se točno "Oprema" i "Dijelovi" da INDIRECT radi:
+        #   subcategory formula = INDIRECT($C2) → kad C2="Oprema" → traži NR "Oprema"
+        "Oprema":           f"OFFSET({q}!$B$1,1,0,COUNTA({q}!$B:$B)-1,1)",
+        "Dijelovi":         f"OFFSET({q}!$C$1,1,0,COUNTA({q}!$C:$C)-1,1)",
+        # Brendovi — INDIRECT("NR_Brand_"&$C2) → "NR_Brand_Oprema" ili "NR_Brand_Dijelovi"
+        "NR_Brand_Oprema":  f"OFFSET({q}!$D$1,1,0,COUNTA({q}!$D:$D)-1,1)",
+        "NR_Brand_Dijelovi":f"OFFSET({q}!$E$1,1,0,COUNTA({q}!$E:$E)-1,1)",
     }
 
     for name in list(dynamic_ranges.keys()):
@@ -187,22 +193,27 @@ def add_dropdowns(ws):
         ws.add_data_validation(dv)
         return dv
 
+    cat_col = col_map.get("category", "C")   # slovo stupca za category
+
     if "category" in col_map:
         dv = make_dv("NR_Kategorija", "Kategorija",
                      "Odaberi: Oprema ili Dijelovi", strict=True)
-        dv.sqref = f"{col_map['category']}2:{col_map['category']}{MAX_ROW}"
+        dv.sqref = f"{cat_col}2:{cat_col}{MAX_ROW}"
 
     if "subcategory" in col_map:
-        # uvijek named range — ne inline — da korisnik može dodati red u Drop Down
-        dv = make_dv("NR_Podkategorija", "Podkategorija",
-                     "Odaberi ili slobodno upiši vlastitu podkategoriju", strict=False)
+        # INDIRECT($C2) → kad je C2="Oprema" Excel uzima named range "Oprema"
+        #                  kad je C2="Dijelovi" Excel uzima named range "Dijelovi"
+        # Dropdown se automatski mijenja ovisno o odabranoj kategoriji!
+        formula = f"INDIRECT(${cat_col}2)"
+        dv = make_dv(formula, "Podkategorija",
+                     "Podkategorije ovise o odabranoj kategoriji", strict=False)
         dv.sqref = f"{col_map['subcategory']}2:{col_map['subcategory']}{MAX_ROW}"
 
     if "brand" in col_map:
-        # kombiniramo oba brand stupca — referenca na Oprema (C), ali korisnik može
-        # i slobodno upisati brand iz Dijelovi
-        dv = make_dv("NR_Brand_Oprema", "Brand",
-                     "Odaberi brand_id ili slobodno upiši (brand Oprema ili Dijelovi)", strict=False)
+        # INDIRECT("NR_Brand_"&$C2) → "NR_Brand_Oprema" ili "NR_Brand_Dijelovi"
+        formula = f'INDIRECT("NR_Brand_"&${cat_col}2)'
+        dv = make_dv(formula, "Brand",
+                     "Brendovi ovise o odabranoj kategoriji", strict=False)
         dv.sqref = f"{col_map['brand']}2:{col_map['brand']}{MAX_ROW}"
 
     active = [k for k in ("category", "subcategory", "brand") if k in col_map]
