@@ -139,7 +139,7 @@ def main():
         ("2.", "Ispuni sve zelene stupce"),
         ("3.", "Stavi slike u public/images/vozila/XX-naziv-vozila/"),
         ("4.", "Upiši naziv te mape u stupac image_folder"),
-        ("5.", "Pokreni: py -X utf8 scripts/excel_to_json.py"),
+        ("5.", "Pokreni: py -X utf8 scripts/vozila_excel_to_json.py"),
         ("6.", "git add . && git commit -m 'Dodano vozilo' && git push"),
         ("", ""),
         ("BRISANJE VOZILA", "Obriši cijeli red — pa pokreni skriptu i pusaj"),

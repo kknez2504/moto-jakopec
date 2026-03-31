@@ -100,7 +100,7 @@ def main():
         ("1.", "Dodaj novi red u Excel"),
         ("2.", "Ispuni sve stupce (category mora biti 'Oprema' ili 'Dijelovi')"),
         ("3.", "Napravi mapu u public/images/oprema/naziv-mape/ ili public/images/dijelovi/naziv-mape/ i stavi slike"),
-        ("4.", "Pokreni: py -X utf8 scripts/excel_to_products.py"),
+        ("4.", "Pokreni: py -X utf8 scripts/proizvodi_excel_to_json.py"),
         ("5.", "git add . && git commit -m 'Dodan proizvod' && git push"),
         ("", ""),
         ("STRANICE NA WEBU", ""),

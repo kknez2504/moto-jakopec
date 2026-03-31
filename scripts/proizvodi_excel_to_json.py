@@ -48,7 +48,7 @@ def parse_val(val):
 def main():
     if not os.path.exists(EXCEL_PATH):
         print(f"GREŠKA: {EXCEL_PATH} ne postoji.")
-        print("Pokreni prvo: py -X utf8 scripts/products_to_excel.py")
+        print("Pokreni prvo: py -X utf8 scripts/proizvodi_json_to_excel.py")
         return
 
     wb = openpyxl.load_workbook(EXCEL_PATH)

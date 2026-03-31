@@ -2,7 +2,7 @@
 Scraper koji koristi dks.si kao izvor slika i specifikacija.
 Logika: MODEL linkovi dolaze PRIJE SPEC linka koji ih grupira.
 
-Pokreni: py -X utf8 scripts/build_from_dks.py
+Pokreni: py -X utf8 scripts/vozila_scraper_dks.py
 """
 
 import json, re, urllib.request, urllib.parse, os, time

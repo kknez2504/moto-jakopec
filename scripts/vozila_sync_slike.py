@@ -109,7 +109,7 @@ def main():
             num_files = len(os.listdir(path))
             print(f"  - {u}  ({num_files} slika)")
 
-    print("\nZavršeno. Ažuriraj Excel: py -X utf8 scripts/json_to_excel.py")
+    print("\nZavršeno. Ažuriraj Excel: py -X utf8 scripts/vozila_json_to_excel.py")
 
 
 if __name__ == "__main__":
